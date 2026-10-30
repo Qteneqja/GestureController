@@ -1,0 +1,12 @@
+# Local datasets
+/data/raw/
+/data/processed/
+/data/webcam_tests/
+
+# Python environment and cache
+.venv/
+__pycache__/
+*.pyc
+
+# Trained models
+/checkpoints/
