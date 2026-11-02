@@ -36,3 +36,19 @@ yet been checked.
 - Finalize gesture classes and command mappings with the team.
 - Prepare reproducible training, validation, and test splits.
 - Implement shared frame preprocessing and dataset loaders.
+
+## Dataset splits
+
+We selected seven gesture classes.
+
+- Training: 23,786 videos
+- Validation: 5,946 videos
+- Test: 3,623 videos
+
+We split the selected official training data into 80% training
+and 20% validation within each class, using random seed 42.
+
+The selected official Jester validation data serves as our test set.
+No video IDs overlap between the three sets.
+
+These counts are based on labels. Image files still need checking.
