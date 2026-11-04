@@ -152,3 +152,19 @@ python scripts/split_statistics.py
 Frame availability was checked for every selected video:
 none were missing JPG frames. One TensorFlow batch from each
 split was also loaded successfully.
+
+## One-command split preparation
+
+After placing the original label CSVs in data/raw/jester_labels/,
+run from the project root:
+
+```powershell
+python scripts/prepare_data.py
+```
+
+This selects our seven classes, creates the training,
+validation and test CSVs, and prints class counts.
+It stops if any step fails.
+
+Image archives must already be extracted separately.
+Video frames are resized and normalized when the loader reads them.
