@@ -1,0 +1,13 @@
+# Location of the extracted video folders on this computer.
+frames_folder: "C:/JesterData/frames/20bn-jester-v1"
+
+# Shared split files and gesture labels.
+train_csv: "data/splits/train.csv"
+validation_csv: "data/splits/validation.csv"
+test_csv: "data/splits/test.csv"
+class_mapping: "config/gesture_classes.json"
+
+# Video preprocessing settings.
+num_frames: 16
+image_size: [112, 112]
+batch_size: 8

@@ -172,3 +172,23 @@ Video frames are resized and normalized when the loader reads them.
 Preparation scripts use data/processed/ for intermediate files
 and copy the final CSVs into data/splits/ for both models.
 The final split CSVs are included in Git; dataset images are not.
+
+## Load datasets from shared settings
+
+Install PyYAML if needed:
+python -m pip install PyYAML
+
+Update frames_folder in configs/data.yaml to your local
+extracted image folder. Run Python from the project root.
+
+```python
+from src.gesture_recognition.data.dataset import dataset_from_config
+
+train_ds = dataset_from_config("train")
+validation_ds = dataset_from_config("validation")
+test_ds = dataset_from_config("test")
+```
+
+The configuration controls split paths, frame count,
+image size and batch size. Only training uses augmentation
+and shuffling. Labels are integer class IDs from 0 to 6.
