@@ -131,3 +131,24 @@ No video IDs overlap between these splits.
 
 Class IDs and computer commands are defined in:
 config/gesture_classes.json
+
+## Class distributions
+
+| ID | Gesture | Training | Validation | Test |
+|---|---|---:|---:|---:|
+| 0 | Swiping Left | 3330 | 832 | 494 |
+| 1 | Swiping Right | 3267 | 817 | 486 |
+| 2 | Sliding Two Fingers Left | 3434 | 858 | 519 |
+| 3 | Sliding Two Fingers Right | 3365 | 841 | 516 |
+| 4 | Thumb Up | 3498 | 875 | 539 |
+| 5 | Stop Sign | 3470 | 867 | 536 |
+| 6 | No gesture | 3422 | 856 | 533 |
+| | **Total** | **23786** | **5946** | **3623** |
+
+The selected classes have similar sample counts.
+To reproduce these statistics, run:
+python scripts/split_statistics.py
+
+Frame availability was checked for every selected video:
+none were missing JPG frames. One TensorFlow batch from each
+split was also loaded successfully.
