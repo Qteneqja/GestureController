@@ -1,0 +1,11 @@
+{
+  "classes": [
+    {"id": 0, "label": "Swiping Left", "command": "previous_slide"},
+    {"id": 1, "label": "Swiping Right", "command": "next_slide"},
+    {"id": 2, "label": "Sliding Two Fingers Left", "command": "previous_tab"},
+    {"id": 3, "label": "Sliding Two Fingers Right", "command": "next_tab"},
+    {"id": 4, "label": "Thumb Up", "command": "start_presentation"},
+    {"id": 5, "label": "Stop Sign", "command": "pause_or_end_presentation"},
+    {"id": 6, "label": "No gesture", "command": "no_action"}
+  ]
+}

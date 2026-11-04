@@ -1,0 +1,190 @@
+# Jester Dataset Preparation
+
+## Local folder structure
+
+Extract the downloaded label files into:
+
+data/raw/jester_labels/
+
+Required for the current inspection script:
+- train.csv
+
+Raw data stays local and is excluded from Git.
+
+## Inspect training labels
+
+Run from the project folder:
+
+python scripts/inspect_labels.py
+
+Each CSV row contains a video ID and gesture name separated
+by a semicolon. The file has no header row.
+
+## Initial findings
+
+- Training videos listed: 118,562
+- Gesture classes: 27
+- Doing other things: 9,592 videos
+- Turning Hand Clockwise: 3,216 videos
+- Most remaining classes contain roughly 4,000–4,400 videos.
+
+These counts describe the original training label file.
+All videos in our selected splits were checked for JPG frames.
+None were missing frames.
+
+
+## Dataset splits
+
+We selected seven gesture classes.
+
+- Training: 23,786 videos
+- Validation: 5,946 videos
+- Test: 3,623 videos
+
+We split the selected official training data into 80% training
+and 20% validation within each class, using random seed 42.
+
+The selected official Jester validation data serves as our test set.
+No video IDs overlap between the three sets.
+
+All selected videos contain JPG frames.
+One TensorFlow batch from each split was loaded successfully.
+
+## Shared dataset loader
+
+Run Python from the GestureController project root.
+
+```python
+from src.gesture_recognition.data.dataset import make_tf_dataset
+
+# Change this path to your local extracted dataset folder.
+frames_folder = r"C:\JesterData\frames\20bn-jester-v1"
+
+train_ds = make_tf_dataset(
+    "data/splits/train.csv", frames_folder, training=True
+)
+validation_ds = make_tf_dataset(
+    "data/splits/validation.csv", frames_folder, training=False
+)
+test_ds = make_tf_dataset(
+    "data/splits/test.csv", frames_folder, training=False
+)
+```
+
+Each video contains 16 evenly sampled RGB frames resized to
+112 × 112. Pixel values are float32 between 0 and 1.
+Short clips repeat frames to reach 16 frames.
+
+The default batch size is 8. Video batches have shape
+(8, 16, 112, 112, 3), with one integer class ID per video.
+The final batch may contain fewer than 8 videos.
+
+Training uses shuffling and random brightness factors from
+0.8 to 1.2. Each video receives the same brightness factor
+across all its frames. Validation and test use no augmentation
+or shuffling.
+
+Both models should use the same splits and class mapping.
+The CNN baseline member handles frame-to-video predictions.
+
+Required packages: NumPy, Pillow and TensorFlow.
+Tested locally with TensorFlow 2.21.0.
+One batch from each split loaded successfully.
+
+Dataset images stay local and are excluded from Git.
+The final CSVs in data/splits/ are included in Git.
+Teammates must download and extract the images separately.
+Regenerating the split CSVs is optional.
+
+## Recreate the split CSV files
+
+Place the extracted Jester label files in:
+data/raw/jester_labels/
+
+This folder should contain labels.csv, train.csv,
+validation.csv, test.csv and test-answers.csv.
+
+From the project root, run these commands in order:
+
+```powershell
+python scripts/prepare_data.py
+```
+
+These create the CSV files used by the loader:
+- data/splits/train.csv
+- data/splits/validation.csv
+- data/splits/test.csv
+
+Expected counts:
+- Training: 23,786 videos
+- Validation: 5,946 videos
+- Test: 3,623 videos
+
+The official Jester training subset is split into training
+and validation within each class, using random seed 42.
+The selected official Jester validation subset is our test set.
+No video IDs overlap between these splits.
+
+Class IDs and computer commands are defined in:
+config/gesture_classes.json
+
+## Class distributions
+
+| ID | Gesture | Training | Validation | Test |
+|---|---|---:|---:|---:|
+| 0 | Swiping Left | 3330 | 832 | 494 |
+| 1 | Swiping Right | 3267 | 817 | 486 |
+| 2 | Sliding Two Fingers Left | 3434 | 858 | 519 |
+| 3 | Sliding Two Fingers Right | 3365 | 841 | 516 |
+| 4 | Thumb Up | 3498 | 875 | 539 |
+| 5 | Stop Sign | 3470 | 867 | 536 |
+| 6 | No gesture | 3422 | 856 | 533 |
+| | **Total** | **23786** | **5946** | **3623** |
+
+The selected classes have similar sample counts.
+To reproduce these statistics, run:
+python scripts/split_statistics.py
+
+Frame availability was checked for every selected video:
+none were missing JPG frames. One TensorFlow batch from each
+split was also loaded successfully.
+
+## One-command split preparation
+
+After placing the original label CSVs in data/raw/jester_labels/,
+run from the project root:
+
+```powershell
+python scripts/prepare_data.py
+```
+
+This selects our seven classes, creates the training,
+validation and test CSVs, and prints class counts.
+It stops if any step fails.
+
+Image archives must already be extracted separately.
+Video frames are resized and normalized when the loader reads them.
+
+Preparation scripts use data/processed/ for intermediate files
+and copy the final CSVs into data/splits/ for both models.
+The final split CSVs are included in Git; dataset images are not.
+
+## Load datasets from shared settings
+
+Install PyYAML if needed:
+python -m pip install PyYAML
+
+Update frames_folder in configs/data.yaml to your local
+extracted image folder. Run Python from the project root.
+
+```python
+from src.gesture_recognition.data.dataset import dataset_from_config
+
+train_ds = dataset_from_config("train")
+validation_ds = dataset_from_config("validation")
+test_ds = dataset_from_config("test")
+```
+
+The configuration controls split paths, frame count,
+image size and batch size. Only training uses augmentation
+and shuffling. Labels are integer class IDs from 0 to 6.
