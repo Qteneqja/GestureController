@@ -64,13 +64,13 @@ from src.gesture_recognition.data.dataset import make_tf_dataset
 frames_folder = r"C:\JesterData\frames\20bn-jester-v1"
 
 train_ds = make_tf_dataset(
-    "data/processed/train.csv", frames_folder, training=True
+    "data/splits/train.csv", frames_folder, training=True
 )
 validation_ds = make_tf_dataset(
-    "data/processed/validation.csv", frames_folder, training=False
+    "data/splits/validation.csv", frames_folder, training=False
 )
 test_ds = make_tf_dataset(
-    "data/processed/test.csv", frames_folder, training=False
+    "data/splits/test.csv", frames_folder, training=False
 )
 ```
 
@@ -115,9 +115,9 @@ python scripts/prepare_test_labels.py
 ```
 
 These create the CSV files used by the loader:
-- data/processed/train.csv
-- data/processed/validation.csv
-- data/processed/test.csv
+- data/splits/train.csv
+- data/splits/validation.csv
+- data/splits/test.csv
 
 Expected counts:
 - Training: 23,786 videos
@@ -168,3 +168,7 @@ It stops if any step fails.
 
 Image archives must already be extracted separately.
 Video frames are resized and normalized when the loader reads them.
+
+Preparation scripts use data/processed/ for intermediate files
+and copy the final CSVs into data/splits/ for both models.
+The final split CSVs are included in Git; dataset images are not.

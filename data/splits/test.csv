@@ -1,0 +1,3624 @@
+video_id,gesture,class_id
+9223,Thumb Up,4
+42920,Swiping Left,0
+12912,Sliding Two Fingers Right,3
+94928,Swiping Right,1
+117498,Swiping Left,0
+123292,Thumb Up,4
+140878,Thumb Up,4
+90764,Sliding Two Fingers Left,2
+140793,Sliding Two Fingers Left,2
+52721,Swiping Right,1
+59900,Thumb Up,4
+112463,Sliding Two Fingers Left,2
+68879,Swiping Right,1
+30228,No gesture,6
+7565,No gesture,6
+84457,Swiping Right,1
+124915,No gesture,6
+17330,Swiping Left,0
+79085,Thumb Up,4
+18103,Sliding Two Fingers Right,3
+44948,Sliding Two Fingers Right,3
+125044,Swiping Left,0
+72284,No gesture,6
+17333,Swiping Left,0
+122236,Sliding Two Fingers Right,3
+115054,Sliding Two Fingers Left,2
+23850,Sliding Two Fingers Left,2
+58359,Swiping Left,0
+55748,Sliding Two Fingers Right,3
+99641,Swiping Left,0
+33570,Swiping Left,0
+63311,Swiping Left,0
+69609,Sliding Two Fingers Left,2
+108598,Thumb Up,4
+6202,Stop Sign,5
+116328,Sliding Two Fingers Right,3
+37485,Stop Sign,5
+40697,Thumb Up,4
+21351,No gesture,6
+14887,Stop Sign,5
+122556,Stop Sign,5
+57278,Sliding Two Fingers Left,2
+95217,Thumb Up,4
+83654,Sliding Two Fingers Left,2
+26695,Stop Sign,5
+130388,No gesture,6
+87413,Swiping Right,1
+50718,Sliding Two Fingers Left,2
+44728,Stop Sign,5
+137514,Swiping Left,0
+114783,Thumb Up,4
+13177,No gesture,6
+108619,Thumb Up,4
+89416,No gesture,6
+114547,No gesture,6
+62001,Thumb Up,4
+12040,Swiping Left,0
+21473,Stop Sign,5
+127544,Sliding Two Fingers Left,2
+72447,Sliding Two Fingers Left,2
+87018,Sliding Two Fingers Right,3
+92863,No gesture,6
+83263,Swiping Left,0
+124240,Swiping Right,1
+147804,Stop Sign,5
+85173,Thumb Up,4
+34632,Sliding Two Fingers Left,2
+18189,Sliding Two Fingers Left,2
+119487,Stop Sign,5
+102202,Thumb Up,4
+81236,Sliding Two Fingers Right,3
+17425,No gesture,6
+11115,Thumb Up,4
+84713,Swiping Right,1
+56359,Stop Sign,5
+135588,Stop Sign,5
+75270,Stop Sign,5
+22343,Sliding Two Fingers Right,3
+71164,Stop Sign,5
+14148,Sliding Two Fingers Right,3
+6175,Sliding Two Fingers Right,3
+14691,Thumb Up,4
+74601,Sliding Two Fingers Left,2
+30733,Stop Sign,5
+35012,No gesture,6
+54677,Swiping Left,0
+65893,No gesture,6
+40720,Swiping Left,0
+16606,No gesture,6
+80523,Sliding Two Fingers Right,3
+137535,No gesture,6
+40743,Sliding Two Fingers Left,2
+62586,Thumb Up,4
+145203,Swiping Right,1
+46276,Sliding Two Fingers Left,2
+99623,Swiping Left,0
+21103,Sliding Two Fingers Right,3
+111477,Swiping Right,1
+75981,Sliding Two Fingers Right,3
+61844,Thumb Up,4
+144564,No gesture,6
+123973,No gesture,6
+130125,No gesture,6
+73997,Thumb Up,4
+120027,Stop Sign,5
+14996,Sliding Two Fingers Left,2
+21114,Swiping Right,1
+60570,Swiping Right,1
+91779,Sliding Two Fingers Right,3
+105115,Swiping Left,0
+25388,Thumb Up,4
+7490,Stop Sign,5
+44120,Thumb Up,4
+31455,Sliding Two Fingers Right,3
+130735,No gesture,6
+120014,Stop Sign,5
+60232,No gesture,6
+36096,Stop Sign,5
+100526,Stop Sign,5
+85642,Swiping Left,0
+8691,Sliding Two Fingers Left,2
+122056,Stop Sign,5
+123378,Stop Sign,5
+14940,Swiping Right,1
+122201,Stop Sign,5
+57710,Thumb Up,4
+52552,Thumb Up,4
+39872,Sliding Two Fingers Left,2
+124971,No gesture,6
+56090,Sliding Two Fingers Left,2
+146868,Stop Sign,5
+74154,Sliding Two Fingers Left,2
+105470,Thumb Up,4
+32605,No gesture,6
+146217,Swiping Left,0
+111419,Sliding Two Fingers Right,3
+10892,Sliding Two Fingers Left,2
+100373,Thumb Up,4
+146797,No gesture,6
+3596,Sliding Two Fingers Left,2
+71804,Swiping Left,0
+134710,No gesture,6
+54670,Swiping Right,1
+70956,Stop Sign,5
+106749,Thumb Up,4
+123461,Sliding Two Fingers Left,2
+38349,Swiping Left,0
+76640,Sliding Two Fingers Left,2
+12822,No gesture,6
+79131,Sliding Two Fingers Left,2
+139734,Swiping Left,0
+110367,Sliding Two Fingers Left,2
+49824,Sliding Two Fingers Left,2
+132754,Thumb Up,4
+48379,Stop Sign,5
+12469,Swiping Left,0
+129145,No gesture,6
+114622,No gesture,6
+143849,Swiping Right,1
+75827,Stop Sign,5
+114845,Thumb Up,4
+103633,No gesture,6
+37197,Swiping Right,1
+67048,Thumb Up,4
+117978,Thumb Up,4
+130538,No gesture,6
+25172,Sliding Two Fingers Left,2
+80621,Thumb Up,4
+73595,Swiping Left,0
+109178,Stop Sign,5
+14596,Swiping Left,0
+65873,Sliding Two Fingers Left,2
+97014,Swiping Left,0
+93551,Sliding Two Fingers Left,2
+8965,Swiping Right,1
+128445,Stop Sign,5
+132123,Swiping Left,0
+34915,No gesture,6
+4211,Swiping Left,0
+99735,Swiping Left,0
+39286,Sliding Two Fingers Right,3
+127895,Sliding Two Fingers Right,3
+135997,Thumb Up,4
+14367,Swiping Right,1
+52967,No gesture,6
+39125,Sliding Two Fingers Left,2
+104083,Stop Sign,5
+145244,Stop Sign,5
+79864,Stop Sign,5
+74469,Stop Sign,5
+88856,Sliding Two Fingers Right,3
+44607,Sliding Two Fingers Left,2
+114513,Thumb Up,4
+30628,Thumb Up,4
+112675,Swiping Left,0
+118364,Swiping Right,1
+101170,Stop Sign,5
+104196,Swiping Left,0
+60955,Swiping Left,0
+128876,Sliding Two Fingers Right,3
+12843,Swiping Left,0
+119502,No gesture,6
+27865,Sliding Two Fingers Left,2
+24831,Thumb Up,4
+133262,Swiping Right,1
+78991,No gesture,6
+9539,No gesture,6
+93134,Sliding Two Fingers Right,3
+48597,Thumb Up,4
+63829,Sliding Two Fingers Right,3
+10186,Stop Sign,5
+120963,Sliding Two Fingers Left,2
+29779,Sliding Two Fingers Right,3
+123389,Swiping Left,0
+53692,Swiping Right,1
+141778,Stop Sign,5
+132686,Sliding Two Fingers Right,3
+82606,Sliding Two Fingers Right,3
+39020,Swiping Right,1
+137787,No gesture,6
+143188,Thumb Up,4
+58129,Sliding Two Fingers Left,2
+48122,Swiping Right,1
+110194,Stop Sign,5
+23725,Sliding Two Fingers Left,2
+108644,Sliding Two Fingers Right,3
+42761,No gesture,6
+56456,Sliding Two Fingers Left,2
+44697,Sliding Two Fingers Left,2
+16898,Stop Sign,5
+129907,Swiping Right,1
+42114,Sliding Two Fingers Right,3
+58951,Sliding Two Fingers Left,2
+23662,Thumb Up,4
+54211,Stop Sign,5
+139507,Swiping Right,1
+105009,Sliding Two Fingers Right,3
+32643,Stop Sign,5
+2052,Swiping Left,0
+826,Swiping Right,1
+122649,Swiping Right,1
+133642,Swiping Left,0
+132839,Stop Sign,5
+144923,Thumb Up,4
+58693,Sliding Two Fingers Right,3
+137295,Swiping Left,0
+32457,Stop Sign,5
+45326,No gesture,6
+105977,Sliding Two Fingers Left,2
+82281,Sliding Two Fingers Right,3
+35294,No gesture,6
+80600,Sliding Two Fingers Left,2
+65111,Swiping Left,0
+103660,Swiping Left,0
+55393,Thumb Up,4
+129211,No gesture,6
+35144,Stop Sign,5
+49337,Swiping Left,0
+72998,No gesture,6
+118689,Swiping Left,0
+136931,Swiping Left,0
+138451,Thumb Up,4
+134301,Swiping Left,0
+19302,Sliding Two Fingers Left,2
+125026,No gesture,6
+5000,Thumb Up,4
+55345,Swiping Left,0
+139414,No gesture,6
+114238,Sliding Two Fingers Left,2
+18215,No gesture,6
+9640,No gesture,6
+138418,No gesture,6
+7035,Thumb Up,4
+66611,Sliding Two Fingers Left,2
+9865,Sliding Two Fingers Right,3
+61759,Thumb Up,4
+146999,No gesture,6
+53991,Stop Sign,5
+72428,Thumb Up,4
+107514,Stop Sign,5
+114078,Sliding Two Fingers Right,3
+135249,Swiping Right,1
+136525,Sliding Two Fingers Right,3
+21338,Sliding Two Fingers Right,3
+135350,Thumb Up,4
+72985,Stop Sign,5
+1721,Sliding Two Fingers Right,3
+92248,Sliding Two Fingers Right,3
+59633,Thumb Up,4
+37801,Sliding Two Fingers Right,3
+101425,No gesture,6
+16103,Swiping Right,1
+65848,Swiping Right,1
+138081,No gesture,6
+105122,Stop Sign,5
+94314,Swiping Left,0
+69344,Swiping Left,0
+7908,Swiping Left,0
+20885,Swiping Right,1
+35469,Swiping Right,1
+102088,Sliding Two Fingers Left,2
+130215,Sliding Two Fingers Right,3
+147042,Sliding Two Fingers Left,2
+57390,No gesture,6
+58101,Sliding Two Fingers Right,3
+16592,Swiping Right,1
+137618,Stop Sign,5
+33020,Stop Sign,5
+3037,Sliding Two Fingers Right,3
+103490,Swiping Right,1
+73132,No gesture,6
+1294,Stop Sign,5
+112206,Sliding Two Fingers Right,3
+107707,Sliding Two Fingers Right,3
+107374,Sliding Two Fingers Right,3
+70259,Thumb Up,4
+89345,Stop Sign,5
+80455,Swiping Left,0
+72170,No gesture,6
+21638,Thumb Up,4
+133259,Sliding Two Fingers Left,2
+48351,No gesture,6
+29596,Sliding Two Fingers Right,3
+40867,Sliding Two Fingers Right,3
+47339,Stop Sign,5
+79526,Stop Sign,5
+80540,Stop Sign,5
+30018,No gesture,6
+127595,Stop Sign,5
+15250,Thumb Up,4
+85948,No gesture,6
+11327,Sliding Two Fingers Right,3
+50647,Sliding Two Fingers Left,2
+28885,Sliding Two Fingers Left,2
+46184,Sliding Two Fingers Left,2
+135054,Thumb Up,4
+28247,Swiping Left,0
+31182,Swiping Left,0
+78520,Swiping Right,1
+55962,Sliding Two Fingers Left,2
+140978,No gesture,6
+86156,Stop Sign,5
+23808,Swiping Right,1
+47749,Swiping Left,0
+78846,Stop Sign,5
+130927,No gesture,6
+17505,Thumb Up,4
+132752,Swiping Right,1
+135407,Swiping Left,0
+29250,Stop Sign,5
+72395,Thumb Up,4
+84575,Thumb Up,4
+10048,Stop Sign,5
+110361,Thumb Up,4
+25445,No gesture,6
+2462,Swiping Left,0
+30131,Thumb Up,4
+53704,Swiping Left,0
+88310,Stop Sign,5
+126608,Sliding Two Fingers Right,3
+129135,Stop Sign,5
+22690,Swiping Right,1
+95381,Stop Sign,5
+122722,No gesture,6
+32354,Swiping Right,1
+39367,No gesture,6
+52828,Thumb Up,4
+115533,Sliding Two Fingers Right,3
+32821,Sliding Two Fingers Left,2
+16904,Swiping Left,0
+134954,Swiping Right,1
+139450,Thumb Up,4
+62195,Stop Sign,5
+39622,Thumb Up,4
+58229,Sliding Two Fingers Right,3
+90116,Thumb Up,4
+46747,Swiping Left,0
+33772,Swiping Left,0
+124279,No gesture,6
+43541,Swiping Right,1
+4337,No gesture,6
+136911,No gesture,6
+109249,No gesture,6
+103317,Sliding Two Fingers Left,2
+116155,Sliding Two Fingers Right,3
+93145,Sliding Two Fingers Left,2
+94103,No gesture,6
+54438,Thumb Up,4
+125043,Sliding Two Fingers Right,3
+50512,No gesture,6
+52108,Stop Sign,5
+70245,Stop Sign,5
+69059,Stop Sign,5
+53957,Sliding Two Fingers Right,3
+140718,Stop Sign,5
+112133,Sliding Two Fingers Left,2
+24227,Stop Sign,5
+144377,Thumb Up,4
+101584,Sliding Two Fingers Left,2
+93840,No gesture,6
+141358,Stop Sign,5
+136829,Swiping Left,0
+131800,Thumb Up,4
+78238,Swiping Right,1
+40575,Thumb Up,4
+125269,Sliding Two Fingers Left,2
+107223,Stop Sign,5
+67684,Stop Sign,5
+67061,Sliding Two Fingers Left,2
+90825,Stop Sign,5
+13973,Swiping Left,0
+27529,Swiping Left,0
+90837,Swiping Right,1
+85230,Swiping Right,1
+37363,Swiping Right,1
+97323,Thumb Up,4
+17924,No gesture,6
+81931,No gesture,6
+147103,No gesture,6
+51923,Swiping Left,0
+69416,Stop Sign,5
+14092,No gesture,6
+71280,Swiping Right,1
+16142,Swiping Right,1
+85696,Stop Sign,5
+38644,Swiping Left,0
+79619,Thumb Up,4
+116920,No gesture,6
+56643,Sliding Two Fingers Right,3
+141361,Sliding Two Fingers Left,2
+1231,Swiping Right,1
+35559,No gesture,6
+64139,Sliding Two Fingers Right,3
+6217,Thumb Up,4
+92388,No gesture,6
+133564,Thumb Up,4
+140185,Swiping Right,1
+109559,Sliding Two Fingers Right,3
+68024,Swiping Right,1
+139177,Sliding Two Fingers Left,2
+119163,Swiping Left,0
+60918,Swiping Right,1
+137059,No gesture,6
+100075,Swiping Right,1
+98320,Thumb Up,4
+20605,Stop Sign,5
+26637,Sliding Two Fingers Left,2
+138289,Sliding Two Fingers Right,3
+89919,Thumb Up,4
+108653,Thumb Up,4
+8293,Swiping Left,0
+112931,Sliding Two Fingers Right,3
+139415,Thumb Up,4
+115208,Stop Sign,5
+23617,Swiping Right,1
+33494,Stop Sign,5
+24533,Thumb Up,4
+36832,Thumb Up,4
+1203,No gesture,6
+58576,Thumb Up,4
+109757,No gesture,6
+74455,Sliding Two Fingers Left,2
+97662,Thumb Up,4
+57205,Swiping Left,0
+40580,Swiping Left,0
+70195,Thumb Up,4
+137493,Thumb Up,4
+111142,Sliding Two Fingers Right,3
+33346,No gesture,6
+139821,Sliding Two Fingers Left,2
+107905,Thumb Up,4
+37148,Swiping Left,0
+62349,Sliding Two Fingers Right,3
+147217,Swiping Right,1
+86740,No gesture,6
+141290,Sliding Two Fingers Left,2
+85080,Sliding Two Fingers Left,2
+29356,Thumb Up,4
+92816,Swiping Left,0
+99035,No gesture,6
+94541,Stop Sign,5
+72100,Sliding Two Fingers Left,2
+9035,Thumb Up,4
+24772,No gesture,6
+137531,No gesture,6
+36239,Thumb Up,4
+122863,Swiping Right,1
+75816,Thumb Up,4
+139431,Stop Sign,5
+138160,Swiping Right,1
+74978,Sliding Two Fingers Left,2
+58300,Sliding Two Fingers Left,2
+64749,Sliding Two Fingers Right,3
+23483,Thumb Up,4
+104634,Sliding Two Fingers Right,3
+92252,Swiping Right,1
+11679,Swiping Right,1
+119181,Thumb Up,4
+68238,Thumb Up,4
+74994,Stop Sign,5
+121938,No gesture,6
+59634,Thumb Up,4
+96379,Sliding Two Fingers Right,3
+45320,Sliding Two Fingers Left,2
+99937,Stop Sign,5
+111956,Sliding Two Fingers Right,3
+85146,No gesture,6
+82871,Sliding Two Fingers Left,2
+118310,Sliding Two Fingers Right,3
+96372,Swiping Right,1
+28391,Stop Sign,5
+2135,Swiping Left,0
+31717,Sliding Two Fingers Left,2
+11028,Sliding Two Fingers Left,2
+52563,Thumb Up,4
+134850,Stop Sign,5
+88388,Sliding Two Fingers Left,2
+136423,Swiping Right,1
+54162,Thumb Up,4
+33655,Stop Sign,5
+27816,Sliding Two Fingers Left,2
+80909,Thumb Up,4
+105354,Sliding Two Fingers Right,3
+7534,Swiping Right,1
+84636,Stop Sign,5
+8506,Sliding Two Fingers Left,2
+41812,Stop Sign,5
+127939,Stop Sign,5
+13360,Thumb Up,4
+67020,Sliding Two Fingers Left,2
+68816,Sliding Two Fingers Right,3
+57416,Thumb Up,4
+7804,Swiping Right,1
+116188,Swiping Left,0
+78861,Sliding Two Fingers Left,2
+133965,Stop Sign,5
+101346,Sliding Two Fingers Left,2
+109754,Stop Sign,5
+132339,Sliding Two Fingers Left,2
+137437,Sliding Two Fingers Right,3
+62526,No gesture,6
+90392,Thumb Up,4
+25430,Thumb Up,4
+62129,Swiping Right,1
+33708,Thumb Up,4
+101142,Sliding Two Fingers Right,3
+124345,Thumb Up,4
+136148,Swiping Right,1
+60179,Sliding Two Fingers Left,2
+124755,Thumb Up,4
+118233,No gesture,6
+47020,No gesture,6
+15276,Sliding Two Fingers Right,3
+60287,Swiping Right,1
+12842,Swiping Right,1
+113737,Sliding Two Fingers Left,2
+52385,Sliding Two Fingers Left,2
+29285,Swiping Right,1
+89799,Swiping Right,1
+79599,Stop Sign,5
+94475,Stop Sign,5
+49043,Thumb Up,4
+126265,Sliding Two Fingers Left,2
+37486,No gesture,6
+61010,Sliding Two Fingers Left,2
+147073,Sliding Two Fingers Left,2
+3402,Sliding Two Fingers Right,3
+34435,Stop Sign,5
+23485,Swiping Left,0
+26924,Sliding Two Fingers Right,3
+44865,Sliding Two Fingers Right,3
+78639,Thumb Up,4
+73377,Sliding Two Fingers Left,2
+95058,Thumb Up,4
+3379,Sliding Two Fingers Right,3
+59662,Sliding Two Fingers Right,3
+51006,Sliding Two Fingers Left,2
+46079,Sliding Two Fingers Left,2
+99907,Sliding Two Fingers Right,3
+15618,Sliding Two Fingers Right,3
+89726,No gesture,6
+55064,Swiping Left,0
+43498,No gesture,6
+19878,Sliding Two Fingers Left,2
+112370,No gesture,6
+122384,Swiping Left,0
+129019,Sliding Two Fingers Left,2
+31874,Stop Sign,5
+102973,Sliding Two Fingers Left,2
+97343,Swiping Right,1
+26542,Swiping Left,0
+137475,Swiping Right,1
+97651,No gesture,6
+16616,Sliding Two Fingers Left,2
+40538,Sliding Two Fingers Right,3
+55281,No gesture,6
+26696,Swiping Left,0
+69881,Sliding Two Fingers Right,3
+76609,Thumb Up,4
+17614,Sliding Two Fingers Right,3
+3403,Swiping Left,0
+24104,Thumb Up,4
+5244,Thumb Up,4
+93836,Thumb Up,4
+45083,Swiping Right,1
+23681,Stop Sign,5
+95228,Swiping Right,1
+86959,No gesture,6
+8704,Sliding Two Fingers Right,3
+79010,Sliding Two Fingers Left,2
+113634,Sliding Two Fingers Left,2
+10857,Swiping Left,0
+146672,Swiping Right,1
+29922,Sliding Two Fingers Right,3
+2846,Sliding Two Fingers Right,3
+56524,Swiping Left,0
+52882,Thumb Up,4
+134719,No gesture,6
+23286,No gesture,6
+8169,Swiping Left,0
+34413,Thumb Up,4
+138037,Thumb Up,4
+87001,Swiping Left,0
+117939,Sliding Two Fingers Right,3
+48946,Thumb Up,4
+68207,Thumb Up,4
+19086,Swiping Left,0
+68328,Stop Sign,5
+80751,No gesture,6
+32849,Swiping Left,0
+71442,Stop Sign,5
+92947,Sliding Two Fingers Right,3
+123929,Sliding Two Fingers Left,2
+39399,No gesture,6
+138463,Stop Sign,5
+49293,Thumb Up,4
+139425,No gesture,6
+7031,Thumb Up,4
+108116,Stop Sign,5
+87115,Stop Sign,5
+35223,Swiping Left,0
+19576,Thumb Up,4
+115426,Stop Sign,5
+117555,Sliding Two Fingers Right,3
+144994,Sliding Two Fingers Right,3
+77712,Sliding Two Fingers Right,3
+21515,Thumb Up,4
+36183,Sliding Two Fingers Right,3
+91172,Sliding Two Fingers Left,2
+93364,Thumb Up,4
+105845,No gesture,6
+25157,Swiping Left,0
+21600,Sliding Two Fingers Right,3
+142220,Swiping Right,1
+124698,Thumb Up,4
+69855,Thumb Up,4
+36775,Sliding Two Fingers Left,2
+94074,No gesture,6
+101536,Swiping Right,1
+83317,Swiping Right,1
+104193,Stop Sign,5
+13481,Thumb Up,4
+26191,Sliding Two Fingers Right,3
+65443,Stop Sign,5
+29503,Stop Sign,5
+39805,Thumb Up,4
+56646,Thumb Up,4
+105559,No gesture,6
+3856,Stop Sign,5
+28074,No gesture,6
+47424,Swiping Right,1
+92494,Sliding Two Fingers Left,2
+111025,Thumb Up,4
+46885,Swiping Left,0
+33410,Thumb Up,4
+79629,Thumb Up,4
+131907,No gesture,6
+260,Sliding Two Fingers Right,3
+61116,Thumb Up,4
+76081,Sliding Two Fingers Right,3
+132852,Thumb Up,4
+82143,No gesture,6
+119576,Swiping Right,1
+48970,Swiping Left,0
+95600,Sliding Two Fingers Right,3
+76633,Sliding Two Fingers Left,2
+91583,No gesture,6
+26815,Stop Sign,5
+90536,Swiping Right,1
+144747,Swiping Right,1
+45789,Swiping Right,1
+51246,Stop Sign,5
+118399,Sliding Two Fingers Right,3
+29648,Thumb Up,4
+93014,Stop Sign,5
+141564,Swiping Right,1
+92079,Swiping Left,0
+11987,Swiping Right,1
+120187,Sliding Two Fingers Right,3
+139565,Stop Sign,5
+80053,No gesture,6
+3000,Sliding Two Fingers Left,2
+71689,Swiping Right,1
+129904,Swiping Right,1
+115657,Stop Sign,5
+136326,Sliding Two Fingers Right,3
+99966,Stop Sign,5
+126679,No gesture,6
+114788,Sliding Two Fingers Left,2
+39644,No gesture,6
+131954,Swiping Right,1
+34282,Sliding Two Fingers Right,3
+66386,Sliding Two Fingers Left,2
+102966,Sliding Two Fingers Right,3
+57251,Stop Sign,5
+98452,Swiping Left,0
+27271,Swiping Left,0
+140320,Stop Sign,5
+16279,Stop Sign,5
+109307,No gesture,6
+134149,Sliding Two Fingers Right,3
+19741,Thumb Up,4
+55706,Stop Sign,5
+123440,Sliding Two Fingers Right,3
+91574,Sliding Two Fingers Right,3
+49287,Stop Sign,5
+41301,Stop Sign,5
+79141,Stop Sign,5
+66943,Stop Sign,5
+76445,Thumb Up,4
+144526,Sliding Two Fingers Right,3
+84470,Sliding Two Fingers Left,2
+14975,Swiping Right,1
+120710,No gesture,6
+108429,Sliding Two Fingers Left,2
+37239,Swiping Left,0
+88707,Swiping Right,1
+135228,Sliding Two Fingers Left,2
+96617,Stop Sign,5
+56724,Swiping Left,0
+32987,Stop Sign,5
+92982,No gesture,6
+51424,Sliding Two Fingers Left,2
+44574,No gesture,6
+120913,Swiping Right,1
+10528,Thumb Up,4
+45823,Sliding Two Fingers Left,2
+100930,Sliding Two Fingers Left,2
+79709,Swiping Left,0
+48807,Sliding Two Fingers Left,2
+4122,Swiping Right,1
+125449,Thumb Up,4
+129438,No gesture,6
+59420,Sliding Two Fingers Right,3
+20070,Stop Sign,5
+73029,Sliding Two Fingers Right,3
+20036,No gesture,6
+66098,Swiping Left,0
+106620,Stop Sign,5
+4959,Stop Sign,5
+37880,Sliding Two Fingers Left,2
+112141,Thumb Up,4
+70078,Thumb Up,4
+59424,No gesture,6
+49128,Swiping Right,1
+33545,Sliding Two Fingers Right,3
+141907,Swiping Right,1
+89524,Swiping Left,0
+34240,No gesture,6
+114465,Sliding Two Fingers Left,2
+34208,Swiping Left,0
+10524,Thumb Up,4
+34460,No gesture,6
+20086,No gesture,6
+43,Stop Sign,5
+36134,No gesture,6
+32803,Swiping Right,1
+85888,Swiping Left,0
+66368,Swiping Right,1
+79012,Thumb Up,4
+100220,Thumb Up,4
+145940,Stop Sign,5
+29247,Thumb Up,4
+29476,Sliding Two Fingers Right,3
+132863,Swiping Right,1
+92221,Thumb Up,4
+8108,Stop Sign,5
+117296,Swiping Left,0
+139743,No gesture,6
+115730,Sliding Two Fingers Right,3
+85931,Swiping Left,0
+131745,No gesture,6
+108930,Swiping Right,1
+132030,Sliding Two Fingers Left,2
+54748,Sliding Two Fingers Right,3
+52940,Swiping Left,0
+22605,Thumb Up,4
+47179,Sliding Two Fingers Left,2
+135316,No gesture,6
+28581,Thumb Up,4
+127560,Swiping Right,1
+64126,Swiping Left,0
+37427,Swiping Right,1
+84738,Sliding Two Fingers Left,2
+86818,Swiping Left,0
+41058,Swiping Left,0
+79772,Swiping Right,1
+117075,Swiping Right,1
+71159,Stop Sign,5
+145064,Swiping Right,1
+93874,Sliding Two Fingers Right,3
+44979,Stop Sign,5
+106615,Swiping Right,1
+137578,Sliding Two Fingers Right,3
+130017,Swiping Right,1
+71740,No gesture,6
+63414,Thumb Up,4
+53633,Sliding Two Fingers Right,3
+61284,No gesture,6
+55095,Swiping Right,1
+1879,Sliding Two Fingers Left,2
+52549,No gesture,6
+35520,Swiping Left,0
+28593,No gesture,6
+139430,Thumb Up,4
+27473,Sliding Two Fingers Left,2
+26566,No gesture,6
+40540,Sliding Two Fingers Right,3
+82664,Stop Sign,5
+80851,Sliding Two Fingers Right,3
+57550,Stop Sign,5
+76518,Swiping Right,1
+59985,Sliding Two Fingers Left,2
+7721,Swiping Left,0
+6635,Stop Sign,5
+143535,Swiping Left,0
+38097,Sliding Two Fingers Left,2
+69853,Thumb Up,4
+135240,Sliding Two Fingers Right,3
+91062,No gesture,6
+4682,Stop Sign,5
+13968,No gesture,6
+14764,Thumb Up,4
+111398,Thumb Up,4
+107886,Sliding Two Fingers Right,3
+121385,Swiping Left,0
+49098,Swiping Right,1
+86086,Swiping Left,0
+97344,No gesture,6
+136540,Swiping Right,1
+115427,No gesture,6
+75352,Swiping Right,1
+33640,Swiping Right,1
+83793,Thumb Up,4
+141848,Swiping Right,1
+87155,Swiping Right,1
+64509,No gesture,6
+43017,Thumb Up,4
+88828,Swiping Left,0
+64894,Swiping Right,1
+48755,Sliding Two Fingers Left,2
+81869,Swiping Left,0
+50083,No gesture,6
+137789,No gesture,6
+84239,Sliding Two Fingers Right,3
+57539,Stop Sign,5
+50576,Swiping Right,1
+38817,Sliding Two Fingers Left,2
+80603,Swiping Left,0
+41419,Stop Sign,5
+119029,No gesture,6
+24096,Thumb Up,4
+31976,Thumb Up,4
+90317,Stop Sign,5
+106567,Swiping Left,0
+76928,Thumb Up,4
+49757,Thumb Up,4
+128511,Sliding Two Fingers Right,3
+51532,Stop Sign,5
+133818,Sliding Two Fingers Right,3
+56363,Thumb Up,4
+68746,No gesture,6
+93048,Sliding Two Fingers Left,2
+47353,Sliding Two Fingers Left,2
+70629,Sliding Two Fingers Right,3
+73743,No gesture,6
+110086,Thumb Up,4
+55550,Swiping Right,1
+14428,No gesture,6
+106712,Sliding Two Fingers Left,2
+106083,Stop Sign,5
+17274,Thumb Up,4
+141114,Swiping Left,0
+22693,Sliding Two Fingers Left,2
+67451,Swiping Right,1
+32690,Sliding Two Fingers Left,2
+87498,Thumb Up,4
+74452,Swiping Left,0
+145351,Swiping Left,0
+96158,Swiping Left,0
+126217,No gesture,6
+116410,Sliding Two Fingers Right,3
+116069,Sliding Two Fingers Right,3
+102743,Stop Sign,5
+68302,No gesture,6
+57759,Swiping Left,0
+48786,No gesture,6
+92497,Stop Sign,5
+21572,No gesture,6
+7697,Swiping Left,0
+82282,No gesture,6
+107996,Stop Sign,5
+67278,Swiping Left,0
+92371,Swiping Left,0
+37623,No gesture,6
+40065,Stop Sign,5
+74440,Sliding Two Fingers Right,3
+112549,Sliding Two Fingers Left,2
+109600,Sliding Two Fingers Left,2
+3705,Sliding Two Fingers Left,2
+39190,Swiping Right,1
+114807,No gesture,6
+13011,Sliding Two Fingers Left,2
+63744,Swiping Left,0
+145211,Sliding Two Fingers Left,2
+44754,Sliding Two Fingers Left,2
+66338,No gesture,6
+104539,Sliding Two Fingers Right,3
+118157,No gesture,6
+12388,Sliding Two Fingers Right,3
+59506,Sliding Two Fingers Left,2
+43706,No gesture,6
+114365,Stop Sign,5
+29712,Sliding Two Fingers Left,2
+107492,Sliding Two Fingers Left,2
+33582,No gesture,6
+9738,Stop Sign,5
+46807,Thumb Up,4
+81045,Thumb Up,4
+80911,No gesture,6
+127226,Stop Sign,5
+23981,Sliding Two Fingers Right,3
+52602,Sliding Two Fingers Right,3
+64044,Swiping Left,0
+89119,Sliding Two Fingers Right,3
+60310,Thumb Up,4
+133740,Thumb Up,4
+42047,Sliding Two Fingers Left,2
+144696,Swiping Left,0
+116846,Swiping Left,0
+18586,Swiping Left,0
+7882,Stop Sign,5
+127505,No gesture,6
+17871,Swiping Left,0
+4684,Sliding Two Fingers Right,3
+46345,Sliding Two Fingers Left,2
+75262,Stop Sign,5
+37728,Thumb Up,4
+124275,Thumb Up,4
+115900,Swiping Left,0
+9512,Sliding Two Fingers Right,3
+43124,No gesture,6
+58448,Sliding Two Fingers Right,3
+53487,Stop Sign,5
+2957,Stop Sign,5
+51070,No gesture,6
+4059,Stop Sign,5
+136291,Sliding Two Fingers Right,3
+18759,Stop Sign,5
+81319,Swiping Right,1
+121649,Swiping Left,0
+76814,Thumb Up,4
+4471,Sliding Two Fingers Right,3
+70687,Stop Sign,5
+98349,Sliding Two Fingers Left,2
+46550,Stop Sign,5
+5019,Swiping Right,1
+33706,Sliding Two Fingers Left,2
+13399,Swiping Left,0
+19819,Sliding Two Fingers Right,3
+33701,Swiping Left,0
+8498,Sliding Two Fingers Right,3
+136551,No gesture,6
+98822,Swiping Right,1
+48775,Swiping Left,0
+113499,Swiping Left,0
+111434,Sliding Two Fingers Left,2
+148071,Swiping Left,0
+106416,Swiping Right,1
+44062,No gesture,6
+51754,Sliding Two Fingers Left,2
+100640,Thumb Up,4
+113358,Swiping Left,0
+143205,Swiping Left,0
+49390,Sliding Two Fingers Left,2
+74093,Sliding Two Fingers Left,2
+25389,Stop Sign,5
+39008,No gesture,6
+114481,Sliding Two Fingers Left,2
+98392,No gesture,6
+130955,No gesture,6
+81219,Stop Sign,5
+22203,No gesture,6
+58312,Swiping Left,0
+47920,Swiping Left,0
+6121,Stop Sign,5
+141780,Sliding Two Fingers Right,3
+144061,Stop Sign,5
+97976,Swiping Right,1
+91843,Thumb Up,4
+78920,Thumb Up,4
+56932,Swiping Left,0
+143529,Sliding Two Fingers Left,2
+111493,Sliding Two Fingers Left,2
+84552,No gesture,6
+74444,Stop Sign,5
+139738,Sliding Two Fingers Right,3
+82589,Swiping Left,0
+38132,Thumb Up,4
+3310,Stop Sign,5
+51734,Swiping Right,1
+119273,Stop Sign,5
+29275,Thumb Up,4
+137072,No gesture,6
+40471,Sliding Two Fingers Right,3
+76517,Swiping Left,0
+20972,Swiping Left,0
+95919,Sliding Two Fingers Left,2
+6554,No gesture,6
+128374,Sliding Two Fingers Left,2
+126732,No gesture,6
+58169,Sliding Two Fingers Left,2
+143600,Swiping Left,0
+18654,Sliding Two Fingers Left,2
+31895,Sliding Two Fingers Left,2
+56441,Swiping Right,1
+55367,Swiping Left,0
+117014,Thumb Up,4
+147701,Stop Sign,5
+70211,Swiping Right,1
+81249,No gesture,6
+110046,Stop Sign,5
+126528,No gesture,6
+15369,Sliding Two Fingers Left,2
+109740,Swiping Left,0
+99971,Sliding Two Fingers Left,2
+66465,Sliding Two Fingers Left,2
+16393,Swiping Left,0
+35500,Swiping Right,1
+145062,Stop Sign,5
+127539,Stop Sign,5
+26897,Stop Sign,5
+77084,Sliding Two Fingers Right,3
+120054,Stop Sign,5
+126457,Swiping Left,0
+8427,No gesture,6
+44197,Sliding Two Fingers Right,3
+56182,No gesture,6
+99717,Swiping Left,0
+74383,Sliding Two Fingers Left,2
+1111,No gesture,6
+133885,Swiping Right,1
+121076,Sliding Two Fingers Right,3
+88017,Swiping Right,1
+20193,No gesture,6
+80854,Swiping Right,1
+66982,Stop Sign,5
+117317,Sliding Two Fingers Right,3
+134038,Swiping Right,1
+88176,Sliding Two Fingers Right,3
+57830,Sliding Two Fingers Left,2
+6146,Sliding Two Fingers Left,2
+47340,Thumb Up,4
+135472,Sliding Two Fingers Left,2
+97905,Stop Sign,5
+93499,Swiping Left,0
+125447,Sliding Two Fingers Right,3
+1757,Swiping Right,1
+137724,Sliding Two Fingers Right,3
+3177,No gesture,6
+49410,Swiping Left,0
+91811,Swiping Right,1
+72432,Sliding Two Fingers Left,2
+52495,Stop Sign,5
+134361,Swiping Right,1
+145423,Stop Sign,5
+13376,Sliding Two Fingers Right,3
+782,No gesture,6
+78585,Stop Sign,5
+47546,Swiping Left,0
+24035,Sliding Two Fingers Right,3
+25472,Sliding Two Fingers Left,2
+3140,Stop Sign,5
+88551,No gesture,6
+22291,Thumb Up,4
+14878,Swiping Right,1
+50279,Stop Sign,5
+112694,Sliding Two Fingers Right,3
+83001,Swiping Left,0
+138426,No gesture,6
+105344,Sliding Two Fingers Left,2
+66558,No gesture,6
+64503,Sliding Two Fingers Right,3
+14740,No gesture,6
+100420,Sliding Two Fingers Left,2
+133167,No gesture,6
+132170,Sliding Two Fingers Left,2
+145455,Swiping Right,1
+134225,No gesture,6
+14816,No gesture,6
+104765,No gesture,6
+38122,No gesture,6
+42493,Sliding Two Fingers Left,2
+72119,Swiping Right,1
+9442,No gesture,6
+138887,Stop Sign,5
+63032,Sliding Two Fingers Left,2
+12279,Swiping Left,0
+610,Thumb Up,4
+130872,Sliding Two Fingers Right,3
+115824,Stop Sign,5
+139172,Sliding Two Fingers Right,3
+11549,Sliding Two Fingers Right,3
+38278,Sliding Two Fingers Left,2
+30101,Thumb Up,4
+24633,Stop Sign,5
+81127,Sliding Two Fingers Left,2
+120144,Sliding Two Fingers Left,2
+49171,Stop Sign,5
+82443,Swiping Right,1
+58497,No gesture,6
+147845,Thumb Up,4
+130739,Sliding Two Fingers Right,3
+20895,Stop Sign,5
+80453,Swiping Right,1
+38801,Swiping Left,0
+108134,Stop Sign,5
+140482,Swiping Left,0
+35411,No gesture,6
+62007,No gesture,6
+21804,Sliding Two Fingers Left,2
+724,Stop Sign,5
+75091,Swiping Left,0
+11531,Sliding Two Fingers Left,2
+68725,Thumb Up,4
+123823,Stop Sign,5
+15434,No gesture,6
+76544,Sliding Two Fingers Left,2
+11316,Sliding Two Fingers Right,3
+26313,Thumb Up,4
+46253,Sliding Two Fingers Left,2
+129029,No gesture,6
+8371,No gesture,6
+38321,Swiping Right,1
+90287,Sliding Two Fingers Left,2
+36032,Thumb Up,4
+128229,Stop Sign,5
+50453,Sliding Two Fingers Left,2
+106099,Stop Sign,5
+48759,Swiping Right,1
+118984,Sliding Two Fingers Right,3
+144841,Thumb Up,4
+100724,Swiping Left,0
+106007,Thumb Up,4
+133907,Stop Sign,5
+88219,Thumb Up,4
+58309,Sliding Two Fingers Right,3
+69435,Swiping Right,1
+22248,Thumb Up,4
+112001,Sliding Two Fingers Right,3
+140440,Sliding Two Fingers Left,2
+51134,Thumb Up,4
+79918,Sliding Two Fingers Right,3
+12941,Sliding Two Fingers Right,3
+47241,Sliding Two Fingers Left,2
+20858,Swiping Right,1
+78055,Sliding Two Fingers Right,3
+26526,Swiping Left,0
+95653,Swiping Right,1
+100674,Thumb Up,4
+96166,Thumb Up,4
+36270,Sliding Two Fingers Left,2
+35861,No gesture,6
+114197,Sliding Two Fingers Left,2
+19155,Swiping Left,0
+21674,Swiping Left,0
+932,Sliding Two Fingers Right,3
+106895,Thumb Up,4
+32517,Stop Sign,5
+126549,Swiping Left,0
+19902,Swiping Right,1
+103486,Swiping Left,0
+45721,Swiping Left,0
+85591,No gesture,6
+128576,Thumb Up,4
+28643,Sliding Two Fingers Right,3
+63954,No gesture,6
+33671,Sliding Two Fingers Right,3
+20692,No gesture,6
+48201,Swiping Left,0
+146091,Swiping Right,1
+125636,Sliding Two Fingers Right,3
+129274,Sliding Two Fingers Right,3
+132166,No gesture,6
+56199,Thumb Up,4
+125443,Stop Sign,5
+10238,Stop Sign,5
+15333,Thumb Up,4
+122016,Swiping Left,0
+144759,Stop Sign,5
+52100,Swiping Left,0
+132449,Thumb Up,4
+44126,Thumb Up,4
+11127,Thumb Up,4
+73726,Sliding Two Fingers Right,3
+26657,Stop Sign,5
+48778,No gesture,6
+45636,Sliding Two Fingers Right,3
+69673,Thumb Up,4
+32159,Swiping Left,0
+92775,Swiping Left,0
+14661,Sliding Two Fingers Right,3
+87746,Sliding Two Fingers Right,3
+20489,Sliding Two Fingers Right,3
+64017,Thumb Up,4
+36095,Thumb Up,4
+9218,Stop Sign,5
+141149,Sliding Two Fingers Right,3
+86995,Swiping Right,1
+136749,Swiping Left,0
+114723,Swiping Right,1
+80340,Sliding Two Fingers Right,3
+131849,Swiping Right,1
+103196,Stop Sign,5
+4067,Swiping Left,0
+6589,Thumb Up,4
+26505,No gesture,6
+63667,No gesture,6
+4357,Swiping Left,0
+101399,Sliding Two Fingers Right,3
+31599,Swiping Right,1
+100126,Swiping Left,0
+57257,Sliding Two Fingers Left,2
+6575,Swiping Right,1
+40647,Thumb Up,4
+39712,Sliding Two Fingers Left,2
+141157,Sliding Two Fingers Left,2
+33691,Swiping Right,1
+70340,Stop Sign,5
+15573,Sliding Two Fingers Left,2
+130302,Stop Sign,5
+7069,Swiping Left,0
+77107,Thumb Up,4
+69488,Thumb Up,4
+33140,No gesture,6
+77284,Thumb Up,4
+39348,Swiping Left,0
+23295,Thumb Up,4
+129020,Swiping Right,1
+100445,Sliding Two Fingers Left,2
+118957,Sliding Two Fingers Left,2
+44131,Sliding Two Fingers Right,3
+139880,Thumb Up,4
+139062,Thumb Up,4
+61463,Sliding Two Fingers Right,3
+134043,No gesture,6
+7787,Swiping Left,0
+19550,Stop Sign,5
+16369,Thumb Up,4
+81469,Thumb Up,4
+96925,Sliding Two Fingers Right,3
+19678,Sliding Two Fingers Left,2
+129434,Thumb Up,4
+34397,Swiping Right,1
+66226,Sliding Two Fingers Left,2
+85004,Swiping Right,1
+103444,Sliding Two Fingers Right,3
+3563,Stop Sign,5
+108842,Thumb Up,4
+57909,Swiping Left,0
+85063,Swiping Right,1
+29778,Thumb Up,4
+106723,Swiping Right,1
+66815,Stop Sign,5
+105406,Sliding Two Fingers Right,3
+53647,Sliding Two Fingers Left,2
+58666,Sliding Two Fingers Right,3
+81628,Sliding Two Fingers Left,2
+80025,Swiping Right,1
+35529,No gesture,6
+144279,No gesture,6
+104368,Swiping Right,1
+147919,No gesture,6
+33334,Thumb Up,4
+2240,Swiping Right,1
+56406,Thumb Up,4
+107024,No gesture,6
+46096,Sliding Two Fingers Left,2
+83129,Swiping Right,1
+137098,Sliding Two Fingers Right,3
+124791,Stop Sign,5
+75863,No gesture,6
+128830,No gesture,6
+139187,Swiping Left,0
+72631,No gesture,6
+118904,Stop Sign,5
+124138,No gesture,6
+39697,Sliding Two Fingers Right,3
+47301,Swiping Left,0
+37036,Swiping Left,0
+119248,Swiping Left,0
+48815,Sliding Two Fingers Right,3
+83384,Swiping Left,0
+121266,Swiping Left,0
+93850,Swiping Right,1
+91020,Stop Sign,5
+135338,No gesture,6
+32617,Sliding Two Fingers Left,2
+62825,Thumb Up,4
+106306,Stop Sign,5
+16778,No gesture,6
+106622,Sliding Two Fingers Right,3
+7474,Swiping Right,1
+86153,Swiping Right,1
+86070,Sliding Two Fingers Right,3
+30648,Thumb Up,4
+97468,Thumb Up,4
+114630,Sliding Two Fingers Right,3
+100510,Sliding Two Fingers Left,2
+50089,Sliding Two Fingers Right,3
+142202,Stop Sign,5
+32444,Stop Sign,5
+64621,Swiping Right,1
+91042,Thumb Up,4
+82385,Sliding Two Fingers Left,2
+101813,Swiping Left,0
+97188,Swiping Left,0
+143515,Swiping Right,1
+2359,Sliding Two Fingers Right,3
+108862,Swiping Left,0
+31590,No gesture,6
+112306,Sliding Two Fingers Left,2
+108377,Thumb Up,4
+43453,Thumb Up,4
+82738,Swiping Right,1
+50929,Stop Sign,5
+8822,Swiping Right,1
+144616,Thumb Up,4
+101167,Swiping Left,0
+62028,Swiping Left,0
+138207,Sliding Two Fingers Left,2
+59735,Thumb Up,4
+68539,Swiping Left,0
+98169,Sliding Two Fingers Left,2
+142415,Swiping Right,1
+11900,Thumb Up,4
+49143,Swiping Right,1
+135039,Thumb Up,4
+68483,Sliding Two Fingers Right,3
+11364,Swiping Left,0
+59245,Swiping Right,1
+113678,No gesture,6
+71624,Sliding Two Fingers Right,3
+58343,Sliding Two Fingers Left,2
+113006,Stop Sign,5
+19950,Swiping Right,1
+28785,Sliding Two Fingers Right,3
+41016,Stop Sign,5
+92921,Stop Sign,5
+21791,Swiping Left,0
+51794,Sliding Two Fingers Left,2
+41758,Swiping Right,1
+103885,Swiping Left,0
+128972,Sliding Two Fingers Left,2
+20932,Swiping Left,0
+81130,No gesture,6
+75419,Sliding Two Fingers Right,3
+77722,Sliding Two Fingers Left,2
+81738,Sliding Two Fingers Left,2
+129018,Thumb Up,4
+48971,No gesture,6
+43398,No gesture,6
+36518,Sliding Two Fingers Left,2
+107362,Swiping Right,1
+28968,Swiping Left,0
+3163,Swiping Right,1
+46682,Sliding Two Fingers Right,3
+35066,Sliding Two Fingers Right,3
+115736,No gesture,6
+17463,Thumb Up,4
+121106,Swiping Right,1
+144509,Sliding Two Fingers Left,2
+63270,Sliding Two Fingers Right,3
+33563,Swiping Right,1
+90408,Swiping Left,0
+99427,Swiping Right,1
+33697,Sliding Two Fingers Left,2
+6806,Sliding Two Fingers Right,3
+117566,Stop Sign,5
+93355,Sliding Two Fingers Left,2
+142871,Thumb Up,4
+2488,Thumb Up,4
+106101,No gesture,6
+97237,Sliding Two Fingers Right,3
+47703,Stop Sign,5
+88602,Sliding Two Fingers Left,2
+127673,Swiping Right,1
+136765,Thumb Up,4
+117195,Sliding Two Fingers Left,2
+131816,Thumb Up,4
+54909,Thumb Up,4
+49878,No gesture,6
+7978,Swiping Right,1
+138136,Sliding Two Fingers Left,2
+143874,Sliding Two Fingers Left,2
+128130,Sliding Two Fingers Left,2
+73011,Swiping Left,0
+88728,Sliding Two Fingers Right,3
+83010,Sliding Two Fingers Left,2
+84970,Sliding Two Fingers Right,3
+21406,Thumb Up,4
+1216,Sliding Two Fingers Left,2
+112901,Stop Sign,5
+15475,Sliding Two Fingers Left,2
+122341,Swiping Right,1
+50866,Thumb Up,4
+49889,Thumb Up,4
+116685,No gesture,6
+55160,No gesture,6
+140637,Sliding Two Fingers Left,2
+123123,Stop Sign,5
+136717,Sliding Two Fingers Left,2
+92233,Swiping Left,0
+132599,Stop Sign,5
+16280,Swiping Left,0
+107477,Stop Sign,5
+98281,Stop Sign,5
+20600,Swiping Right,1
+144998,Sliding Two Fingers Right,3
+53719,Swiping Left,0
+31871,Sliding Two Fingers Right,3
+109152,Thumb Up,4
+131732,Thumb Up,4
+133258,Swiping Right,1
+82530,No gesture,6
+109121,Sliding Two Fingers Right,3
+142061,Swiping Right,1
+114094,Thumb Up,4
+136445,Swiping Right,1
+103481,Sliding Two Fingers Left,2
+129064,Sliding Two Fingers Right,3
+13546,No gesture,6
+103730,Swiping Left,0
+127031,Stop Sign,5
+6312,Swiping Left,0
+93593,Sliding Two Fingers Left,2
+34680,Stop Sign,5
+75337,No gesture,6
+29834,Stop Sign,5
+121908,Thumb Up,4
+18800,Swiping Right,1
+3376,No gesture,6
+22599,Sliding Two Fingers Left,2
+101588,No gesture,6
+101372,Stop Sign,5
+78863,Sliding Two Fingers Right,3
+121415,Swiping Left,0
+13573,No gesture,6
+107112,Swiping Right,1
+25555,Swiping Right,1
+97410,Stop Sign,5
+40378,Sliding Two Fingers Left,2
+101067,Swiping Left,0
+95674,Sliding Two Fingers Right,3
+130472,Swiping Right,1
+63555,Thumb Up,4
+128092,Sliding Two Fingers Left,2
+38093,Swiping Left,0
+27685,Swiping Left,0
+102937,Sliding Two Fingers Right,3
+47451,Swiping Right,1
+107499,Sliding Two Fingers Right,3
+59910,Thumb Up,4
+31658,Stop Sign,5
+111665,Sliding Two Fingers Left,2
+75138,Swiping Right,1
+52043,Swiping Right,1
+98407,Swiping Right,1
+139219,Sliding Two Fingers Right,3
+90442,Sliding Two Fingers Left,2
+8557,Thumb Up,4
+128076,No gesture,6
+9360,Stop Sign,5
+4924,Sliding Two Fingers Left,2
+11198,Thumb Up,4
+106995,Stop Sign,5
+120871,Sliding Two Fingers Left,2
+23335,Sliding Two Fingers Right,3
+5596,Sliding Two Fingers Left,2
+49908,Thumb Up,4
+73211,Stop Sign,5
+117736,Sliding Two Fingers Left,2
+111331,Sliding Two Fingers Left,2
+31985,Sliding Two Fingers Left,2
+82885,Sliding Two Fingers Left,2
+116096,Swiping Left,0
+47818,Swiping Right,1
+123812,Thumb Up,4
+123737,Thumb Up,4
+123155,Sliding Two Fingers Right,3
+97635,Swiping Right,1
+108780,Stop Sign,5
+43613,Sliding Two Fingers Right,3
+109064,Sliding Two Fingers Right,3
+7251,Thumb Up,4
+122431,Thumb Up,4
+34708,Swiping Right,1
+18368,Sliding Two Fingers Left,2
+42152,Sliding Two Fingers Left,2
+5982,Thumb Up,4
+20181,Thumb Up,4
+108831,No gesture,6
+26546,No gesture,6
+69407,Stop Sign,5
+7862,Stop Sign,5
+6938,No gesture,6
+99926,Swiping Left,0
+18463,No gesture,6
+32744,Sliding Two Fingers Left,2
+145726,Swiping Right,1
+74820,Sliding Two Fingers Left,2
+31072,Sliding Two Fingers Left,2
+123643,Sliding Two Fingers Right,3
+35464,Swiping Right,1
+27002,Swiping Left,0
+80042,Sliding Two Fingers Right,3
+13169,Swiping Right,1
+71739,No gesture,6
+22571,Swiping Right,1
+122698,Swiping Right,1
+62719,Swiping Left,0
+55447,Sliding Two Fingers Right,3
+9960,Swiping Right,1
+5993,Sliding Two Fingers Right,3
+54298,Swiping Left,0
+78620,Swiping Left,0
+139861,No gesture,6
+32204,Thumb Up,4
+36019,Stop Sign,5
+91609,Swiping Left,0
+139283,Thumb Up,4
+65135,Sliding Two Fingers Left,2
+78231,Sliding Two Fingers Right,3
+77417,Swiping Left,0
+65027,No gesture,6
+69109,Sliding Two Fingers Right,3
+71301,Swiping Left,0
+87656,Swiping Left,0
+946,Sliding Two Fingers Right,3
+144613,Sliding Two Fingers Left,2
+138560,No gesture,6
+137641,Stop Sign,5
+117876,Stop Sign,5
+123995,Thumb Up,4
+19937,Sliding Two Fingers Left,2
+116800,No gesture,6
+142346,Swiping Right,1
+109593,Thumb Up,4
+124438,No gesture,6
+2651,Sliding Two Fingers Right,3
+15421,Sliding Two Fingers Left,2
+3618,Swiping Left,0
+95834,Swiping Left,0
+133029,Swiping Right,1
+142381,No gesture,6
+12016,Stop Sign,5
+99099,Swiping Left,0
+133393,Sliding Two Fingers Right,3
+25486,Stop Sign,5
+31175,Sliding Two Fingers Left,2
+75301,Sliding Two Fingers Right,3
+140946,Swiping Right,1
+97801,No gesture,6
+69479,Thumb Up,4
+120634,Sliding Two Fingers Right,3
+144388,Sliding Two Fingers Right,3
+31873,Swiping Right,1
+33124,Swiping Right,1
+61686,Swiping Right,1
+35351,No gesture,6
+116769,Swiping Left,0
+107847,Swiping Left,0
+134366,Sliding Two Fingers Left,2
+30341,Sliding Two Fingers Right,3
+127891,No gesture,6
+148052,Sliding Two Fingers Right,3
+28701,Swiping Left,0
+62478,Sliding Two Fingers Left,2
+109211,No gesture,6
+69081,Sliding Two Fingers Left,2
+134570,Thumb Up,4
+101370,Sliding Two Fingers Right,3
+142009,Swiping Left,0
+45987,Sliding Two Fingers Left,2
+5169,Sliding Two Fingers Right,3
+18923,Thumb Up,4
+143373,Swiping Right,1
+68299,Sliding Two Fingers Right,3
+52142,Stop Sign,5
+42498,Swiping Right,1
+133370,Sliding Two Fingers Right,3
+33778,Swiping Left,0
+25534,Swiping Right,1
+99485,Thumb Up,4
+32017,Sliding Two Fingers Left,2
+5506,Swiping Left,0
+138579,Sliding Two Fingers Right,3
+44325,Sliding Two Fingers Left,2
+110792,Thumb Up,4
+21961,Swiping Left,0
+31672,Stop Sign,5
+134892,Thumb Up,4
+102053,Swiping Right,1
+145996,No gesture,6
+78750,Sliding Two Fingers Right,3
+22175,Sliding Two Fingers Right,3
+1530,No gesture,6
+63890,Sliding Two Fingers Right,3
+76891,Swiping Right,1
+119435,Sliding Two Fingers Left,2
+72196,No gesture,6
+45761,Sliding Two Fingers Right,3
+92648,Thumb Up,4
+78646,No gesture,6
+9592,Stop Sign,5
+74591,Stop Sign,5
+78977,Stop Sign,5
+77415,Sliding Two Fingers Left,2
+145017,No gesture,6
+141421,No gesture,6
+141209,Swiping Right,1
+145971,Sliding Two Fingers Left,2
+115812,Swiping Left,0
+141474,Swiping Left,0
+111063,Thumb Up,4
+27066,Swiping Right,1
+77784,No gesture,6
+11089,Sliding Two Fingers Right,3
+52851,Sliding Two Fingers Right,3
+16651,Sliding Two Fingers Right,3
+132182,Stop Sign,5
+69900,Swiping Right,1
+111563,Sliding Two Fingers Right,3
+107651,Swiping Left,0
+60553,Swiping Left,0
+15377,Sliding Two Fingers Left,2
+147295,No gesture,6
+124329,Sliding Two Fingers Right,3
+14701,Swiping Left,0
+13458,Sliding Two Fingers Right,3
+36477,Sliding Two Fingers Right,3
+3005,Stop Sign,5
+48101,Thumb Up,4
+110671,Thumb Up,4
+53600,Sliding Two Fingers Left,2
+106655,Sliding Two Fingers Left,2
+122043,No gesture,6
+57440,Sliding Two Fingers Left,2
+56040,Thumb Up,4
+119030,Thumb Up,4
+20082,Swiping Right,1
+72748,Thumb Up,4
+25262,Sliding Two Fingers Right,3
+18743,Thumb Up,4
+23310,Swiping Left,0
+146107,Thumb Up,4
+47856,Swiping Left,0
+47269,Swiping Left,0
+60833,Swiping Right,1
+28393,Swiping Left,0
+137658,Swiping Right,1
+84257,Swiping Right,1
+75366,Thumb Up,4
+138633,Swiping Left,0
+117447,Thumb Up,4
+13932,Thumb Up,4
+54550,Thumb Up,4
+129726,No gesture,6
+12374,Stop Sign,5
+8133,Stop Sign,5
+36980,Stop Sign,5
+88078,Sliding Two Fingers Left,2
+144291,Stop Sign,5
+59116,Swiping Left,0
+15139,Thumb Up,4
+11415,Sliding Two Fingers Left,2
+118963,Stop Sign,5
+38533,Sliding Two Fingers Right,3
+71556,No gesture,6
+16013,No gesture,6
+32304,Swiping Left,0
+32129,Swiping Left,0
+70539,Stop Sign,5
+113221,Thumb Up,4
+43563,Swiping Right,1
+58434,Sliding Two Fingers Left,2
+93969,Swiping Right,1
+39856,Swiping Right,1
+61747,Swiping Left,0
+87426,Thumb Up,4
+62329,Swiping Right,1
+121943,Sliding Two Fingers Right,3
+43383,Sliding Two Fingers Right,3
+116919,Thumb Up,4
+12704,Stop Sign,5
+62434,Swiping Right,1
+33558,No gesture,6
+86135,Stop Sign,5
+24855,Swiping Right,1
+96083,Swiping Right,1
+60968,Sliding Two Fingers Right,3
+84320,Thumb Up,4
+29918,Swiping Right,1
+34309,Sliding Two Fingers Right,3
+40286,Swiping Left,0
+34078,No gesture,6
+73924,Sliding Two Fingers Right,3
+89314,Swiping Left,0
+48459,Stop Sign,5
+74943,Sliding Two Fingers Right,3
+121992,Sliding Two Fingers Left,2
+25318,Sliding Two Fingers Right,3
+69364,Sliding Two Fingers Right,3
+41576,Sliding Two Fingers Right,3
+79943,Swiping Left,0
+58335,Sliding Two Fingers Left,2
+41616,No gesture,6
+88884,Sliding Two Fingers Right,3
+4452,Swiping Left,0
+23944,Swiping Right,1
+30398,Thumb Up,4
+114749,Swiping Right,1
+29823,No gesture,6
+46162,Stop Sign,5
+26645,Thumb Up,4
+67021,No gesture,6
+67595,Sliding Two Fingers Left,2
+129800,Thumb Up,4
+2914,Stop Sign,5
+44918,No gesture,6
+129493,No gesture,6
+17293,Swiping Right,1
+103754,Stop Sign,5
+47043,Swiping Right,1
+99446,Sliding Two Fingers Left,2
+2216,No gesture,6
+34705,Swiping Right,1
+67755,Thumb Up,4
+51615,Sliding Two Fingers Left,2
+146189,Sliding Two Fingers Right,3
+16433,Stop Sign,5
+126775,No gesture,6
+42042,Sliding Two Fingers Left,2
+38687,Stop Sign,5
+144318,Thumb Up,4
+26503,Stop Sign,5
+6754,Swiping Left,0
+58189,Sliding Two Fingers Right,3
+113286,Stop Sign,5
+36678,Sliding Two Fingers Right,3
+23932,Sliding Two Fingers Left,2
+148011,Swiping Right,1
+92267,Sliding Two Fingers Left,2
+116932,Thumb Up,4
+88538,Sliding Two Fingers Right,3
+13333,Stop Sign,5
+127068,No gesture,6
+37009,Swiping Right,1
+76143,Sliding Two Fingers Left,2
+22988,Sliding Two Fingers Left,2
+66499,Swiping Left,0
+94536,Sliding Two Fingers Left,2
+19291,Sliding Two Fingers Right,3
+55275,Thumb Up,4
+78912,Stop Sign,5
+132239,Sliding Two Fingers Right,3
+77743,Swiping Right,1
+98325,Sliding Two Fingers Left,2
+104762,Sliding Two Fingers Left,2
+41672,No gesture,6
+3104,Swiping Right,1
+82490,Sliding Two Fingers Right,3
+47892,Sliding Two Fingers Left,2
+130501,Sliding Two Fingers Left,2
+81067,Swiping Right,1
+92796,Sliding Two Fingers Right,3
+51978,Swiping Right,1
+475,Stop Sign,5
+119719,Swiping Left,0
+146969,Sliding Two Fingers Left,2
+134788,No gesture,6
+71520,Sliding Two Fingers Right,3
+67404,Sliding Two Fingers Right,3
+64851,No gesture,6
+88006,Stop Sign,5
+108272,No gesture,6
+41972,Thumb Up,4
+17717,Sliding Two Fingers Left,2
+144550,Swiping Left,0
+144853,No gesture,6
+56385,Stop Sign,5
+34176,Sliding Two Fingers Right,3
+80995,Sliding Two Fingers Left,2
+95542,Swiping Right,1
+117564,Swiping Left,0
+65518,No gesture,6
+140535,Sliding Two Fingers Right,3
+113378,Sliding Two Fingers Left,2
+141277,No gesture,6
+17327,Sliding Two Fingers Left,2
+14337,Sliding Two Fingers Right,3
+31516,Swiping Left,0
+145847,Sliding Two Fingers Right,3
+101308,Swiping Right,1
+106247,Sliding Two Fingers Right,3
+90463,Swiping Left,0
+129179,Swiping Left,0
+22363,Sliding Two Fingers Right,3
+4470,Swiping Left,0
+11074,Stop Sign,5
+86522,Stop Sign,5
+84219,Sliding Two Fingers Left,2
+65925,Stop Sign,5
+57368,Swiping Left,0
+108992,Sliding Two Fingers Left,2
+42634,No gesture,6
+101279,Sliding Two Fingers Left,2
+112264,Thumb Up,4
+27658,Thumb Up,4
+131712,Thumb Up,4
+20634,Sliding Two Fingers Right,3
+95011,Swiping Right,1
+47023,No gesture,6
+73672,Thumb Up,4
+83416,Thumb Up,4
+107551,Stop Sign,5
+16239,Sliding Two Fingers Right,3
+139420,Thumb Up,4
+7120,Thumb Up,4
+44921,Sliding Two Fingers Right,3
+142710,Swiping Right,1
+137585,Swiping Left,0
+530,Swiping Left,0
+33680,Swiping Left,0
+145774,Sliding Two Fingers Left,2
+86950,Sliding Two Fingers Left,2
+100003,Thumb Up,4
+102717,Stop Sign,5
+7129,Sliding Two Fingers Right,3
+8603,Swiping Right,1
+69803,Thumb Up,4
+72182,No gesture,6
+97107,Thumb Up,4
+41298,Thumb Up,4
+137664,Swiping Left,0
+48633,Sliding Two Fingers Left,2
+60907,Swiping Left,0
+114944,Thumb Up,4
+78162,Stop Sign,5
+41817,Thumb Up,4
+101504,Sliding Two Fingers Right,3
+55408,No gesture,6
+35899,Swiping Right,1
+118414,Sliding Two Fingers Left,2
+101101,Swiping Left,0
+68084,Sliding Two Fingers Right,3
+94646,Sliding Two Fingers Right,3
+108951,Sliding Two Fingers Right,3
+68411,Swiping Left,0
+131613,Swiping Left,0
+75285,Swiping Right,1
+109995,Stop Sign,5
+94697,Thumb Up,4
+123833,Sliding Two Fingers Left,2
+46165,No gesture,6
+140202,Sliding Two Fingers Left,2
+90947,Swiping Left,0
+54841,Sliding Two Fingers Right,3
+72263,Thumb Up,4
+29974,Stop Sign,5
+74167,Swiping Left,0
+98590,Sliding Two Fingers Right,3
+65959,Sliding Two Fingers Left,2
+136250,Stop Sign,5
+18854,Stop Sign,5
+40548,Stop Sign,5
+142327,Stop Sign,5
+17369,Stop Sign,5
+137647,Thumb Up,4
+67088,Stop Sign,5
+134151,No gesture,6
+12090,Swiping Right,1
+67924,Swiping Left,0
+3896,Thumb Up,4
+135644,Sliding Two Fingers Right,3
+111035,Sliding Two Fingers Right,3
+41905,Swiping Left,0
+60070,Stop Sign,5
+13350,No gesture,6
+92139,Swiping Left,0
+81756,Sliding Two Fingers Right,3
+105847,Stop Sign,5
+81852,Swiping Left,0
+23283,Swiping Left,0
+132740,Sliding Two Fingers Right,3
+89261,Sliding Two Fingers Left,2
+90729,Swiping Right,1
+17638,No gesture,6
+81277,Swiping Right,1
+8311,No gesture,6
+38088,Thumb Up,4
+110563,Swiping Left,0
+104501,Stop Sign,5
+42241,Sliding Two Fingers Left,2
+98373,No gesture,6
+81194,Sliding Two Fingers Left,2
+44162,No gesture,6
+82617,Swiping Right,1
+79670,Sliding Two Fingers Left,2
+19267,Sliding Two Fingers Right,3
+53246,No gesture,6
+117536,Thumb Up,4
+38605,Sliding Two Fingers Left,2
+74671,Sliding Two Fingers Right,3
+324,Swiping Left,0
+110127,Swiping Left,0
+46788,Stop Sign,5
+63053,Sliding Two Fingers Right,3
+19493,Swiping Right,1
+3536,Swiping Right,1
+23069,Swiping Right,1
+29988,Swiping Right,1
+42875,Stop Sign,5
+130915,Thumb Up,4
+67889,No gesture,6
+26420,No gesture,6
+16335,Swiping Left,0
+72961,Sliding Two Fingers Right,3
+147259,Sliding Two Fingers Left,2
+37944,No gesture,6
+87178,Sliding Two Fingers Right,3
+73396,Sliding Two Fingers Right,3
+56793,Sliding Two Fingers Right,3
+79880,No gesture,6
+18621,No gesture,6
+95570,Sliding Two Fingers Left,2
+51929,No gesture,6
+36698,No gesture,6
+2157,Sliding Two Fingers Left,2
+45811,Sliding Two Fingers Right,3
+89734,Sliding Two Fingers Left,2
+128012,Sliding Two Fingers Left,2
+127526,Sliding Two Fingers Left,2
+4117,Thumb Up,4
+136729,Thumb Up,4
+125286,Swiping Left,0
+104927,No gesture,6
+40479,Stop Sign,5
+34642,No gesture,6
+124573,Thumb Up,4
+31952,Swiping Right,1
+139989,Sliding Two Fingers Right,3
+65366,No gesture,6
+41744,Stop Sign,5
+109120,Swiping Left,0
+38747,Sliding Two Fingers Left,2
+114385,Swiping Right,1
+72233,Swiping Right,1
+17345,Stop Sign,5
+121622,Stop Sign,5
+71626,Thumb Up,4
+32087,Stop Sign,5
+8595,Swiping Left,0
+115284,Swiping Left,0
+137502,Thumb Up,4
+23287,Swiping Right,1
+121987,Swiping Left,0
+23328,Swiping Left,0
+102558,Swiping Right,1
+95282,Swiping Right,1
+90843,Thumb Up,4
+43112,Swiping Right,1
+86479,Sliding Two Fingers Right,3
+57985,Sliding Two Fingers Left,2
+118088,Swiping Left,0
+80656,No gesture,6
+89300,Sliding Two Fingers Left,2
+94064,Thumb Up,4
+41176,Thumb Up,4
+147151,Thumb Up,4
+123173,No gesture,6
+83953,Swiping Right,1
+103859,No gesture,6
+7249,Swiping Right,1
+33304,No gesture,6
+98061,Swiping Left,0
+126204,Sliding Two Fingers Right,3
+52936,Stop Sign,5
+102978,Swiping Right,1
+88559,Sliding Two Fingers Right,3
+46395,No gesture,6
+55262,Sliding Two Fingers Left,2
+65264,Stop Sign,5
+84656,No gesture,6
+65372,Sliding Two Fingers Left,2
+130579,Swiping Left,0
+108210,Swiping Left,0
+67274,Sliding Two Fingers Right,3
+40762,Swiping Left,0
+38762,Swiping Left,0
+57001,Thumb Up,4
+114431,Stop Sign,5
+16591,Swiping Right,1
+77059,Swiping Right,1
+70022,Swiping Right,1
+136867,No gesture,6
+85497,No gesture,6
+57330,No gesture,6
+8541,Sliding Two Fingers Left,2
+87992,Swiping Left,0
+135804,No gesture,6
+110314,Swiping Right,1
+52927,Sliding Two Fingers Left,2
+90236,Swiping Left,0
+72955,Swiping Right,1
+120817,Sliding Two Fingers Left,2
+64655,Swiping Left,0
+83638,Swiping Left,0
+143673,Sliding Two Fingers Right,3
+47643,Sliding Two Fingers Right,3
+119348,Swiping Left,0
+70977,Thumb Up,4
+24322,Swiping Right,1
+83907,Stop Sign,5
+128310,Swiping Right,1
+55845,Stop Sign,5
+53773,No gesture,6
+98244,No gesture,6
+16146,Stop Sign,5
+102954,Swiping Left,0
+30245,Swiping Left,0
+6228,No gesture,6
+52034,Swiping Left,0
+66921,Swiping Left,0
+143493,Sliding Two Fingers Right,3
+44416,Sliding Two Fingers Left,2
+54156,Sliding Two Fingers Right,3
+57971,Thumb Up,4
+108993,No gesture,6
+59189,Sliding Two Fingers Left,2
+33123,Swiping Left,0
+35904,Swiping Right,1
+51297,Swiping Right,1
+75389,Swiping Left,0
+59628,Sliding Two Fingers Left,2
+96146,Swiping Right,1
+113316,Sliding Two Fingers Right,3
+143472,Swiping Right,1
+13871,Swiping Left,0
+66875,Thumb Up,4
+141446,No gesture,6
+32722,Swiping Right,1
+113898,Stop Sign,5
+130740,Thumb Up,4
+66881,Swiping Right,1
+77872,Sliding Two Fingers Left,2
+121224,Swiping Right,1
+42294,Sliding Two Fingers Right,3
+89341,Sliding Two Fingers Right,3
+140989,Swiping Right,1
+70902,No gesture,6
+131238,Sliding Two Fingers Right,3
+120198,Swiping Right,1
+19621,Swiping Left,0
+94165,Stop Sign,5
+140706,Thumb Up,4
+16702,No gesture,6
+20924,Sliding Two Fingers Right,3
+7981,Swiping Left,0
+48575,Thumb Up,4
+87733,No gesture,6
+140994,Thumb Up,4
+14807,Stop Sign,5
+90364,Swiping Left,0
+19410,No gesture,6
+78336,Sliding Two Fingers Right,3
+4746,Swiping Right,1
+112185,Thumb Up,4
+81023,No gesture,6
+106778,Sliding Two Fingers Left,2
+50409,Stop Sign,5
+19087,Thumb Up,4
+68185,Swiping Right,1
+144278,Stop Sign,5
+52282,Sliding Two Fingers Left,2
+58379,No gesture,6
+84888,No gesture,6
+111385,Stop Sign,5
+111423,Thumb Up,4
+32389,Stop Sign,5
+82356,Sliding Two Fingers Left,2
+135176,Sliding Two Fingers Right,3
+107476,Sliding Two Fingers Right,3
+103458,Thumb Up,4
+117027,Thumb Up,4
+91383,Swiping Left,0
+112978,Stop Sign,5
+70352,Stop Sign,5
+74896,Swiping Right,1
+12690,Sliding Two Fingers Left,2
+129972,Swiping Right,1
+57619,Thumb Up,4
+75165,Thumb Up,4
+105196,Thumb Up,4
+55844,No gesture,6
+74635,Stop Sign,5
+33743,Swiping Left,0
+124029,Stop Sign,5
+3254,Stop Sign,5
+100502,Sliding Two Fingers Left,2
+38296,Sliding Two Fingers Right,3
+20487,Stop Sign,5
+53476,Stop Sign,5
+144619,Sliding Two Fingers Right,3
+144936,Sliding Two Fingers Left,2
+144073,No gesture,6
+138498,Sliding Two Fingers Right,3
+65269,Swiping Right,1
+49283,No gesture,6
+101288,Swiping Right,1
+61366,Sliding Two Fingers Left,2
+139524,Sliding Two Fingers Right,3
+118696,Stop Sign,5
+139551,Thumb Up,4
+51358,Thumb Up,4
+110391,Swiping Right,1
+91828,Swiping Left,0
+142607,Thumb Up,4
+6127,No gesture,6
+110306,Swiping Left,0
+39578,Stop Sign,5
+6120,Sliding Two Fingers Left,2
+15895,No gesture,6
+141781,Swiping Right,1
+60863,Thumb Up,4
+108802,Stop Sign,5
+70979,Sliding Two Fingers Left,2
+67574,Stop Sign,5
+19159,Swiping Right,1
+66031,Thumb Up,4
+91522,No gesture,6
+147058,Swiping Right,1
+67445,No gesture,6
+72887,Sliding Two Fingers Left,2
+25779,Swiping Left,0
+20458,Thumb Up,4
+107104,Swiping Right,1
+124223,Sliding Two Fingers Right,3
+1997,Sliding Two Fingers Right,3
+133529,No gesture,6
+53180,Sliding Two Fingers Right,3
+64088,Sliding Two Fingers Left,2
+39792,Thumb Up,4
+80363,Swiping Right,1
+141537,Sliding Two Fingers Right,3
+126627,Swiping Right,1
+109336,Sliding Two Fingers Left,2
+111121,Stop Sign,5
+101298,No gesture,6
+65094,Swiping Left,0
+11789,Sliding Two Fingers Right,3
+8419,Swiping Right,1
+103903,Swiping Left,0
+36905,Swiping Right,1
+70777,Swiping Right,1
+56334,Sliding Two Fingers Left,2
+105514,Sliding Two Fingers Right,3
+97004,Stop Sign,5
+43691,No gesture,6
+14039,Stop Sign,5
+120366,No gesture,6
+62194,Sliding Two Fingers Left,2
+81042,Sliding Two Fingers Right,3
+3925,Swiping Left,0
+45513,Sliding Two Fingers Left,2
+139108,Stop Sign,5
+105241,Sliding Two Fingers Right,3
+137110,Swiping Left,0
+7632,Swiping Right,1
+103002,Stop Sign,5
+11976,Stop Sign,5
+12243,Thumb Up,4
+145622,No gesture,6
+136315,Stop Sign,5
+78405,No gesture,6
+72580,Sliding Two Fingers Right,3
+104910,Sliding Two Fingers Right,3
+66519,Stop Sign,5
+44580,Stop Sign,5
+81641,Sliding Two Fingers Left,2
+77860,Swiping Right,1
+13586,Stop Sign,5
+30387,Thumb Up,4
+85213,Swiping Left,0
+56691,Sliding Two Fingers Left,2
+115456,Swiping Right,1
+107231,Thumb Up,4
+71635,Thumb Up,4
+97022,No gesture,6
+83618,Thumb Up,4
+38204,Sliding Two Fingers Left,2
+88332,Stop Sign,5
+10033,Sliding Two Fingers Right,3
+3584,Sliding Two Fingers Left,2
+95124,Sliding Two Fingers Right,3
+76837,Sliding Two Fingers Left,2
+33633,Stop Sign,5
+6671,Swiping Right,1
+96447,No gesture,6
+50921,Swiping Right,1
+142034,Sliding Two Fingers Left,2
+11225,Swiping Right,1
+18982,No gesture,6
+117578,Sliding Two Fingers Left,2
+116823,Swiping Left,0
+141507,Stop Sign,5
+134915,Swiping Left,0
+45454,No gesture,6
+8529,No gesture,6
+69532,Thumb Up,4
+72597,Swiping Left,0
+123233,Swiping Left,0
+20856,Swiping Left,0
+22838,Sliding Two Fingers Right,3
+21538,Sliding Two Fingers Left,2
+39995,Swiping Left,0
+130473,No gesture,6
+31225,Sliding Two Fingers Right,3
+55377,No gesture,6
+26463,Sliding Two Fingers Left,2
+59721,No gesture,6
+130287,Swiping Left,0
+31529,Swiping Left,0
+103192,Sliding Two Fingers Left,2
+44328,Sliding Two Fingers Left,2
+126709,Thumb Up,4
+16835,Stop Sign,5
+137124,Sliding Two Fingers Left,2
+121669,Stop Sign,5
+51091,Swiping Left,0
+60083,Swiping Left,0
+124998,Swiping Right,1
+19813,Swiping Right,1
+32398,Stop Sign,5
+98179,Sliding Two Fingers Left,2
+136086,Sliding Two Fingers Left,2
+85873,Sliding Two Fingers Right,3
+21645,Sliding Two Fingers Right,3
+18857,Swiping Left,0
+84367,Sliding Two Fingers Left,2
+31517,Sliding Two Fingers Right,3
+115790,Sliding Two Fingers Left,2
+50049,Thumb Up,4
+100729,Sliding Two Fingers Right,3
+420,Thumb Up,4
+43890,Stop Sign,5
+107817,Stop Sign,5
+11793,No gesture,6
+85638,Sliding Two Fingers Left,2
+55665,Thumb Up,4
+91945,No gesture,6
+33022,Thumb Up,4
+81660,Sliding Two Fingers Left,2
+40649,Sliding Two Fingers Right,3
+147294,Swiping Left,0
+123470,No gesture,6
+139217,Sliding Two Fingers Left,2
+63783,Swiping Left,0
+90519,Thumb Up,4
+139760,Stop Sign,5
+129926,Stop Sign,5
+111360,Sliding Two Fingers Right,3
+51571,Swiping Right,1
+63788,Stop Sign,5
+36041,Swiping Left,0
+146365,Thumb Up,4
+59292,No gesture,6
+71882,Stop Sign,5
+92015,Swiping Left,0
+81190,Thumb Up,4
+67380,Sliding Two Fingers Left,2
+11004,Stop Sign,5
+103176,Swiping Left,0
+93395,Sliding Two Fingers Right,3
+45726,Sliding Two Fingers Right,3
+142574,Stop Sign,5
+121732,Sliding Two Fingers Left,2
+135385,No gesture,6
+63237,Swiping Left,0
+59654,Sliding Two Fingers Right,3
+118457,Swiping Left,0
+48349,Thumb Up,4
+86561,Swiping Left,0
+38000,Stop Sign,5
+143636,Swiping Left,0
+102693,Sliding Two Fingers Right,3
+23,Sliding Two Fingers Right,3
+130094,Stop Sign,5
+58420,Thumb Up,4
+21500,Swiping Left,0
+129376,Thumb Up,4
+103179,Swiping Right,1
+147146,Swiping Right,1
+15538,Sliding Two Fingers Right,3
+110745,Sliding Two Fingers Left,2
+106433,Sliding Two Fingers Left,2
+114911,Swiping Left,0
+88617,No gesture,6
+120974,Sliding Two Fingers Right,3
+56203,Swiping Right,1
+39302,Swiping Left,0
+93253,Stop Sign,5
+13985,Sliding Two Fingers Left,2
+115460,Swiping Right,1
+22887,Sliding Two Fingers Right,3
+96673,No gesture,6
+84980,Stop Sign,5
+85209,Sliding Two Fingers Left,2
+78160,Thumb Up,4
+126180,Thumb Up,4
+132606,Sliding Two Fingers Right,3
+71563,Swiping Left,0
+62775,Swiping Left,0
+88614,Sliding Two Fingers Left,2
+62761,Stop Sign,5
+121030,Swiping Left,0
+42714,Sliding Two Fingers Right,3
+69832,Thumb Up,4
+42455,Thumb Up,4
+100947,Swiping Right,1
+88890,Thumb Up,4
+115641,Stop Sign,5
+63504,Stop Sign,5
+112947,Swiping Right,1
+9759,Stop Sign,5
+74702,Thumb Up,4
+53566,Thumb Up,4
+39324,Swiping Right,1
+111808,Stop Sign,5
+124260,No gesture,6
+38279,Sliding Two Fingers Right,3
+76331,Thumb Up,4
+103148,Thumb Up,4
+130034,Swiping Left,0
+12879,Thumb Up,4
+103769,Swiping Right,1
+77598,Sliding Two Fingers Left,2
+62367,Sliding Two Fingers Right,3
+46299,Swiping Left,0
+115091,Sliding Two Fingers Left,2
+92018,Swiping Right,1
+98211,Thumb Up,4
+146770,Sliding Two Fingers Left,2
+57054,Swiping Right,1
+64473,Stop Sign,5
+105998,Thumb Up,4
+41925,Stop Sign,5
+144496,Swiping Left,0
+66133,Swiping Right,1
+56159,Thumb Up,4
+16658,Sliding Two Fingers Right,3
+87100,No gesture,6
+56180,Sliding Two Fingers Left,2
+56339,Swiping Left,0
+51832,No gesture,6
+34501,Swiping Left,0
+67859,Stop Sign,5
+126756,Stop Sign,5
+28214,Sliding Two Fingers Right,3
+105740,Swiping Left,0
+19737,No gesture,6
+85845,Swiping Left,0
+117838,Swiping Left,0
+55581,Swiping Left,0
+95983,Thumb Up,4
+42721,No gesture,6
+80468,Sliding Two Fingers Right,3
+138840,Thumb Up,4
+84638,Swiping Right,1
+23826,Thumb Up,4
+101093,Thumb Up,4
+49945,Stop Sign,5
+21958,No gesture,6
+110807,Stop Sign,5
+69695,Stop Sign,5
+98180,Stop Sign,5
+5724,Swiping Right,1
+86737,Swiping Left,0
+3850,Swiping Right,1
+84868,Sliding Two Fingers Left,2
+1450,Sliding Two Fingers Left,2
+7319,No gesture,6
+101829,Sliding Two Fingers Right,3
+127852,Sliding Two Fingers Right,3
+94687,Swiping Left,0
+98265,Sliding Two Fingers Right,3
+76142,No gesture,6
+94653,Sliding Two Fingers Left,2
+141569,No gesture,6
+77333,Thumb Up,4
+21626,Sliding Two Fingers Left,2
+92323,Sliding Two Fingers Left,2
+66202,Swiping Right,1
+35228,Sliding Two Fingers Left,2
+28156,Swiping Left,0
+75303,Sliding Two Fingers Left,2
+121736,No gesture,6
+70296,Stop Sign,5
+55219,Stop Sign,5
+147378,Swiping Left,0
+136446,Thumb Up,4
+8752,Sliding Two Fingers Right,3
+3494,No gesture,6
+130009,Thumb Up,4
+143644,Swiping Left,0
+28073,Thumb Up,4
+103699,Swiping Left,0
+94801,Sliding Two Fingers Left,2
+77301,Sliding Two Fingers Left,2
+144120,Sliding Two Fingers Left,2
+75123,Sliding Two Fingers Right,3
+142147,No gesture,6
+46289,No gesture,6
+106020,Sliding Two Fingers Right,3
+85095,Sliding Two Fingers Right,3
+10040,Stop Sign,5
+69046,Thumb Up,4
+127810,Stop Sign,5
+32382,No gesture,6
+117158,No gesture,6
+116254,Stop Sign,5
+36615,Swiping Right,1
+58010,Stop Sign,5
+42091,Stop Sign,5
+27892,No gesture,6
+92446,Sliding Two Fingers Left,2
+109598,No gesture,6
+68668,No gesture,6
+588,Sliding Two Fingers Right,3
+42628,Stop Sign,5
+66101,No gesture,6
+132332,Stop Sign,5
+111504,Stop Sign,5
+129169,Sliding Two Fingers Left,2
+39332,No gesture,6
+92826,Sliding Two Fingers Left,2
+147225,Thumb Up,4
+113305,Sliding Two Fingers Left,2
+60781,Sliding Two Fingers Left,2
+110318,Thumb Up,4
+40937,Sliding Two Fingers Right,3
+11973,Thumb Up,4
+65425,Sliding Two Fingers Left,2
+44360,Sliding Two Fingers Left,2
+124141,Thumb Up,4
+48634,Swiping Right,1
+135050,No gesture,6
+38576,Stop Sign,5
+94035,Stop Sign,5
+79364,Thumb Up,4
+70448,Swiping Right,1
+119053,Sliding Two Fingers Left,2
+51349,Stop Sign,5
+89585,Stop Sign,5
+97719,Swiping Right,1
+145412,Stop Sign,5
+28349,Swiping Right,1
+141052,No gesture,6
+24377,Sliding Two Fingers Right,3
+10755,Sliding Two Fingers Right,3
+117863,Sliding Two Fingers Left,2
+100839,Sliding Two Fingers Right,3
+111170,No gesture,6
+124371,Swiping Left,0
+132485,Stop Sign,5
+34271,Sliding Two Fingers Right,3
+93610,No gesture,6
+37080,Sliding Two Fingers Left,2
+97560,Swiping Left,0
+118654,Sliding Two Fingers Left,2
+18625,Sliding Two Fingers Right,3
+98295,Thumb Up,4
+121279,Stop Sign,5
+32407,Stop Sign,5
+103039,Swiping Right,1
+103004,Swiping Right,1
+123906,Sliding Two Fingers Left,2
+45603,Sliding Two Fingers Right,3
+93001,Thumb Up,4
+125209,Thumb Up,4
+136596,Sliding Two Fingers Left,2
+23430,Swiping Right,1
+46082,Swiping Right,1
+126527,Thumb Up,4
+76341,Swiping Left,0
+129799,Sliding Two Fingers Right,3
+7283,No gesture,6
+93992,No gesture,6
+11827,Stop Sign,5
+75203,Sliding Two Fingers Right,3
+60556,Sliding Two Fingers Right,3
+53872,Thumb Up,4
+82874,Swiping Right,1
+6788,Swiping Right,1
+34382,Stop Sign,5
+13253,Swiping Right,1
+138562,Sliding Two Fingers Left,2
+24033,Stop Sign,5
+140178,Thumb Up,4
+40735,Swiping Right,1
+109139,Thumb Up,4
+107245,Swiping Right,1
+139067,Sliding Two Fingers Right,3
+61514,Sliding Two Fingers Right,3
+9741,No gesture,6
+123187,Thumb Up,4
+55977,Sliding Two Fingers Left,2
+28600,Swiping Right,1
+126168,Sliding Two Fingers Right,3
+70293,Thumb Up,4
+146134,No gesture,6
+71727,No gesture,6
+38200,No gesture,6
+47740,Thumb Up,4
+124465,Swiping Right,1
+56695,Swiping Right,1
+91737,Sliding Two Fingers Left,2
+18929,Swiping Right,1
+68745,No gesture,6
+36098,No gesture,6
+56833,No gesture,6
+26562,Thumb Up,4
+138243,Sliding Two Fingers Right,3
+51938,Thumb Up,4
+44950,Sliding Two Fingers Right,3
+95403,Stop Sign,5
+67119,No gesture,6
+117142,Sliding Two Fingers Right,3
+109187,Sliding Two Fingers Left,2
+106814,Swiping Left,0
+13432,Swiping Left,0
+35213,No gesture,6
+137748,Swiping Left,0
+10389,Swiping Right,1
+17167,Sliding Two Fingers Left,2
+50884,Sliding Two Fingers Left,2
+134926,Swiping Right,1
+137504,Swiping Right,1
+84945,Sliding Two Fingers Left,2
+23421,Stop Sign,5
+3329,Sliding Two Fingers Left,2
+114289,Swiping Left,0
+72097,Swiping Right,1
+62060,Swiping Left,0
+56421,Sliding Two Fingers Left,2
+16753,Swiping Right,1
+17807,Stop Sign,5
+72974,Sliding Two Fingers Left,2
+30098,No gesture,6
+118971,No gesture,6
+61014,No gesture,6
+78221,No gesture,6
+107294,No gesture,6
+51919,No gesture,6
+100800,No gesture,6
+48170,Stop Sign,5
+123478,Swiping Right,1
+64625,Swiping Right,1
+24843,Thumb Up,4
+33045,Stop Sign,5
+34876,Thumb Up,4
+88104,Swiping Right,1
+68199,Sliding Two Fingers Left,2
+5164,Stop Sign,5
+61720,Stop Sign,5
+76918,No gesture,6
+9576,Sliding Two Fingers Left,2
+134274,Thumb Up,4
+4457,Stop Sign,5
+112172,No gesture,6
+114185,Swiping Left,0
+127462,Swiping Right,1
+63073,Sliding Two Fingers Left,2
+34689,Stop Sign,5
+23324,Swiping Left,0
+121410,Swiping Left,0
+15255,Swiping Left,0
+124401,Sliding Two Fingers Right,3
+77845,Swiping Right,1
+121002,Stop Sign,5
+78120,Swiping Left,0
+59534,Swiping Left,0
+855,Sliding Two Fingers Right,3
+97497,Thumb Up,4
+56938,Swiping Left,0
+134395,Stop Sign,5
+22588,Sliding Two Fingers Right,3
+21605,Sliding Two Fingers Right,3
+132571,Swiping Left,0
+8810,Sliding Two Fingers Left,2
+50608,Sliding Two Fingers Right,3
+130525,Swiping Right,1
+28386,Thumb Up,4
+123606,Swiping Right,1
+136047,Sliding Two Fingers Left,2
+28196,No gesture,6
+54101,Sliding Two Fingers Left,2
+72608,Swiping Right,1
+14286,Sliding Two Fingers Right,3
+137297,Swiping Left,0
+40690,Stop Sign,5
+108448,Swiping Left,0
+19152,Swiping Right,1
+35334,Stop Sign,5
+147395,Thumb Up,4
+57955,Stop Sign,5
+93496,Stop Sign,5
+18002,Swiping Left,0
+147960,Sliding Two Fingers Left,2
+118011,No gesture,6
+133002,Sliding Two Fingers Left,2
+98402,Stop Sign,5
+54830,No gesture,6
+124183,Sliding Two Fingers Right,3
+104799,Swiping Left,0
+115877,No gesture,6
+134502,No gesture,6
+122202,Swiping Right,1
+1851,No gesture,6
+22565,Swiping Right,1
+7778,Stop Sign,5
+115887,Swiping Left,0
+43259,Thumb Up,4
+131775,Swiping Right,1
+28440,Thumb Up,4
+128281,Swiping Left,0
+108963,Sliding Two Fingers Right,3
+64521,Stop Sign,5
+42284,Thumb Up,4
+10782,Swiping Left,0
+31680,No gesture,6
+70486,Swiping Right,1
+15045,Swiping Left,0
+33083,Sliding Two Fingers Left,2
+104189,Stop Sign,5
+18695,Thumb Up,4
+83055,No gesture,6
+81033,Thumb Up,4
+90237,Sliding Two Fingers Right,3
+7500,No gesture,6
+13019,Sliding Two Fingers Left,2
+132111,Thumb Up,4
+127765,Stop Sign,5
+143439,Sliding Two Fingers Right,3
+73694,No gesture,6
+25386,Sliding Two Fingers Right,3
+113984,Sliding Two Fingers Right,3
+8616,Thumb Up,4
+46650,Stop Sign,5
+69989,No gesture,6
+55996,Thumb Up,4
+2997,Swiping Left,0
+127289,Thumb Up,4
+18272,Thumb Up,4
+27584,No gesture,6
+95182,Sliding Two Fingers Right,3
+122800,Sliding Two Fingers Right,3
+76806,Sliding Two Fingers Left,2
+114006,Sliding Two Fingers Right,3
+21912,Sliding Two Fingers Left,2
+16826,Stop Sign,5
+15069,Swiping Left,0
+72649,Stop Sign,5
+81790,Swiping Left,0
+16830,Swiping Right,1
+136279,No gesture,6
+6697,Sliding Two Fingers Right,3
+111758,Sliding Two Fingers Left,2
+65722,Sliding Two Fingers Left,2
+26697,Swiping Left,0
+90745,No gesture,6
+130430,Stop Sign,5
+34911,Stop Sign,5
+98573,Sliding Two Fingers Right,3
+97326,Sliding Two Fingers Left,2
+29774,No gesture,6
+54406,Swiping Left,0
+98460,Sliding Two Fingers Left,2
+111636,No gesture,6
+4634,Stop Sign,5
+14396,Swiping Right,1
+56303,Sliding Two Fingers Left,2
+91836,Sliding Two Fingers Right,3
+50423,Stop Sign,5
+33143,Stop Sign,5
+84183,Swiping Right,1
+88072,Swiping Right,1
+143781,Sliding Two Fingers Left,2
+23090,Sliding Two Fingers Right,3
+75288,Swiping Left,0
+119218,Swiping Left,0
+35350,Stop Sign,5
+41304,Sliding Two Fingers Right,3
+16759,Sliding Two Fingers Left,2
+24240,Sliding Two Fingers Left,2
+127276,Stop Sign,5
+140259,No gesture,6
+5760,Thumb Up,4
+104701,Sliding Two Fingers Right,3
+104434,Sliding Two Fingers Right,3
+14260,Thumb Up,4
+106297,Swiping Left,0
+71461,Stop Sign,5
+128807,Sliding Two Fingers Right,3
+68010,No gesture,6
+25712,No gesture,6
+39060,Stop Sign,5
+53541,Swiping Left,0
+134166,Thumb Up,4
+55348,Sliding Two Fingers Left,2
+106794,Sliding Two Fingers Left,2
+105499,Swiping Right,1
+117219,Swiping Right,1
+104894,Swiping Left,0
+99284,Sliding Two Fingers Left,2
+60459,Swiping Right,1
+11068,Sliding Two Fingers Right,3
+27308,Stop Sign,5
+112150,Stop Sign,5
+70063,Stop Sign,5
+24112,Swiping Left,0
+137949,Stop Sign,5
+19362,No gesture,6
+105130,Swiping Left,0
+139979,No gesture,6
+96256,Stop Sign,5
+20333,Swiping Right,1
+126118,No gesture,6
+22568,Thumb Up,4
+135575,Sliding Two Fingers Right,3
+30491,Sliding Two Fingers Left,2
+125075,Thumb Up,4
+1853,Swiping Right,1
+127842,Thumb Up,4
+96,Swiping Right,1
+69679,Sliding Two Fingers Right,3
+51414,Sliding Two Fingers Right,3
+86625,Sliding Two Fingers Right,3
+60331,Stop Sign,5
+95835,Stop Sign,5
+15821,Sliding Two Fingers Right,3
+43068,No gesture,6
+99885,Swiping Left,0
+125802,Sliding Two Fingers Right,3
+137749,Sliding Two Fingers Right,3
+48685,Sliding Two Fingers Right,3
+19958,Sliding Two Fingers Right,3
+3368,Stop Sign,5
+47607,Sliding Two Fingers Right,3
+142190,Sliding Two Fingers Right,3
+90880,Swiping Left,0
+129030,Sliding Two Fingers Right,3
+34233,Sliding Two Fingers Right,3
+32791,Thumb Up,4
+131575,Stop Sign,5
+105523,No gesture,6
+133586,Swiping Left,0
+101204,Stop Sign,5
+116376,Thumb Up,4
+20438,Sliding Two Fingers Left,2
+2899,Thumb Up,4
+129167,Swiping Left,0
+70998,Thumb Up,4
+84960,Stop Sign,5
+92781,Sliding Two Fingers Right,3
+77305,Sliding Two Fingers Left,2
+58931,Stop Sign,5
+134573,Swiping Right,1
+112080,Swiping Right,1
+18416,Thumb Up,4
+37227,Sliding Two Fingers Left,2
+1473,No gesture,6
+127260,Thumb Up,4
+122605,Sliding Two Fingers Left,2
+105560,Thumb Up,4
+96321,Swiping Right,1
+113745,Stop Sign,5
+103256,Sliding Two Fingers Left,2
+43085,Sliding Two Fingers Left,2
+122568,Swiping Left,0
+76039,Thumb Up,4
+3552,No gesture,6
+144539,Sliding Two Fingers Right,3
+79259,Sliding Two Fingers Right,3
+8858,Swiping Right,1
+139590,Thumb Up,4
+358,No gesture,6
+8019,Sliding Two Fingers Left,2
+9022,Thumb Up,4
+81560,Sliding Two Fingers Right,3
+12597,Stop Sign,5
+80327,Swiping Right,1
+1089,Swiping Right,1
+76714,Swiping Left,0
+48942,Sliding Two Fingers Left,2
+8043,Thumb Up,4
+111406,Swiping Left,0
+42349,No gesture,6
+131629,Stop Sign,5
+104885,No gesture,6
+28286,Sliding Two Fingers Left,2
+22122,Thumb Up,4
+11940,Swiping Left,0
+92741,No gesture,6
+58646,Thumb Up,4
+78516,No gesture,6
+56965,Thumb Up,4
+54399,Sliding Two Fingers Right,3
+56675,Swiping Left,0
+111741,Sliding Two Fingers Left,2
+37409,Swiping Left,0
+64603,Sliding Two Fingers Left,2
+13356,No gesture,6
+96607,Sliding Two Fingers Left,2
+43382,Thumb Up,4
+37643,Swiping Right,1
+114533,Thumb Up,4
+41310,Sliding Two Fingers Right,3
+143411,Sliding Two Fingers Right,3
+89326,Sliding Two Fingers Left,2
+95106,Swiping Left,0
+82621,Sliding Two Fingers Left,2
+117021,Sliding Two Fingers Left,2
+109615,Thumb Up,4
+2719,Thumb Up,4
+62343,Swiping Right,1
+55442,Swiping Right,1
+128684,Swiping Right,1
+6551,Sliding Two Fingers Right,3
+58588,Swiping Right,1
+136798,Thumb Up,4
+118212,Swiping Left,0
+59672,Stop Sign,5
+136481,Sliding Two Fingers Right,3
+99256,Thumb Up,4
+40271,Thumb Up,4
+41345,Swiping Left,0
+99159,Swiping Right,1
+126565,Sliding Two Fingers Left,2
+146080,Sliding Two Fingers Right,3
+14231,Sliding Two Fingers Left,2
+110459,Sliding Two Fingers Left,2
+6059,Swiping Right,1
+46601,Stop Sign,5
+115010,Sliding Two Fingers Right,3
+114766,No gesture,6
+34485,Stop Sign,5
+108186,No gesture,6
+56327,Sliding Two Fingers Left,2
+57944,No gesture,6
+120515,Stop Sign,5
+29569,No gesture,6
+27215,Swiping Left,0
+128817,Swiping Left,0
+50325,Sliding Two Fingers Left,2
+52707,Swiping Left,0
+20048,Sliding Two Fingers Left,2
+127182,Sliding Two Fingers Left,2
+83564,Sliding Two Fingers Right,3
+117429,Stop Sign,5
+63340,Swiping Left,0
+95844,Sliding Two Fingers Left,2
+104676,No gesture,6
+32252,Swiping Right,1
+1029,No gesture,6
+39021,No gesture,6
+24607,Swiping Right,1
+64559,Swiping Left,0
+87769,Swiping Left,0
+52615,Swiping Right,1
+11918,Sliding Two Fingers Right,3
+52939,Stop Sign,5
+75831,Sliding Two Fingers Right,3
+145650,Swiping Right,1
+41524,Thumb Up,4
+47506,Swiping Right,1
+5787,No gesture,6
+60742,No gesture,6
+127504,Swiping Left,0
+15263,Thumb Up,4
+15743,Sliding Two Fingers Left,2
+36327,Sliding Two Fingers Right,3
+8836,No gesture,6
+63931,Stop Sign,5
+146104,Thumb Up,4
+51940,Thumb Up,4
+72388,No gesture,6
+57282,Thumb Up,4
+86068,Sliding Two Fingers Left,2
+24405,Sliding Two Fingers Right,3
+66234,Thumb Up,4
+97599,Sliding Two Fingers Right,3
+102508,Stop Sign,5
+120550,Stop Sign,5
+139188,Swiping Left,0
+2860,Thumb Up,4
+9431,Sliding Two Fingers Right,3
+91201,No gesture,6
+132394,No gesture,6
+89875,Thumb Up,4
+126214,No gesture,6
+60475,Swiping Right,1
+21089,Swiping Right,1
+143269,Thumb Up,4
+29323,Sliding Two Fingers Left,2
+34712,Stop Sign,5
+63548,Swiping Right,1
+145773,Stop Sign,5
+46718,Stop Sign,5
+38131,Sliding Two Fingers Right,3
+105732,Swiping Right,1
+129001,Sliding Two Fingers Left,2
+134402,Sliding Two Fingers Right,3
+16116,Swiping Right,1
+12661,No gesture,6
+68972,Swiping Left,0
+95136,No gesture,6
+25238,No gesture,6
+104464,Swiping Left,0
+140033,Thumb Up,4
+61571,No gesture,6
+52567,Stop Sign,5
+38314,No gesture,6
+112384,Stop Sign,5
+93075,Sliding Two Fingers Right,3
+80634,Thumb Up,4
+134171,Sliding Two Fingers Right,3
+22529,No gesture,6
+48443,Sliding Two Fingers Right,3
+139325,Sliding Two Fingers Left,2
+114341,Stop Sign,5
+93456,Sliding Two Fingers Right,3
+38392,Thumb Up,4
+72561,Swiping Right,1
+61595,Stop Sign,5
+65141,Swiping Left,0
+119320,No gesture,6
+70792,Swiping Right,1
+105149,No gesture,6
+73677,Sliding Two Fingers Left,2
+15543,Swiping Right,1
+121959,Thumb Up,4
+43872,Swiping Right,1
+24023,Stop Sign,5
+48179,Sliding Two Fingers Right,3
+65165,Swiping Left,0
+29223,Swiping Right,1
+86515,No gesture,6
+125379,No gesture,6
+91237,Swiping Left,0
+20797,Swiping Left,0
+40406,Stop Sign,5
+52260,Swiping Left,0
+13054,Thumb Up,4
+7999,Swiping Left,0
+52451,Swiping Left,0
+92633,Swiping Right,1
+76624,No gesture,6
+53037,No gesture,6
+67747,Swiping Right,1
+103354,No gesture,6
+24704,Sliding Two Fingers Left,2
+4583,Stop Sign,5
+39096,Thumb Up,4
+71347,Swiping Right,1
+141234,Sliding Two Fingers Right,3
+101723,Thumb Up,4
+6424,Swiping Right,1
+104239,No gesture,6
+104744,Swiping Right,1
+859,Sliding Two Fingers Right,3
+75470,Swiping Right,1
+96007,Stop Sign,5
+109973,Sliding Two Fingers Left,2
+11992,Swiping Right,1
+84453,Thumb Up,4
+76929,Sliding Two Fingers Left,2
+74270,Thumb Up,4
+5536,No gesture,6
+121808,Thumb Up,4
+18250,Swiping Left,0
+120178,Swiping Right,1
+24506,Sliding Two Fingers Left,2
+1531,Sliding Two Fingers Right,3
+104267,Swiping Right,1
+115774,Stop Sign,5
+33642,Sliding Two Fingers Right,3
+97352,Sliding Two Fingers Left,2
+63159,Thumb Up,4
+144641,Swiping Left,0
+98926,Stop Sign,5
+142335,No gesture,6
+133646,Swiping Left,0
+122535,Sliding Two Fingers Left,2
+140381,Sliding Two Fingers Right,3
+1945,Swiping Right,1
+92988,Stop Sign,5
+42110,Sliding Two Fingers Left,2
+70248,Swiping Right,1
+3738,Swiping Left,0
+104985,Swiping Left,0
+23368,No gesture,6
+79354,No gesture,6
+71659,Thumb Up,4
+16071,Sliding Two Fingers Left,2
+77167,Sliding Two Fingers Right,3
+124497,Swiping Right,1
+8625,Stop Sign,5
+60933,Swiping Left,0
+32385,Swiping Right,1
+71905,Swiping Right,1
+130984,No gesture,6
+98356,Sliding Two Fingers Right,3
+146127,Sliding Two Fingers Left,2
+43835,Thumb Up,4
+45377,Swiping Left,0
+96585,Sliding Two Fingers Right,3
+108141,Sliding Two Fingers Right,3
+81458,Sliding Two Fingers Right,3
+143514,Stop Sign,5
+129982,Thumb Up,4
+69943,No gesture,6
+55090,Swiping Left,0
+132978,Stop Sign,5
+55054,Sliding Two Fingers Right,3
+24325,Swiping Left,0
+13461,Swiping Left,0
+92780,Sliding Two Fingers Right,3
+134363,Swiping Left,0
+58811,Sliding Two Fingers Left,2
+127429,No gesture,6
+125923,Swiping Right,1
+123457,Stop Sign,5
+35268,Thumb Up,4
+44888,Stop Sign,5
+55079,No gesture,6
+36872,Swiping Right,1
+77676,No gesture,6
+47302,Stop Sign,5
+15853,Stop Sign,5
+21453,Swiping Right,1
+141451,Sliding Two Fingers Left,2
+75697,Swiping Right,1
+18025,Stop Sign,5
+46455,Swiping Left,0
+123024,No gesture,6
+7334,Sliding Two Fingers Right,3
+21343,Stop Sign,5
+23542,Swiping Left,0
+24251,Thumb Up,4
+87535,Swiping Right,1
+29479,Swiping Right,1
+69678,Sliding Two Fingers Left,2
+61297,No gesture,6
+35919,Sliding Two Fingers Right,3
+34275,Stop Sign,5
+53592,Thumb Up,4
+37031,Sliding Two Fingers Left,2
+92640,Stop Sign,5
+114521,Stop Sign,5
+28606,Swiping Right,1
+147407,Swiping Right,1
+98817,Sliding Two Fingers Left,2
+29711,Sliding Two Fingers Right,3
+74741,Swiping Right,1
+106217,Sliding Two Fingers Right,3
+50971,Swiping Right,1
+124938,Sliding Two Fingers Left,2
+65392,No gesture,6
+89527,Stop Sign,5
+36003,Sliding Two Fingers Right,3
+37781,No gesture,6
+123012,Stop Sign,5
+16836,Sliding Two Fingers Left,2
+144536,Stop Sign,5
+95316,No gesture,6
+40421,Swiping Right,1
+67138,Thumb Up,4
+1700,Stop Sign,5
+71989,Thumb Up,4
+110316,Sliding Two Fingers Left,2
+52878,Sliding Two Fingers Left,2
+11746,Thumb Up,4
+12239,Thumb Up,4
+75577,Sliding Two Fingers Right,3
+60257,Swiping Right,1
+87048,Thumb Up,4
+67413,Swiping Right,1
+2318,Stop Sign,5
+5002,No gesture,6
+134894,Sliding Two Fingers Right,3
+71705,No gesture,6
+140145,Stop Sign,5
+122666,Swiping Right,1
+59300,Swiping Left,0
+55734,Swiping Left,0
+78406,Swiping Right,1
+139042,Sliding Two Fingers Right,3
+39599,Sliding Two Fingers Left,2
+33027,Sliding Two Fingers Left,2
+137957,Sliding Two Fingers Left,2
+139831,Swiping Left,0
+44335,Sliding Two Fingers Left,2
+99414,No gesture,6
+25060,No gesture,6
+74390,Swiping Right,1
+95230,No gesture,6
+79842,Sliding Two Fingers Left,2
+116947,No gesture,6
+14153,Swiping Left,0
+58115,Stop Sign,5
+130568,Thumb Up,4
+13303,Swiping Right,1
+89856,Sliding Two Fingers Right,3
+24302,No gesture,6
+79494,Swiping Right,1
+54132,Sliding Two Fingers Left,2
+96982,Thumb Up,4
+113905,Swiping Right,1
+74043,Sliding Two Fingers Left,2
+11777,Swiping Right,1
+22154,Thumb Up,4
+39432,Stop Sign,5
+58995,Thumb Up,4
+53971,Thumb Up,4
+87923,Swiping Right,1
+31400,Sliding Two Fingers Left,2
+37384,Stop Sign,5
+32179,Stop Sign,5
+44857,No gesture,6
+97261,Stop Sign,5
+114182,Swiping Right,1
+5298,Swiping Right,1
+43516,Swiping Left,0
+125986,Swiping Left,0
+118999,Swiping Right,1
+234,Stop Sign,5
+46950,Swiping Right,1
+128556,Sliding Two Fingers Left,2
+79879,Swiping Left,0
+55294,Swiping Right,1
+23705,Thumb Up,4
+62870,No gesture,6
+34801,No gesture,6
+43525,Sliding Two Fingers Left,2
+67635,Sliding Two Fingers Right,3
+22647,Thumb Up,4
+40141,Sliding Two Fingers Left,2
+97944,Sliding Two Fingers Left,2
+108905,Sliding Two Fingers Left,2
+18577,No gesture,6
+96076,No gesture,6
+6283,Stop Sign,5
+8306,Thumb Up,4
+62105,Sliding Two Fingers Left,2
+33986,Sliding Two Fingers Right,3
+43225,Stop Sign,5
+8593,Thumb Up,4
+68347,Sliding Two Fingers Right,3
+146124,Thumb Up,4
+141404,Stop Sign,5
+125228,No gesture,6
+4119,Sliding Two Fingers Left,2
+86921,Swiping Left,0
+63561,No gesture,6
+113025,Sliding Two Fingers Left,2
+51698,Sliding Two Fingers Right,3
+5961,No gesture,6
+103882,Stop Sign,5
+127613,Sliding Two Fingers Left,2
+71489,Sliding Two Fingers Left,2
+135556,Sliding Two Fingers Left,2
+31799,Swiping Left,0
+80027,Swiping Left,0
+52748,Sliding Two Fingers Right,3
+40778,Thumb Up,4
+109782,Swiping Left,0
+123534,Sliding Two Fingers Left,2
+913,No gesture,6
+103382,Sliding Two Fingers Left,2
+69904,Sliding Two Fingers Right,3
+85662,Swiping Right,1
+13166,No gesture,6
+131899,Sliding Two Fingers Right,3
+93442,Stop Sign,5
+120313,Thumb Up,4
+87110,Stop Sign,5
+941,No gesture,6
+71082,Thumb Up,4
+4982,No gesture,6
+90091,Thumb Up,4
+91641,Swiping Right,1
+18724,Swiping Left,0
+62624,Sliding Two Fingers Left,2
+1621,Sliding Two Fingers Right,3
+69060,Swiping Left,0
+31473,Thumb Up,4
+65987,Sliding Two Fingers Right,3
+41155,Swiping Right,1
+71676,Stop Sign,5
+35761,Thumb Up,4
+124126,Thumb Up,4
+134528,Sliding Two Fingers Right,3
+78508,Sliding Two Fingers Left,2
+24779,No gesture,6
+35854,Sliding Two Fingers Right,3
+57922,Stop Sign,5
+24428,Stop Sign,5
+107596,Swiping Right,1
+76899,Swiping Right,1
+123377,Thumb Up,4
+56046,Sliding Two Fingers Left,2
+81476,Sliding Two Fingers Right,3
+82735,Swiping Left,0
+85968,Stop Sign,5
+106169,No gesture,6
+10533,Sliding Two Fingers Right,3
+89069,Swiping Right,1
+40615,No gesture,6
+29081,Stop Sign,5
+22356,Stop Sign,5
+132029,Thumb Up,4
+59431,Thumb Up,4
+974,Thumb Up,4
+27637,Swiping Left,0
+138458,Thumb Up,4
+105351,Thumb Up,4
+116437,Sliding Two Fingers Right,3
+11341,Swiping Left,0
+112207,No gesture,6
+15590,Sliding Two Fingers Right,3
+45289,Sliding Two Fingers Left,2
+46017,Swiping Right,1
+136624,Sliding Two Fingers Right,3
+16890,Sliding Two Fingers Right,3
+92925,Swiping Right,1
+67437,Swiping Right,1
+123447,Sliding Two Fingers Right,3
+68201,Swiping Left,0
+61548,Stop Sign,5
+71010,Sliding Two Fingers Left,2
+53359,No gesture,6
+98677,No gesture,6
+9934,Sliding Two Fingers Right,3
+46009,Swiping Left,0
+90154,Swiping Right,1
+109612,Sliding Two Fingers Left,2
+19146,Sliding Two Fingers Right,3
+12838,Swiping Right,1
+41049,Sliding Two Fingers Left,2
+88087,Thumb Up,4
+15812,Sliding Two Fingers Left,2
+103735,Thumb Up,4
+13667,No gesture,6
+104692,Thumb Up,4
+111905,Swiping Right,1
+115094,Stop Sign,5
+38806,Thumb Up,4
+40955,Thumb Up,4
+33572,Sliding Two Fingers Left,2
+42388,No gesture,6
+121232,Sliding Two Fingers Left,2
+43677,Swiping Right,1
+120832,Thumb Up,4
+53277,Stop Sign,5
+139682,Stop Sign,5
+128555,Sliding Two Fingers Left,2
+51864,Stop Sign,5
+109238,Sliding Two Fingers Right,3
+126682,Thumb Up,4
+30809,Thumb Up,4
+122132,Swiping Right,1
+83447,Swiping Left,0
+120445,Sliding Two Fingers Right,3
+108821,Stop Sign,5
+30759,Sliding Two Fingers Right,3
+88032,Thumb Up,4
+41350,Swiping Left,0
+111815,Stop Sign,5
+13027,Sliding Two Fingers Right,3
+97231,Stop Sign,5
+128424,Sliding Two Fingers Right,3
+22893,No gesture,6
+90982,Swiping Right,1
+131854,Sliding Two Fingers Right,3
+138493,No gesture,6
+37559,No gesture,6
+129685,Sliding Two Fingers Right,3
+129821,Stop Sign,5
+95896,No gesture,6
+94172,Thumb Up,4
+40533,No gesture,6
+28786,Thumb Up,4
+6041,Sliding Two Fingers Right,3
+51531,Thumb Up,4
+60428,Swiping Right,1
+15423,Stop Sign,5
+63691,Sliding Two Fingers Left,2
+21646,Sliding Two Fingers Left,2
+42136,Stop Sign,5
+114668,Swiping Right,1
+2568,Stop Sign,5
+121420,Stop Sign,5
+75730,Swiping Left,0
+16029,Stop Sign,5
+120211,Swiping Right,1
+14226,Swiping Right,1
+86534,Sliding Two Fingers Right,3
+131488,No gesture,6
+56998,Stop Sign,5
+123214,Stop Sign,5
+139332,Swiping Right,1
+96246,Swiping Left,0
+89982,Thumb Up,4
+60454,Stop Sign,5
+63408,No gesture,6
+53953,Swiping Right,1
+88402,Thumb Up,4
+113786,Swiping Left,0
+87038,Swiping Left,0
+78645,Stop Sign,5
+121103,Swiping Right,1
+14086,Thumb Up,4
+7100,Sliding Two Fingers Right,3
+124659,No gesture,6
+71497,Sliding Two Fingers Left,2
+19706,No gesture,6
+50906,Thumb Up,4
+101834,Swiping Left,0
+144655,Swiping Right,1
+14762,Swiping Right,1
+133159,No gesture,6
+38948,Swiping Right,1
+42530,Stop Sign,5
+102085,Stop Sign,5
+85788,Stop Sign,5
+19083,Swiping Right,1
+95275,Sliding Two Fingers Right,3
+115720,Thumb Up,4
+45703,Stop Sign,5
+65347,Stop Sign,5
+20404,Sliding Two Fingers Right,3
+83632,Thumb Up,4
+77500,Thumb Up,4
+22984,Stop Sign,5
+19186,Swiping Left,0
+59637,Stop Sign,5
+109557,Thumb Up,4
+129323,Swiping Left,0
+31236,Swiping Left,0
+742,Swiping Right,1
+125421,No gesture,6
+11626,Thumb Up,4
+30775,Stop Sign,5
+23985,Sliding Two Fingers Left,2
+42032,Sliding Two Fingers Right,3
+79813,Swiping Left,0
+38041,Sliding Two Fingers Right,3
+146764,Sliding Two Fingers Right,3
+125319,Swiping Left,0
+41177,Sliding Two Fingers Left,2
+128728,Sliding Two Fingers Right,3
+144413,Swiping Right,1
+67373,Swiping Right,1
+60034,Stop Sign,5
+14358,Stop Sign,5
+102569,Thumb Up,4
+120133,Sliding Two Fingers Left,2
+122336,No gesture,6
+83560,Thumb Up,4
+53033,No gesture,6
+46377,No gesture,6
+83383,Thumb Up,4
+48476,Swiping Left,0
+139022,Swiping Right,1
+45111,Thumb Up,4
+53590,Sliding Two Fingers Right,3
+120422,Sliding Two Fingers Right,3
+48305,Thumb Up,4
+138304,Thumb Up,4
+116741,No gesture,6
+136840,Sliding Two Fingers Left,2
+1735,No gesture,6
+14890,Sliding Two Fingers Left,2
+124605,Sliding Two Fingers Right,3
+23800,Thumb Up,4
+136690,Stop Sign,5
+58068,Thumb Up,4
+53275,No gesture,6
+14189,Sliding Two Fingers Right,3
+83273,Swiping Left,0
+73080,Stop Sign,5
+54533,Thumb Up,4
+131765,Swiping Right,1
+117171,Stop Sign,5
+92593,Swiping Right,1
+19604,Swiping Right,1
+12572,Stop Sign,5
+96541,Stop Sign,5
+110071,Swiping Left,0
+142627,Swiping Right,1
+133693,No gesture,6
+7134,No gesture,6
+102926,Swiping Left,0
+48936,Swiping Left,0
+82520,Stop Sign,5
+129462,Stop Sign,5
+135714,Swiping Left,0
+138485,Swiping Left,0
+61950,Stop Sign,5
+64366,Thumb Up,4
+1903,Swiping Left,0
+64294,Stop Sign,5
+97301,Stop Sign,5
+96238,Sliding Two Fingers Left,2
+102051,No gesture,6
+54276,Sliding Two Fingers Right,3
+11908,Stop Sign,5
+115080,No gesture,6
+33072,No gesture,6
+25165,Swiping Left,0
+35194,Stop Sign,5
+70725,Sliding Two Fingers Left,2
+99471,Swiping Left,0
+84715,Sliding Two Fingers Right,3
+9181,Stop Sign,5
+99420,Stop Sign,5
+87711,Swiping Right,1
+38615,Swiping Right,1
+8284,Swiping Right,1
+5642,No gesture,6
+76552,No gesture,6
+129202,Thumb Up,4
+30621,Thumb Up,4
+50252,Swiping Left,0
+140963,No gesture,6
+74153,Swiping Left,0
+97813,Thumb Up,4
+129554,No gesture,6
+56696,Thumb Up,4
+100264,No gesture,6
+32378,Sliding Two Fingers Right,3
+110522,Thumb Up,4
+49276,No gesture,6
+128364,Stop Sign,5
+29915,No gesture,6
+50773,Stop Sign,5
+81959,Thumb Up,4
+147283,Sliding Two Fingers Right,3
+81675,Sliding Two Fingers Left,2
+119942,Sliding Two Fingers Right,3
+47675,Stop Sign,5
+138053,Thumb Up,4
+28079,Sliding Two Fingers Left,2
+94906,Sliding Two Fingers Left,2
+52741,Swiping Right,1
+123327,Swiping Right,1
+13770,Stop Sign,5
+41488,Swiping Right,1
+20230,Thumb Up,4
+45785,Thumb Up,4
+73242,No gesture,6
+33068,No gesture,6
+57348,Stop Sign,5
+143168,Swiping Right,1
+42946,Sliding Two Fingers Left,2
+116264,Swiping Right,1
+39019,Sliding Two Fingers Right,3
+108522,No gesture,6
+60728,No gesture,6
+111040,Swiping Right,1
+22578,Thumb Up,4
+77120,No gesture,6
+49521,Swiping Right,1
+80119,No gesture,6
+83439,Sliding Two Fingers Left,2
+85650,Stop Sign,5
+67782,Swiping Left,0
+4567,No gesture,6
+140077,Swiping Left,0
+27559,Swiping Left,0
+126441,Stop Sign,5
+103843,Stop Sign,5
+86713,Thumb Up,4
+88284,Thumb Up,4
+8820,Swiping Right,1
+34823,Thumb Up,4
+147009,Sliding Two Fingers Right,3
+71355,Stop Sign,5
+91554,Sliding Two Fingers Left,2
+33769,No gesture,6
+91535,Sliding Two Fingers Right,3
+70518,Sliding Two Fingers Left,2
+93433,Thumb Up,4
+122928,No gesture,6
+9558,No gesture,6
+113394,Sliding Two Fingers Left,2
+26471,Sliding Two Fingers Right,3
+77497,Sliding Two Fingers Left,2
+42659,Stop Sign,5
+101218,Sliding Two Fingers Right,3
+65137,Thumb Up,4
+48141,Thumb Up,4
+114428,Swiping Left,0
+55192,Thumb Up,4
+57839,No gesture,6
+47712,Swiping Right,1
+74040,Sliding Two Fingers Left,2
+31219,Swiping Left,0
+2120,Stop Sign,5
+20057,Swiping Left,0
+112295,Thumb Up,4
+38862,Sliding Two Fingers Left,2
+41283,No gesture,6
+48436,Sliding Two Fingers Right,3
+37460,No gesture,6
+124215,No gesture,6
+138350,Sliding Two Fingers Left,2
+89650,Stop Sign,5
+108415,Swiping Left,0
+28287,Sliding Two Fingers Right,3
+67095,Swiping Left,0
+145798,Sliding Two Fingers Right,3
+81989,Thumb Up,4
+43183,Sliding Two Fingers Right,3
+107731,Swiping Left,0
+60620,Thumb Up,4
+35033,Swiping Left,0
+43246,Swiping Left,0
+99590,No gesture,6
+147989,Swiping Left,0
+108788,Sliding Two Fingers Left,2
+147180,Thumb Up,4
+53843,Swiping Left,0
+6705,Stop Sign,5
+120880,Swiping Right,1
+107313,Stop Sign,5
+40021,Sliding Two Fingers Right,3
+95010,Sliding Two Fingers Right,3
+58824,No gesture,6
+108381,No gesture,6
+35008,Swiping Left,0
+126501,No gesture,6
+80714,Stop Sign,5
+98097,Sliding Two Fingers Right,3
+118952,Swiping Right,1
+73049,Sliding Two Fingers Right,3
+106937,Stop Sign,5
+26892,Swiping Left,0
+35166,Swiping Left,0
+62219,Stop Sign,5
+127805,Stop Sign,5
+14942,Thumb Up,4
+142870,Swiping Left,0
+14864,Sliding Two Fingers Right,3
+118196,Thumb Up,4
+62158,Swiping Right,1
+19927,Swiping Left,0
+25562,Thumb Up,4
+33462,Swiping Left,0
+31096,Sliding Two Fingers Left,2
+92467,Sliding Two Fingers Left,2
+113663,Thumb Up,4
+121853,Swiping Left,0
+63081,Swiping Right,1
+56941,Sliding Two Fingers Left,2
+52308,Sliding Two Fingers Left,2
+9485,No gesture,6
+94281,Swiping Left,0
+55217,Sliding Two Fingers Left,2
+42380,Swiping Left,0
+96077,Swiping Right,1
+125703,Swiping Right,1
+106978,Sliding Two Fingers Right,3
+35628,Sliding Two Fingers Left,2
+40655,Swiping Left,0
+120331,Swiping Left,0
+119090,Swiping Left,0
+95761,Stop Sign,5
+20684,Stop Sign,5
+96861,Thumb Up,4
+78254,Stop Sign,5
+42720,Sliding Two Fingers Right,3
+84531,Stop Sign,5
+13890,Swiping Right,1
+26792,Thumb Up,4
+36813,Swiping Left,0
+70841,Swiping Right,1
+87643,Swiping Left,0
+25019,Swiping Right,1
+23347,Sliding Two Fingers Left,2
+14097,Sliding Two Fingers Left,2
+136208,Sliding Two Fingers Right,3

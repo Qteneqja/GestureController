@@ -1,3 +1,4 @@
+import shutil
 import subprocess
 import sys
 from pathlib import Path
@@ -22,3 +23,11 @@ for script in steps:
     )
 
 print("\nDataset split preparation completed.")
+# Copy the final split CSVs to the team's shared location.
+splits_folder = project_root / "data" / "splits"
+splits_folder.mkdir(parents=True, exist_ok=True)
+
+for split in ["train", "validation", "test"]:
+    source = project_root / "data" / "processed" / f"{split}.csv"
+    destination = splits_folder / f"{split}.csv"
+    shutil.copyfile(source, destination)
