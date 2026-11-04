@@ -25,3 +25,4 @@ def load_sequence(video_folder, num_frames=16, image_size=(112, 112)):
             frames.append(pixels)
 
     return np.stack(frames)
+

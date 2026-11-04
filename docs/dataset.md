@@ -28,14 +28,10 @@ by a semicolon. The file has no header row.
 - Turning Hand Clockwise: 3,216 videos
 - Most remaining classes contain roughly 4,000–4,400 videos.
 
-These counts describe the label file. Image files have not
-yet been checked.
+These counts describe the original training label file.
+All videos in our selected splits were checked for JPG frames.
+None were missing frames.
 
-## Next steps
-
-- Finalize gesture classes and command mappings with the team.
-- Prepare reproducible training, validation, and test splits.
-- Implement shared frame preprocessing and dataset loaders.
 
 ## Dataset splits
 
@@ -51,7 +47,8 @@ and 20% validation within each class, using random seed 42.
 The selected official Jester validation data serves as our test set.
 No video IDs overlap between the three sets.
 
-These counts are based on labels. Image files still need checking.
+All selected videos contain JPG frames.
+One TensorFlow batch from each split was loaded successfully.
 
 ## Shared dataset loader
 
@@ -94,9 +91,10 @@ Required packages: NumPy, Pillow and TensorFlow.
 Tested locally with TensorFlow 2.21.0.
 One batch from each split loaded successfully.
 
-Dataset images and generated CSVs are excluded from Git.
-Teammates must obtain the images and regenerate the CSVs
-using the preparation scripts.
+Dataset images stay local and are excluded from Git.
+The final CSVs in data/splits/ are included in Git.
+Teammates must download and extract the images separately.
+Regenerating the split CSVs is optional.
 
 ## Recreate the split CSV files
 
@@ -109,9 +107,7 @@ validation.csv, test.csv and test-answers.csv.
 From the project root, run these commands in order:
 
 ```powershell
-python scripts/filter_labels.py
-python scripts/create_splits.py
-python scripts/prepare_test_labels.py
+python scripts/prepare_data.py
 ```
 
 These create the CSV files used by the loader:
