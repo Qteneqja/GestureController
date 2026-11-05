@@ -57,6 +57,28 @@ def test_output_is_probabilities():
     assert np.allclose(probabilities.sum(axis=1), 1.0, atol=1e-5)
 
 
+def test_every_option_gives_probabilities():
+    # Check all aggregation and backbone combinations. pretrained=False
+    # skips the ImageNet download so the test works offline.
+    for aggregation in ["features", "predictions"]:
+        for backbone in ["small", "mobilenet"]:
+            model = build_cnn_baseline(aggregation=aggregation,
+                                       backbone=backbone, pretrained=False)
+            assert model.output_shape == (None, 7)
+            probabilities = model.predict(fake_clips(), verbose=0)
+            assert np.allclose(probabilities.sum(axis=1), 1.0, atol=1e-5)
+
+
+def test_mobilenet_model_saves_and_loads(tmp_path):
+    model = build_cnn_baseline(backbone="mobilenet", pretrained=False)
+    path = tmp_path / "cnn_mobilenet.keras"
+    model.save(path)
+    reloaded = keras.models.load_model(path)
+    clips = fake_clips()
+    assert np.allclose(model.predict(clips, verbose=0),
+                       reloaded.predict(clips, verbose=0), atol=1e-5)
+
+
 def test_settings_change_the_model():
     small = build_cnn_baseline(filters=(8, 16))
     default = build_cnn_baseline()

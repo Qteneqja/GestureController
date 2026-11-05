@@ -7,7 +7,7 @@ Run from the project root:
 All settings come from configs/cnn.yaml.
 
 What one run produces:
-    checkpoints/cnn_baseline_<id>.keras          best model 
+    checkpoints/cnn_baseline_<id>.keras          best model (send this to Troy)
     checkpoints/cnn_baseline_<id>_last.keras     model after the latest epoch
     experiments/cnn_baseline/<id>/history.csv    loss and accuracy per epoch
     experiments/cnn_baseline/<id>/curves.png     loss and accuracy graphs
@@ -164,6 +164,11 @@ def train_cnn(config_path="configs/cnn.yaml", fake=False):
             filters=tuple(model_cfg["filters"]),
             dense_units=model_cfg["dense_units"],
             dropout=model_cfg["dropout"],
+            # Older settings files (EXP-001) did not have these two lines,
+            # and used per-frame predictions with the small encoder.
+            aggregation=model_cfg.get("aggregation", "predictions"),
+            backbone=model_cfg.get("backbone", "small"),
+            pretrained=not fake,  # fake runs skip the weight download
         ),
         learning_rate=train_cfg["learning_rate"],
     )
