@@ -1,0 +1,32 @@
+# Settings for the CNN baseline.
+# Change values here instead of editing the code.
+# Give every training run a new experiment_id so results are not overwritten.
+
+experiment_id: "EXP-001"
+
+# Shared team files (owned by Sandeep). Read only.
+data_config: "configs/data.yaml"
+class_mapping: "config/gesture_classes.json"
+
+# Model shape
+model:
+  filters: [16, 32, 64, 128]   # filters in each CNN block
+  dense_units: 128             # size of the layer before each frame's guess
+  dropout: 0.3                 # share of values randomly dropped while training
+
+# Training
+training:
+  learning_rate: 0.001
+  epochs: 20
+  early_stopping_patience: 4   # stop if validation loss has not improved for this many epochs
+  seed: 42
+
+  # Use part of the data to save time on CPU. null = use everything.
+  # Example: 6000 trains on the first 6,000 training videos.
+  # The split CSVs are already shuffled, so the first rows are a fair sample.
+  train_limit: null
+  validation_limit: null
+
+# Where results go
+output_dir: "experiments/cnn_baseline"   # history, curves and run notes (committed)
+checkpoint_dir: "checkpoints"            # .keras model files (not committed)
