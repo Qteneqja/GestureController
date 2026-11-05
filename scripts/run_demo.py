@@ -2,10 +2,14 @@
 
 Usage (from the project folder, with .venv active):
     python scripts/run_demo.py
+    python scripts/run_demo.py --session swipe_right_x5
     python scripts/run_demo.py --config configs/inference.yaml
+
+--session names the log file, so you can tell your tests apart later.
 """
 
 import argparse
+import os
 import sys
 from pathlib import Path
 
@@ -16,10 +20,10 @@ from gesture_recognition.application.main import run  # noqa: E402
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--config", default=str(project_root / "configs" / "inference.yaml"))
+parser.add_argument("--session", default="test",
+                    help="short name for this test, used in the log file name")
 args = parser.parse_args()
 
 # Relative paths in the config are read from the project folder.
-import os  # noqa: E402
-
 os.chdir(project_root)
-run(args.config)
+run(args.config, args.session)

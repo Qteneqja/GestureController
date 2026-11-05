@@ -5,6 +5,8 @@ Keys in the preview window:
   1 to 7 pretend the model predicted that class (100% confidence).
          Useful for testing the safety rules before a real model exists.
   Q      quit
+
+Every prediction is saved to a CSV log (see session_log.py).
 """
 
 import time
@@ -14,7 +16,13 @@ import yaml
 
 from .gesture_controller import GestureController
 from .inference import FrameBuffer, GesturePredictor, preprocess_frame
+from .session_log import SessionLog
 from .webcam import Webcam
+
+# Settings copied into each log's JSON file, so every test is traceable.
+LOGGED_SETTINGS = ["model_path", "window_seconds", "predict_every_seconds",
+                   "confidence_threshold", "cooldown_seconds",
+                   "mirror_model_input", "dry_run"]
 
 
 def load_config(path):
@@ -36,7 +44,7 @@ def draw_overlay(frame, controller, status_lines):
                 (200, 200, 200), 1)
 
 
-def run(config_path):
+def run(config_path, session_name="test"):
     config = load_config(config_path)
     image_size = tuple(config["image_size"])
 
@@ -50,6 +58,14 @@ def run(config_path):
     )
     buffer = FrameBuffer(config["window_seconds"], config["num_frames"])
     webcam = Webcam(config["camera_index"])
+
+    log = SessionLog(
+        config.get("log_dir", "data/webcam_tests/logs"),
+        session_name,
+        {key: config.get(key) for key in LOGGED_SETTINGS},
+        start_time=time.monotonic(),
+    )
+    print(f"Logging to {log.path}")
 
     last_predict_time = 0.0
     status = ["Filling buffer..."]
@@ -67,6 +83,8 @@ def run(config_path):
                 label, command, confidence = predictor.predict(buffer.get_sequence())
                 latency_ms = (time.perf_counter() - start) * 1000
                 acted, reason = controller.handle(command, confidence, now)
+                log.write(now, "model", label, command, confidence,
+                          controller.enabled, acted, reason, latency_ms)
                 if acted:
                     buffer.clear()  # start fresh so one gesture is not counted twice
                 status = [
@@ -89,8 +107,13 @@ def run(config_path):
                 if index < len(predictor.classes):
                     item = predictor.classes[index]
                     acted, reason = controller.handle(item["command"], 1.0, now)
+                    log.write(now, "simulated", item["label"], item["command"],
+                              1.0, controller.enabled, acted, reason)
                     status = [f"[simulated] {item['label']}",
                               f"Action: {item['command'] if acted else reason}"]
     finally:
+        log.close()
         webcam.release()
         cv2.destroyAllWindows()
+        print(f"Log saved: {log.path}")
+        print(f"Summary:   python scripts/summarize_log.py \"{log.path}\"")

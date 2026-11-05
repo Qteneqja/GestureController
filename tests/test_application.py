@@ -76,3 +76,29 @@ def test_cooldown_blocks_repeat_then_allows():
     assert c.handle("next_slide", 0.99, now=10.0)[0] is True
     assert c.handle("next_slide", 0.99, now=10.5) == (False, "cooldown")
     assert c.handle("next_slide", 0.99, now=12.0)[0] is True
+
+
+def test_session_log_writes_rows_and_settings(tmp_path):
+    import csv
+    import json
+
+    from gesture_recognition.application.session_log import SessionLog
+
+    log = SessionLog(tmp_path, "swipe right x5", {"window_seconds": 1.5},
+                     start_time=100.0)
+    log.write(101.0, "model", "Swiping Right", "next_slide", 0.91,
+              True, True, "ok", 72.4)
+    log.write(102.0, "simulated", "Thumb Up", "start_presentation", 1.0,
+              True, False, "cooldown")
+    log.close()
+
+    with open(log.path, encoding="utf-8", newline="") as file:
+        rows = list(csv.DictReader(file))
+    assert len(rows) == 2
+    assert rows[0]["label"] == "Swiping Right" and rows[0]["fired"] == "1"
+    assert rows[0]["time_s"] == "1.0"
+    assert rows[1]["model_ms"] == ""
+    assert " " not in log.path.name  # spaces replaced in the file name
+
+    info = json.loads(log.path.with_suffix(".json").read_text(encoding="utf-8"))
+    assert info["window_seconds"] == 1.5 and info["session"] == "swipe right x5"
