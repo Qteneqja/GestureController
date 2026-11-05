@@ -1,0 +1,38 @@
+{
+  "experiment_id": "EXP-000-overfit",
+  "fake_data": false,
+  "epochs_run": 30,
+  "best_epoch": 1,
+  "best_val_loss": 2.0017,
+  "best_val_accuracy": 0.1875,
+  "training_minutes": 2.1,
+  "parameters": 115575,
+  "best_model": "checkpoints\\cnn_baseline_EXP-000-overfit.keras",
+  "tensorflow_version": "2.21.0",
+  "keras_version": "3.15.1",
+  "settings": {
+    "experiment_id": "EXP-000-overfit",
+    "data_config": "configs/data.yaml",
+    "class_mapping": "config/gesture_classes.json",
+    "model": {
+      "filters": [
+        16,
+        32,
+        64,
+        128
+      ],
+      "dense_units": 128,
+      "dropout": 0.3
+    },
+    "training": {
+      "learning_rate": 0.001,
+      "epochs": 30,
+      "early_stopping_patience": 30,
+      "seed": 42,
+      "train_limit": 64,
+      "validation_limit": 64
+    },
+    "output_dir": "experiments/cnn_baseline",
+    "checkpoint_dir": "checkpoints"
+  }
+}
