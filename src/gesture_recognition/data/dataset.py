@@ -15,10 +15,12 @@ def load_dataset(csv_path, frames_folder, augment=False, seed=None,
     with open(csv_path, encoding="utf-8", newline="") as file:
         for row in csv.DictReader(file):
             video_folder = frames_folder / row["video_id"]
+            rotation_angle = rng.uniform(-5.0, 5.0) if augment else 0.0
             sequence = load_sequence(
                 video_folder,
                 num_frames=num_frames,
                 image_size=image_size,
+                rotation_angle=rotation_angle,
             )
             class_id = int(row["class_id"])
 

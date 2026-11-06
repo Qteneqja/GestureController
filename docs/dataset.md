@@ -188,3 +188,10 @@ test_ds = dataset_from_config("test")
 The configuration controls split paths, frame count,
 image size and batch size. Only training uses augmentation
 and shuffling. Labels are integer class IDs from 0 to 6.
+
+
+Training clips are shuffled and augmented with random brightness
+(0.8 to 1.2) and a small random rotation (−5° to +5°). Each clip
+uses the same brightness factor and rotation angle across all 16
+frames to keep the motion consistent. Validation and test clips
+are loaded without augmentation or shuffling.
