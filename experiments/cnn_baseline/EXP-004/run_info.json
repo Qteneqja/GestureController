@@ -1,0 +1,40 @@
+{
+  "experiment_id": "EXP-004",
+  "fake_data": false,
+  "epochs_run": 20,
+  "best_epoch": 15,
+  "best_val_loss": 0.6602,
+  "best_val_accuracy": 0.7462,
+  "training_minutes": 251.0,
+  "parameters": 575079,
+  "best_model": "checkpoints\\cnn_baseline_EXP-004.keras",
+  "tensorflow_version": "2.21.0",
+  "keras_version": "3.15.1",
+  "settings": {
+    "experiment_id": "EXP-004",
+    "data_config": "configs/data.yaml",
+    "class_mapping": "config/gesture_classes.json",
+    "model": {
+      "aggregation": "features",
+      "backbone": "mobilenet",
+      "filters": [
+        16,
+        32,
+        64,
+        128
+      ],
+      "dense_units": 128,
+      "dropout": 0.3
+    },
+    "training": {
+      "learning_rate": 0.0001,
+      "epochs": 20,
+      "early_stopping_patience": 6,
+      "seed": 42,
+      "train_limit": 8000,
+      "validation_limit": null
+    },
+    "output_dir": "experiments/cnn_baseline",
+    "checkpoint_dir": "checkpoints"
+  }
+}

@@ -1,10 +1,10 @@
 # Settings for the CNN baseline.
-# Change values here instead of editing the code.
+# Member: Anika
 # Give every training run a new experiment_id so results are not overwritten.
 
-experiment_id: "EXP-003"
+experiment_id: "EXP-004"
 
-# Shared team files (owned by Member 1). Read only.
+# Shared team files.
 data_config: "configs/data.yaml"
 class_mapping: "config/gesture_classes.json"
 
@@ -31,5 +31,5 @@ training:
   validation_limit: null
 
 # Where results go
-output_dir: "experiments/cnn_baseline"   # history, curves and run notes (committed)
-checkpoint_dir: "checkpoints"            # .keras model files (not committed)
+output_dir: "experiments/cnn_baseline"   # history, curves and run notes 
+checkpoint_dir: "checkpoints"            # .keras model files 
