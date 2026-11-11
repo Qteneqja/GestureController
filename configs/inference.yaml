@@ -3,7 +3,7 @@
 
 # Trained model to load. Swap this path when a real model is ready.
 # The dummy model comes from: python scripts/make_dummy_model.py
-model_path: "checkpoints/dummy_model.keras"
+model_path: "checkpoints/cnn_baseline_EXP-004.keras"
 
 # Shared class list (owned by Member 1). Read only.
 class_mapping: "config/gesture_classes.json"
@@ -17,7 +17,7 @@ camera_index: 0
 
 # Jester clips are about 3 seconds long, and training samples 16 frames
 # evenly across the whole clip. Keep the same amount of time here.
-window_seconds: 3.0
+window_seconds: 1.5
 
 # How often to run the model (seconds). Lower is more responsive but slower.
 predict_every_seconds: 0.5
