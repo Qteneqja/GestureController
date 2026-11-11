@@ -102,3 +102,50 @@ def test_session_log_writes_rows_and_settings(tmp_path):
 
     info = json.loads(log.path.with_suffix(".json").read_text(encoding="utf-8"))
     assert info["window_seconds"] == 1.5 and info["session"] == "swipe right x5"
+
+
+def test_rearm_blocks_return_swipe_until_hand_rests():
+    c = GestureController(KEYS, cooldown_seconds=1.5, start_enabled=True,
+                          rearm_seconds=0.5)
+    keys = {"next_slide": ["right"], "previous_slide": ["left"], "no_action": []}
+    c.command_keys = keys
+    assert c.handle("next_slide", 0.95, now=10.0)[0] is True
+    # Hand moves back across: looks like a swipe, after the cooldown ends.
+    assert c.handle("previous_slide", 0.95, now=12.0) == (False, "waiting for rest")
+    # Hand rests: "No gesture" for 0.5 seconds re-arms.
+    c.handle("no_action", 0.99, now=12.5)
+    c.handle("no_action", 0.99, now=13.0)
+    assert c.handle("previous_slide", 0.95, now=13.5)[0] is True
+
+
+def test_rearm_needs_rest_without_a_break():
+    c = GestureController(KEYS, cooldown_seconds=0, start_enabled=True,
+                          rearm_seconds=0.5)
+    assert c.handle("next_slide", 0.95, now=0.0)[0] is True
+    c.handle("no_action", 0.99, now=1.0)
+    c.handle("next_slide", 0.50, now=1.3)   # movement breaks the rest
+    c.handle("no_action", 0.99, now=1.6)
+    assert c.handle("next_slide", 0.95, now=1.9) == (False, "waiting for rest")
+
+
+def test_held_gesture_does_not_refire():
+    keys = {"pause_or_end_presentation": ["esc"], "no_action": []}
+    c = GestureController(keys, cooldown_seconds=1.5, start_enabled=True,
+                          rearm_seconds=0.5)
+    assert c.handle("pause_or_end_presentation", 1.0, now=0.0)[0] is True
+    # Still holding the stop sign well after the cooldown.
+    for t in (2.0, 4.0, 6.0):
+        assert c.handle("pause_or_end_presentation", 1.0, now=t) == (False, "waiting for rest")
+
+
+def test_simulated_keys_skip_rearm():
+    c = GestureController(KEYS, cooldown_seconds=1.5, start_enabled=True,
+                          rearm_seconds=0.5)
+    assert c.handle("next_slide", 1.0, now=0.0, simulated=True)[0] is True
+    assert c.handle("next_slide", 1.0, now=2.0, simulated=True)[0] is True
+
+
+def test_rearm_off_by_default_in_controller():
+    c = GestureController(KEYS, cooldown_seconds=1.5, start_enabled=True)
+    assert c.handle("next_slide", 0.95, now=0.0)[0] is True
+    assert c.handle("next_slide", 0.95, now=2.0)[0] is True

@@ -22,7 +22,7 @@ from .webcam import Webcam
 # Settings copied into each log's JSON file, so every test is traceable.
 LOGGED_SETTINGS = ["model_path", "window_seconds", "predict_every_seconds",
                    "confidence_threshold", "cooldown_seconds",
-                   "mirror_model_input", "dry_run"]
+                   "rearm_seconds", "mirror_model_input", "dry_run"]
 
 
 def load_config(path):
@@ -55,6 +55,9 @@ def run(config_path, session_name="test"):
         cooldown_seconds=config["cooldown_seconds"],
         start_enabled=config["start_enabled"],
         dry_run=config["dry_run"],
+        # Hand must rest this long after a command before the next one.
+        # Not in inference.yaml yet? The default is 0.5 seconds.
+        rearm_seconds=config.get("rearm_seconds", 0.5),
     )
     buffer = FrameBuffer(config["window_seconds"], config["num_frames"])
     webcam = Webcam(config["camera_index"])
@@ -62,7 +65,8 @@ def run(config_path, session_name="test"):
     log = SessionLog(
         config.get("log_dir", "data/webcam_tests/logs"),
         session_name,
-        {key: config.get(key) for key in LOGGED_SETTINGS},
+        {**{key: config.get(key) for key in LOGGED_SETTINGS},
+         "rearm_seconds": config.get("rearm_seconds", 0.5)},
         start_time=time.monotonic(),
     )
     print(f"Logging to {log.path}")
@@ -106,7 +110,8 @@ def run(config_path, session_name="test"):
                 index = key - ord("1")
                 if index < len(predictor.classes):
                     item = predictor.classes[index]
-                    acted, reason = controller.handle(item["command"], 1.0, now)
+                    acted, reason = controller.handle(item["command"], 1.0, now,
+                                                      simulated=True)
                     log.write(now, "simulated", item["label"], item["command"],
                               1.0, controller.enabled, acted, reason)
                     status = [f"[simulated] {item['label']}",

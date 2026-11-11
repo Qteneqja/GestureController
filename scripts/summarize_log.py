@@ -39,7 +39,7 @@ if info_path.exists():
     info = json.loads(info_path.read_text(encoding="utf-8"))
     print(f"Session: {info.get('session')}   started {info.get('started')}")
     for key in ("model_path", "window_seconds", "confidence_threshold",
-                "cooldown_seconds", "mirror_model_input"):
+                "cooldown_seconds", "rearm_seconds", "mirror_model_input"):
         print(f"  {key}: {info.get(key)}")
 
 times = [float(r["time_s"]) for r in model_rows]
