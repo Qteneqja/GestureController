@@ -7,7 +7,7 @@ First live test of the CNN baseline through the webcam app (`feature/webcam-inte
 - **Model:** `checkpoints/cnn_baseline_EXP-004.keras`
 - **App settings:** 1.5 s window, confidence threshold 0.80, cooldown 1.5 s, re-arm 0.5 s, model input not mirrored, dry run
 - **Method:** one session per gesture, 5 tries each. Hand raised from below, gesture done once, hand dropped out of frame, about 3 s rest between tries.
-- **Logs:** `data/webcam_tests/logs/` on the tester's laptop (not committed). Each session summarized with `python scripts/summarize_log.py <log>`; the raw output is below.
+- **Logs:** `logs/` in this folder, one CSV (predictions) and one JSON (session settings) per session. Each session summarized with `python scripts/summarize_log.py <log>`; the raw output is below.
 
 ## Results
 

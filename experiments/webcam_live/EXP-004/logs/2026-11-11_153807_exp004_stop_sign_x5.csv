@@ -1,0 +1,77 @@
+time_s,source,label,command,confidence,enabled,fired,reason,model_ms
+1.484,model,No gesture,no_action,0.9968,0,0,disabled,8542.1
+11.391,model,No gesture,no_action,0.979,0,0,disabled,179.4
+11.891,model,No gesture,no_action,0.9789,0,0,disabled,66.9
+12.391,model,No gesture,no_action,0.9741,0,0,disabled,67.1
+12.891,model,No gesture,no_action,0.9783,0,0,disabled,68.9
+13.406,model,No gesture,no_action,0.9737,0,0,disabled,63.9
+13.906,model,No gesture,no_action,0.976,0,0,disabled,66.9
+14.406,model,No gesture,no_action,0.974,0,0,disabled,66.4
+14.906,model,No gesture,no_action,0.9773,0,0,disabled,67.1
+15.406,model,No gesture,no_action,0.9711,0,0,disabled,66.9
+15.922,model,No gesture,no_action,0.9595,0,0,disabled,70.0
+16.422,model,No gesture,no_action,0.9557,0,0,disabled,65.4
+16.922,model,No gesture,no_action,0.9624,0,0,disabled,67.0
+17.422,model,No gesture,no_action,0.97,0,0,disabled,69.4
+17.922,model,No gesture,no_action,0.9707,0,0,disabled,68.0
+18.422,model,No gesture,no_action,0.967,0,0,disabled,65.6
+18.922,model,No gesture,no_action,0.9577,1,0,no gesture,65.5
+19.422,model,No gesture,no_action,0.9611,1,0,no gesture,69.6
+19.938,model,No gesture,no_action,0.9614,1,0,no gesture,64.5
+20.438,model,No gesture,no_action,0.8074,1,0,no gesture,68.4
+20.938,model,Stop Sign,pause_or_end_presentation,0.9939,1,1,ok,67.7
+22.375,model,Stop Sign,pause_or_end_presentation,1.0,1,0,waiting for rest,65.1
+22.891,model,Stop Sign,pause_or_end_presentation,1.0,1,0,waiting for rest,66.7
+23.391,model,Stop Sign,pause_or_end_presentation,0.9709,1,0,waiting for rest,65.8
+23.891,model,No gesture,no_action,0.9785,1,0,no gesture,65.6
+24.391,model,No gesture,no_action,0.9728,1,0,no gesture,72.6
+24.891,model,No gesture,no_action,0.9689,1,0,no gesture,73.2
+25.391,model,No gesture,no_action,0.9471,1,0,no gesture,64.4
+25.891,model,No gesture,no_action,0.8658,1,0,no gesture,67.2
+26.406,model,No gesture,no_action,0.6626,1,0,no gesture,69.6
+26.906,model,No gesture,no_action,0.3612,1,0,no gesture,68.4
+27.406,model,Stop Sign,pause_or_end_presentation,0.6269,1,0,low confidence,66.7
+27.906,model,Stop Sign,pause_or_end_presentation,0.5095,1,0,low confidence,65.9
+28.406,model,No gesture,no_action,0.4384,1,0,no gesture,68.4
+28.906,model,No gesture,no_action,0.7127,1,0,no gesture,65.7
+29.422,model,No gesture,no_action,0.7226,1,0,no gesture,67.0
+29.922,model,No gesture,no_action,0.7936,1,0,no gesture,64.4
+30.422,model,No gesture,no_action,0.8563,1,0,no gesture,66.3
+30.922,model,No gesture,no_action,0.9105,1,0,no gesture,69.4
+31.438,model,No gesture,no_action,0.9525,1,0,no gesture,66.1
+31.969,model,No gesture,no_action,0.9659,1,0,no gesture,65.1
+32.469,model,No gesture,no_action,0.9736,1,0,no gesture,65.7
+32.969,model,No gesture,no_action,0.976,1,0,no gesture,63.1
+33.484,model,No gesture,no_action,0.4854,1,0,no gesture,65.5
+33.984,model,Stop Sign,pause_or_end_presentation,0.9998,1,1,ok,67.6
+35.453,model,Stop Sign,pause_or_end_presentation,0.9999,1,0,waiting for rest,63.9
+35.984,model,Stop Sign,pause_or_end_presentation,0.9917,1,0,waiting for rest,63.8
+36.484,model,No gesture,no_action,0.449,1,0,no gesture,67.4
+36.984,model,No gesture,no_action,0.9851,1,0,no gesture,69.4
+37.484,model,No gesture,no_action,0.9849,1,0,no gesture,70.0
+37.984,model,No gesture,no_action,0.9832,1,0,no gesture,67.5
+38.5,model,No gesture,no_action,0.9833,1,0,no gesture,68.5
+39.0,model,No gesture,no_action,0.9647,1,0,no gesture,64.6
+39.5,model,No gesture,no_action,0.8369,1,0,no gesture,66.6
+40.0,model,No gesture,no_action,0.425,1,0,no gesture,66.1
+40.5,model,Stop Sign,pause_or_end_presentation,0.9304,1,1,ok,66.7
+41.938,model,Stop Sign,pause_or_end_presentation,0.9372,1,0,waiting for rest,63.7
+42.453,model,No gesture,no_action,0.6443,1,0,no gesture,66.0
+42.953,model,No gesture,no_action,0.9598,1,0,no gesture,66.2
+43.453,model,No gesture,no_action,0.9699,1,0,no gesture,65.8
+43.953,model,No gesture,no_action,0.9724,1,0,no gesture,66.7
+44.453,model,Stop Sign,pause_or_end_presentation,0.9903,1,1,ok,70.8
+45.922,model,Stop Sign,pause_or_end_presentation,1.0,1,0,waiting for rest,67.6
+46.438,model,Stop Sign,pause_or_end_presentation,1.0,1,0,waiting for rest,64.4
+46.938,model,Stop Sign,pause_or_end_presentation,0.9859,1,0,waiting for rest,67.7
+47.438,model,No gesture,no_action,0.9772,1,0,no gesture,69.3
+47.953,model,No gesture,no_action,0.9768,1,0,no gesture,67.4
+48.484,model,No gesture,no_action,0.979,1,0,no gesture,68.8
+49.0,model,No gesture,no_action,0.9748,1,0,no gesture,67.7
+49.5,model,No gesture,no_action,0.9725,1,0,no gesture,69.6
+50.0,model,No gesture,no_action,0.9678,1,0,no gesture,65.5
+50.5,model,No gesture,no_action,0.9656,1,0,no gesture,68.8
+51.0,model,No gesture,no_action,0.9632,1,0,no gesture,65.4
+51.5,model,No gesture,no_action,0.9592,1,0,no gesture,70.9
+52.0,model,No gesture,no_action,0.9593,1,0,no gesture,66.1
+52.5,model,No gesture,no_action,0.96,1,0,no gesture,65.0

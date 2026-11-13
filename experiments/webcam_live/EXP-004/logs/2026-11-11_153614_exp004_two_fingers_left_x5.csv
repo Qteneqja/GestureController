@@ -1,0 +1,80 @@
+time_s,source,label,command,confidence,enabled,fired,reason,model_ms
+1.453,model,No gesture,no_action,0.997,0,0,disabled,8559.4
+11.438,model,No gesture,no_action,0.9559,0,0,disabled,171.8
+11.938,model,No gesture,no_action,0.9508,0,0,disabled,64.8
+12.438,model,No gesture,no_action,0.9521,1,0,no gesture,65.7
+12.938,model,No gesture,no_action,0.9512,1,0,no gesture,65.6
+13.453,model,No gesture,no_action,0.9563,1,0,no gesture,65.7
+13.953,model,No gesture,no_action,0.9571,1,0,no gesture,64.0
+14.453,model,No gesture,no_action,0.9618,1,0,no gesture,64.1
+14.953,model,No gesture,no_action,0.9591,1,0,no gesture,67.7
+15.453,model,No gesture,no_action,0.9626,1,0,no gesture,64.9
+15.953,model,No gesture,no_action,0.9585,1,0,no gesture,64.6
+16.453,model,No gesture,no_action,0.9584,1,0,no gesture,66.0
+16.969,model,No gesture,no_action,0.9544,1,0,no gesture,63.8
+17.469,model,No gesture,no_action,0.9612,1,0,no gesture,67.1
+17.969,model,No gesture,no_action,0.9585,1,0,no gesture,66.2
+18.469,model,No gesture,no_action,0.9632,1,0,no gesture,65.5
+18.985,model,No gesture,no_action,0.9625,1,0,no gesture,64.8
+19.485,model,No gesture,no_action,0.9584,1,0,no gesture,67.8
+19.985,model,No gesture,no_action,0.9492,1,0,no gesture,66.6
+20.485,model,No gesture,no_action,0.9558,1,0,no gesture,65.6
+20.985,model,No gesture,no_action,0.9476,1,0,no gesture,66.2
+21.485,model,No gesture,no_action,0.9536,1,0,no gesture,65.5
+21.985,model,No gesture,no_action,0.8706,1,0,no gesture,66.8
+22.485,model,No gesture,no_action,0.4101,1,0,no gesture,65.8
+23.0,model,Swiping Right,next_slide,0.4792,1,0,low confidence,66.9
+23.5,model,Swiping Right,next_slide,0.5796,1,0,low confidence,68.4
+24.0,model,No gesture,no_action,0.6584,1,0,no gesture,66.9
+24.5,model,No gesture,no_action,0.8827,1,0,no gesture,64.6
+25.0,model,No gesture,no_action,0.9531,1,0,no gesture,66.0
+25.516,model,No gesture,no_action,0.9602,1,0,no gesture,64.2
+26.016,model,No gesture,no_action,0.9573,1,0,no gesture,65.4
+26.516,model,Sliding Two Fingers Left,previous_tab,0.6641,1,0,low confidence,64.8
+27.016,model,Sliding Two Fingers Left,previous_tab,0.6751,1,0,low confidence,64.5
+27.516,model,Sliding Two Fingers Left,previous_tab,0.6687,1,0,low confidence,65.1
+28.016,model,No gesture,no_action,0.9195,1,0,no gesture,63.7
+28.531,model,No gesture,no_action,0.9694,1,0,no gesture,65.9
+29.031,model,No gesture,no_action,0.9623,1,0,no gesture,66.7
+29.531,model,No gesture,no_action,0.9654,1,0,no gesture,66.5
+30.031,model,No gesture,no_action,0.9704,1,0,no gesture,64.4
+30.531,model,No gesture,no_action,0.957,1,0,no gesture,66.5
+31.031,model,No gesture,no_action,0.3593,1,0,no gesture,66.7
+31.531,model,No gesture,no_action,0.4224,1,0,no gesture,64.9
+32.031,model,No gesture,no_action,0.6135,1,0,no gesture,65.2
+32.547,model,No gesture,no_action,0.989,1,0,no gesture,69.2
+33.047,model,No gesture,no_action,0.984,1,0,no gesture,64.1
+33.547,model,No gesture,no_action,0.9691,1,0,no gesture,65.6
+34.047,model,No gesture,no_action,0.9561,1,0,no gesture,65.8
+34.563,model,No gesture,no_action,0.9544,1,0,no gesture,66.0
+35.063,model,No gesture,no_action,0.3912,1,0,no gesture,67.2
+35.563,model,No gesture,no_action,0.4402,1,0,no gesture,66.6
+36.063,model,No gesture,no_action,0.5799,1,0,no gesture,63.9
+36.563,model,No gesture,no_action,0.9851,1,0,no gesture,65.2
+37.063,model,No gesture,no_action,0.9811,1,0,no gesture,65.4
+37.578,model,No gesture,no_action,0.9737,1,0,no gesture,64.2
+38.094,model,No gesture,no_action,0.9611,1,0,no gesture,66.3
+38.594,model,Sliding Two Fingers Left,previous_tab,0.7538,1,0,low confidence,66.4
+39.094,model,Sliding Two Fingers Left,previous_tab,0.739,1,0,low confidence,64.4
+39.594,model,Sliding Two Fingers Left,previous_tab,0.7185,1,0,low confidence,65.3
+40.094,model,No gesture,no_action,0.992,1,0,no gesture,66.9
+40.594,model,No gesture,no_action,0.986,1,0,no gesture,66.6
+41.094,model,No gesture,no_action,0.9736,1,0,no gesture,64.5
+41.594,model,No gesture,no_action,0.9676,1,0,no gesture,71.4
+42.094,model,No gesture,no_action,0.9684,1,0,no gesture,64.0
+42.594,model,Thumb Up,start_presentation,0.6973,1,0,low confidence,65.0
+43.11,model,Sliding Two Fingers Left,previous_tab,0.7642,1,0,low confidence,70.1
+43.61,model,Sliding Two Fingers Left,previous_tab,0.7855,1,0,low confidence,66.8
+44.11,model,Sliding Two Fingers Left,previous_tab,0.6833,1,0,low confidence,66.7
+44.625,model,Sliding Two Fingers Left,previous_tab,0.4394,1,0,low confidence,65.4
+45.125,model,No gesture,no_action,0.952,1,0,no gesture,66.2
+45.625,model,No gesture,no_action,0.9749,1,0,no gesture,64.0
+46.141,model,No gesture,no_action,0.9583,1,0,no gesture,67.0
+46.641,model,No gesture,no_action,0.9659,1,0,no gesture,69.5
+47.141,model,Sliding Two Fingers Left,previous_tab,0.5674,1,0,low confidence,65.9
+47.641,model,Sliding Two Fingers Left,previous_tab,0.7074,1,0,low confidence,66.7
+48.141,model,Sliding Two Fingers Left,previous_tab,0.6824,1,0,low confidence,67.1
+48.641,model,Sliding Two Fingers Left,previous_tab,0.6096,1,0,low confidence,65.1
+49.141,model,No gesture,no_action,0.9396,1,0,no gesture,66.5
+49.656,model,No gesture,no_action,0.9744,1,0,no gesture,69.0
+50.156,model,No gesture,no_action,0.9661,1,0,no gesture,66.7

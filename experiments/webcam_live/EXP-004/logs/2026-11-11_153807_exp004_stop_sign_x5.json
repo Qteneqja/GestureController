@@ -1,0 +1,12 @@
+{
+  "session": "exp004_stop_sign_x5",
+  "started": "2026-11-11_153807",
+  "model_path": "checkpoints/cnn_baseline_EXP-004.keras",
+  "window_seconds": 1.5,
+  "predict_every_seconds": 0.5,
+  "confidence_threshold": 0.8,
+  "cooldown_seconds": 1.5,
+  "rearm_seconds": 0.5,
+  "mirror_model_input": false,
+  "dry_run": true
+}
