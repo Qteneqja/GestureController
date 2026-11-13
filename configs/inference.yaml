@@ -1,0 +1,46 @@
+# Settings for the real-time webcam app (Member 5).
+# Change values here instead of editing the code.
+
+# Trained model to load. Swap this path when a real model is ready.
+# The dummy model comes from: python scripts/make_dummy_model.py
+model_path: "checkpoints/cnn_baseline_EXP-004.keras"
+
+# Shared class list (owned by Member 1). Read only.
+class_mapping: "config/gesture_classes.json"
+
+# Must match configs/data.yaml so webcam input looks like training input.
+num_frames: 16
+image_size: [112, 112]
+
+# Webcam
+camera_index: 0
+
+# Jester clips are about 3 seconds long, and training samples 16 frames
+# evenly across the whole clip. Keep the same amount of time here.
+window_seconds: 1.5
+
+# How often to run the model (seconds). Lower is more responsive but slower.
+predict_every_seconds: 0.5
+
+# Safety controls
+confidence_threshold: 0.80   # ignore predictions below this
+cooldown_seconds: 1.5        # wait this long after a command before another
+start_enabled: false         # commands are off until you press E
+dry_run: true                # true = print commands only, never press keys
+
+# Mirroring. The preview is mirrored so it feels natural to watch.
+# mirror_model_input decides what the MODEL sees. Test both once a real
+# model exists: if left and right swipes come out swapped, flip this.
+mirror_preview: true
+mirror_model_input: false
+
+# What each command does on the keyboard (pyautogui key names).
+# Empty list = do nothing.
+command_keys:
+  previous_slide: ["left"]
+  next_slide: ["right"]
+  previous_tab: ["ctrl", "shift", "tab"]
+  next_tab: ["ctrl", "tab"]
+  start_presentation: ["f5"]
+  pause_or_end_presentation: ["esc"]
+  no_action: []
