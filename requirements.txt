@@ -1,0 +1,44 @@
+# Gesture Recognition project (COMP-3704)
+# Python 3.10 to 3.13
+#
+# Local setup (Windows PowerShell):
+#   python -m venv .venv
+#   .venv\Scripts\Activate.ps1
+#   pip install -r requirements.txt
+#
+# Google Colab:
+#   Colab already has TensorFlow, Keras, NumPy and OpenCV installed.
+#   First check: import tensorflow as tf; print(tf.__version__)
+#   If it is 2.19 to 2.21, run: !pip install -r requirements.txt
+#   If it is outside that range, tell the team before installing, because
+#   replacing Colab's TensorFlow can break its GPU support.
+#   Do not add a second OpenCV package on Colab.
+#
+# Record exact training versions in experiment notes:
+#   python -c "import tensorflow as tf, keras; print(tf.__version__, keras.__version__)"
+
+# Deep learning
+tensorflow>=2.19,<2.22
+keras>=3.10,<4
+keras-tuner>=1.4.7,<2
+
+# Data and numbers
+numpy>=1.26,<3
+pandas>=2.1,<4
+scikit-learn>=1.4,<2
+
+# Images and video
+opencv-python>=4.9,<5
+pillow>=10.0
+
+# Plots
+matplotlib>=3.8,<4
+
+# Config files
+PyYAML>=6.0,<7
+
+# Webcam app
+pyautogui>=0.9.54
+
+# Testing
+pytest>=8.0
