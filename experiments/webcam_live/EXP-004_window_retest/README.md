@@ -31,6 +31,25 @@ Training samples 16 frames across the whole Jester clip (about 3 s on average, `
 - **Swipe Left:** read as Swiping Right at both windows (best 95% at 3.0 s, 97% at 1.5 s).
 - **Two-finger slides:** at 3.0 s the model flipped between Swiping Right, Two Fingers Left and Two Fingers Right, all below 0.80, so nothing fired. At 1.5 s it was more confident and sometimes passed 0.80 as Swiping Right.
 
+## Compared with the earlier test (Nov 11)
+
+Correct commands per gesture. The Nov 11 test (`../EXP-004/README.md`) used the same model, window 1.5 s and the same method, but on a different day, so it is context, not a controlled comparison. The two Nov 15 columns are the controlled comparison: same day and setup, only the window changed.
+
+| Gesture (5 tries) | Nov 11, 1.5 s | Nov 15, 3.0 s | Nov 15, 1.5 s |
+| --- | --- | --- | --- |
+| Swipe Right | 4 / 5 | 5 / 5 | 5 / 5 |
+| Swipe Left | 0 / 5 | 0 / 5 | 0 / 5 |
+| Two Fingers Right | 0 / 5 | 0 / 5 | 0 / 5 |
+| Two Fingers Left | 0 / 5 | 0 / 5 | 0 / 5 |
+| Thumb Up | 5 / 5 | 5 / 5 | 5 / 5 |
+| Stop Sign | 4 / 5 | 5 / 5 | 5 / 5 |
+| **Correct** | **13 / 30** | **15 / 30** | **15 / 30** |
+| Wrong commands | 5 | 6 | 8 |
+| False triggers (about 1 min talking) | 0 | 0 | 0 |
+
+- The same gestures worked and the same gestures failed in all three runs.
+- Swipe Left fired `next_slide` 5 times out of 5 in every run.
+
 ## What it means
 
 - **The window is not the cause of the live errors.** Correct commands were the same at both windows (15 / 30). The same gestures worked and the same gestures failed.
