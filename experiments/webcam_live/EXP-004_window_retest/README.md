@@ -1,4 +1,4 @@
-# Live webcam test: window length (EXP-004, 3.0 s vs 1.5 s)
+﻿# Live webcam test: window length (EXP-004, 3.0 s vs 1.5 s)
 
 Same-day comparison of the app's time window, to check whether the window explains the live results.
 
@@ -61,13 +61,13 @@ Correct commands per gesture. The Nov 11 test (`../EXP-004/README.md`) used the 
 
 - One person, one room, one lighting setup, 5 tries per gesture.
 - Tries were counted by the tester; the logs record predictions, not intended gestures.
-- Discarded sessions (kept in `logs/discarded/`): two 3.0 s Swipe Right sessions where commands were never turned on (all predictions `disabled`), and the first 3.0 s two-finger sessions, which were redone.
+- Discarded sessions (kept on the tester's laptop in `data/webcam_tests/logs/discarded/`, not in this repo): two 3.0 s Swipe Right sessions where commands were never turned on (all predictions `disabled`), and the first 3.0 s two-finger sessions, which were redone.
 - The direction convention (tester's own left and right) has not yet been checked against Jester sample clips.
 
 ## Raw summaries
 
-Run from the project folder:
+The 14 session logs (CSV plus JSON settings) are in `logs/` in this folder. To reproduce the summaries, run from the project folder:
 
 ```
-Get-ChildItem data\webcam_tests\logs\*w30_*.csv, data\webcam_tests\logs\*w15_*.csv | ForEach-Object { python scripts/summarize_log.py $_.FullName }
+Get-ChildItem experiments\webcam_live\EXP-004_window_retest\logs\*.csv | ForEach-Object { python scripts/summarize_log.py $_.FullName }
 ```
