@@ -10,6 +10,7 @@ Every prediction is saved to a CSV log (see session_log.py).
 """
 
 import time
+from pathlib import Path
 
 import cv2
 import yaml
@@ -30,7 +31,7 @@ def load_config(path):
         return yaml.safe_load(file)
 
 
-def draw_overlay(frame, controller, status_lines):
+def draw_overlay(frame, controller, status_lines, settings_lines=()):
     color = (0, 200, 0) if controller.enabled else (0, 0, 255)
     state = "ON" if controller.enabled else "OFF"
     mode = "DRY RUN" if controller.dry_run else "LIVE KEYS"
@@ -39,13 +40,20 @@ def draw_overlay(frame, controller, status_lines):
     for i, line in enumerate(status_lines):
         cv2.putText(frame, line, (10, 60 + 28 * i),
                     cv2.FONT_HERSHEY_SIMPLEX, 0.6, (255, 255, 255), 2)
+    # Test settings stay on screen, so a screen recording shows them.
+    for i, line in enumerate(reversed(settings_lines)):
+        cv2.putText(frame, line, (10, frame.shape[0] - 40 - 20 * i),
+                    cv2.FONT_HERSHEY_SIMPLEX, 0.45, (0, 255, 255), 1)
     cv2.putText(frame, "E: on/off   1-7: simulate   Q: quit",
                 (10, frame.shape[0] - 15), cv2.FONT_HERSHEY_SIMPLEX, 0.5,
                 (200, 200, 200), 1)
 
 
-def run(config_path, session_name="test"):
+def run(config_path, session_name="test", window_seconds=None):
     config = load_config(config_path)
+    if window_seconds is not None:
+        # --window on the command line overrides the config file.
+        config["window_seconds"] = window_seconds
     image_size = tuple(config["image_size"])
 
     predictor = GesturePredictor(config["model_path"], config["class_mapping"])
@@ -70,6 +78,14 @@ def run(config_path, session_name="test"):
         start_time=time.monotonic(),
     )
     print(f"Logging to {log.path}")
+
+    model_name = Path(config["model_path"]).stem
+    settings_lines = [
+        f"Model: {model_name}  Window: {config['window_seconds']} s"
+        f"  Threshold: {config['confidence_threshold']:.0%}",
+        f"Session: {session_name}",
+    ]
+    print(" | ".join(settings_lines))
 
     last_predict_time = 0.0
     status = ["Filling buffer..."]
@@ -98,7 +114,7 @@ def run(config_path, session_name="test"):
                 ]
 
             preview = cv2.flip(frame, 1) if config["mirror_preview"] else frame
-            draw_overlay(preview, controller, status)
+            draw_overlay(preview, controller, status, settings_lines)
             cv2.imshow("Gesture Controller", preview)
 
             key = cv2.waitKey(1) & 0xFF
