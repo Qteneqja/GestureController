@@ -1,0 +1,103 @@
+time_s,source,label,command,confidence,enabled,fired,reason,model_ms
+2.828,model,No gesture,no_action,0.9863,0,0,disabled,9042.3
+14.625,model,No gesture,no_action,0.922,0,0,disabled,216.2
+15.141,model,No gesture,no_action,0.9148,0,0,disabled,85.6
+15.656,model,No gesture,no_action,0.9357,0,0,disabled,72.8
+16.172,model,No gesture,no_action,0.9378,0,0,disabled,67.6
+16.672,model,No gesture,no_action,0.9457,0,0,disabled,72.2
+17.172,model,No gesture,no_action,0.9405,0,0,disabled,73.5
+17.672,model,No gesture,no_action,0.9424,0,0,disabled,76.2
+18.172,model,No gesture,no_action,0.948,0,0,disabled,75.2
+18.687,model,No gesture,no_action,0.9424,0,0,disabled,71.3
+19.219,model,No gesture,no_action,0.9288,0,0,disabled,73.2
+19.719,model,No gesture,no_action,0.9192,0,0,disabled,70.1
+20.219,model,No gesture,no_action,0.918,0,0,disabled,70.9
+20.719,model,No gesture,no_action,0.9252,0,0,disabled,67.8
+21.219,model,No gesture,no_action,0.9259,0,0,disabled,66.3
+21.719,model,No gesture,no_action,0.9369,0,0,disabled,68.2
+22.234,model,No gesture,no_action,0.9369,0,0,disabled,68.3
+22.734,model,No gesture,no_action,0.9406,0,0,disabled,69.3
+23.234,model,No gesture,no_action,0.9452,0,0,disabled,69.5
+23.734,model,No gesture,no_action,0.9463,1,0,no gesture,69.5
+24.234,model,No gesture,no_action,0.9486,1,0,no gesture,65.1
+24.75,model,No gesture,no_action,0.9464,1,0,no gesture,66.0
+25.25,model,No gesture,no_action,0.9652,1,0,no gesture,69.6
+25.75,model,No gesture,no_action,0.9638,1,0,no gesture,69.2
+26.25,model,No gesture,no_action,0.9627,1,0,no gesture,67.2
+26.766,model,No gesture,no_action,0.9568,1,0,no gesture,71.8
+27.266,model,No gesture,no_action,0.9534,1,0,no gesture,68.8
+27.766,model,No gesture,no_action,0.8987,1,0,no gesture,66.5
+28.266,model,Swiping Right,next_slide,0.9543,1,1,ok,69.2
+31.047,model,No gesture,no_action,0.981,1,0,no gesture,66.9
+31.547,model,No gesture,no_action,0.9776,1,0,no gesture,67.7
+32.047,model,No gesture,no_action,0.9764,1,0,no gesture,69.3
+32.562,model,Swiping Right,next_slide,0.5821,1,0,low confidence,67.4
+33.062,model,Swiping Right,next_slide,0.9115,1,1,ok,98.1
+35.875,model,No gesture,no_action,0.9735,1,0,no gesture,77.7
+36.375,model,No gesture,no_action,0.9778,1,0,no gesture,68.8
+36.875,model,No gesture,no_action,0.9741,1,0,no gesture,70.1
+37.375,model,No gesture,no_action,0.9517,1,0,no gesture,72.4
+37.891,model,Swiping Right,next_slide,0.8005,1,1,ok,71.9
+40.672,model,Swiping Right,next_slide,0.9429,1,0,waiting for rest,66.5
+41.172,model,No gesture,no_action,0.8653,1,0,no gesture,72.6
+41.687,model,No gesture,no_action,0.9752,1,0,no gesture,69.3
+42.187,model,Swiping Right,next_slide,0.7993,1,0,low confidence,70.0
+42.687,model,Swiping Right,next_slide,0.8673,1,1,ok,68.2
+45.469,model,No gesture,no_action,0.961,1,0,no gesture,70.6
+45.969,model,No gesture,no_action,0.9768,1,0,no gesture,69.5
+46.469,model,Swiping Right,next_slide,0.6826,1,0,low confidence,69.3
+46.984,model,Swiping Right,next_slide,0.8725,1,1,ok,70.0
+49.797,model,No gesture,no_action,0.9395,1,0,no gesture,68.6
+50.297,model,No gesture,no_action,0.9488,1,0,no gesture,154.2
+50.797,model,No gesture,no_action,0.9135,1,0,no gesture,87.7
+51.297,model,No gesture,no_action,0.9166,1,0,no gesture,79.6
+51.812,model,No gesture,no_action,0.9152,1,0,no gesture,98.6
+52.312,model,No gesture,no_action,0.9272,1,0,no gesture,77.8
+52.812,model,No gesture,no_action,0.9269,1,0,no gesture,72.5
+53.328,model,No gesture,no_action,0.9295,1,0,no gesture,71.3
+53.828,model,No gesture,no_action,0.9346,1,0,no gesture,71.3
+54.328,model,No gesture,no_action,0.9461,1,0,no gesture,68.8
+54.828,model,No gesture,no_action,0.9378,1,0,no gesture,76.7
+55.328,model,No gesture,no_action,0.9376,1,0,no gesture,73.3
+55.828,model,No gesture,no_action,0.9402,1,0,no gesture,88.9
+56.344,model,No gesture,no_action,0.9385,1,0,no gesture,98.7
+56.859,model,No gesture,no_action,0.9402,1,0,no gesture,99.1
+57.375,model,No gesture,no_action,0.9481,1,0,no gesture,73.2
+57.875,model,No gesture,no_action,0.9534,1,0,no gesture,69.1
+58.375,model,No gesture,no_action,0.9592,1,0,no gesture,69.5
+58.875,model,No gesture,no_action,0.9585,1,0,no gesture,71.4
+59.375,model,No gesture,no_action,0.9624,1,0,no gesture,70.5
+59.891,model,No gesture,no_action,0.9731,1,0,no gesture,68.4
+60.391,model,No gesture,no_action,0.9715,1,0,no gesture,70.9
+60.891,model,No gesture,no_action,0.9702,1,0,no gesture,73.7
+61.391,model,No gesture,no_action,0.9684,1,0,no gesture,70.8
+61.891,model,No gesture,no_action,0.9737,1,0,no gesture,67.6
+62.406,model,No gesture,no_action,0.972,1,0,no gesture,73.4
+62.906,model,No gesture,no_action,0.974,1,0,no gesture,71.4
+63.406,model,No gesture,no_action,0.9758,1,0,no gesture,70.5
+63.906,model,No gesture,no_action,0.9742,1,0,no gesture,70.6
+64.422,model,No gesture,no_action,0.9725,1,0,no gesture,72.1
+64.922,model,No gesture,no_action,0.9716,1,0,no gesture,72.5
+65.422,model,No gesture,no_action,0.9777,1,0,no gesture,72.4
+65.922,model,No gesture,no_action,0.9778,1,0,no gesture,70.7
+66.422,model,No gesture,no_action,0.9804,1,0,no gesture,69.5
+66.937,model,No gesture,no_action,0.9837,1,0,no gesture,85.0
+67.469,model,No gesture,no_action,0.9816,1,0,no gesture,69.9
+67.969,model,No gesture,no_action,0.96,1,0,no gesture,73.4
+68.484,model,No gesture,no_action,0.9209,1,0,no gesture,76.2
+69.0,model,No gesture,no_action,0.6843,1,0,no gesture,69.0
+69.516,model,No gesture,no_action,0.7606,1,0,no gesture,70.5
+70.031,model,No gesture,no_action,0.5356,1,0,no gesture,74.7
+70.531,model,No gesture,no_action,0.7102,1,0,no gesture,70.5
+71.047,model,No gesture,no_action,0.8308,1,0,no gesture,68.8
+71.562,model,No gesture,no_action,0.9017,1,0,no gesture,69.8
+72.078,model,No gesture,no_action,0.9222,1,0,no gesture,72.9
+72.578,model,No gesture,no_action,0.946,1,0,no gesture,74.5
+73.094,model,No gesture,no_action,0.9434,1,0,no gesture,77.4
+73.594,model,No gesture,no_action,0.9523,1,0,no gesture,73.5
+74.094,model,No gesture,no_action,0.9485,1,0,no gesture,73.2
+74.594,model,No gesture,no_action,0.9547,1,0,no gesture,70.7
+75.094,model,No gesture,no_action,0.9562,1,0,no gesture,67.9
+75.609,model,No gesture,no_action,0.9559,1,0,no gesture,67.7
+76.109,model,No gesture,no_action,0.9562,1,0,no gesture,66.9
+76.609,model,No gesture,no_action,0.9651,1,0,no gesture,69.7
