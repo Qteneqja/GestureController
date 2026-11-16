@@ -1,0 +1,47 @@
+{
+  "experiment_id": "EXP-000-real-smoke",
+  "fake_data": false,
+  "epochs_run": 1,
+  "best_epoch": 1,
+  "best_val_loss": 1.9597063064575195,
+  "best_val_accuracy": 0.25,
+  "training_minutes": 3.6185592651367187,
+  "parameters": 677863,
+  "best_model": "/content/drive/MyDrive/GestureController/checkpoints/cnn_gru_EXP-000-real-smoke.keras",
+  "tensorflow_version": "2.21.0",
+  "keras_version": "3.13.2",
+  "settings": {
+    "experiment_id": "EXP-000-real-smoke",
+    "data_config": "/content/colab_data.yaml",
+    "class_mapping": "config/gesture_classes.json",
+    "model": {
+      "gru_units": 64,
+      "dense_units": 128,
+      "dropout": 0.3,
+      "pretrained": true
+    },
+    "training": {
+      "learning_rate": 0.0001,
+      "epochs": 1,
+      "early_stopping_patience": 6,
+      "seed": 42,
+      "train_limit": 32,
+      "validation_limit": 16
+    },
+    "output_dir": "/content/drive/MyDrive/GestureController/experiments/cnn_gru_baseline",
+    "checkpoint_dir": "/content/drive/MyDrive/GestureController/checkpoints"
+  },
+  "data_settings": {
+    "frames_folder": "/content/jester_frames",
+    "train_csv": "data/splits/train.csv",
+    "validation_csv": "data/splits/validation.csv",
+    "test_csv": "data/splits/test.csv",
+    "class_mapping": "config/gesture_classes.json",
+    "num_frames": 16,
+    "image_size": [
+      112,
+      112
+    ],
+    "batch_size": 8
+  }
+}
