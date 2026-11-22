@@ -191,7 +191,8 @@ and shuffling. Labels are integer class IDs from 0 to 6.
 
 
 Training clips are shuffled and augmented with random brightness
-(0.8 to 1.2) and a small random rotation (−5° to +5°). Each clip
-uses the same brightness factor and rotation angle across all 16
-frames to keep the motion consistent. Validation and test clips
-are loaded without augmentation or shuffling.
+(0.8 to 1.2), rotation (−5° to +5°), contrast (0.9 to 1.1),
+and saturation (0.9 to 1.1). Each clip uses the same settings
+across all 16 frames to keep the motion consistent. Pixel values
+are clipped to 0–1. Validation and test clips are loaded without
+augmentation or shuffling.
