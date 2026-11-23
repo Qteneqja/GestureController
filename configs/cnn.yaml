@@ -1,7 +1,7 @@
 # Settings for the CNN baseline.
 # Give every training run a new experiment_id so results are not overwritten.
 
-experiment_id: "EXP-005"
+experiment_id: "EXP-006"
 
 # Shared team files 
 data_config: "configs/data.yaml"
@@ -30,5 +30,5 @@ training:
   validation_limit: null
 
 # Where results go
-output_dir: "experiments/cnn_baseline"   # history, curves and run notes (committed)
-checkpoint_dir: "checkpoints"            # .keras model files (not committed)
+output_dir: "experiments/cnn_baseline"   # history, curves and run notes 
+checkpoint_dir: "checkpoints"            # .keras model files 
