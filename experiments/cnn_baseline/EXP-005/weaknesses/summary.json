@@ -1,0 +1,96 @@
+{
+  "videos": 5946,
+  "accuracy": 0.7349,
+  "total_errors": 1576,
+  "direction_errors": 1042,
+  "hand_shape_errors": 134,
+  "direction_share_of_errors": 0.6612,
+  "hand_shape_share_of_errors": 0.085,
+  "top_mixups": [
+    {
+      "true": "Sliding Two Fingers Left",
+      "predicted": "Sliding Two Fingers Right",
+      "videos": 282
+    },
+    {
+      "true": "Sliding Two Fingers Right",
+      "predicted": "Sliding Two Fingers Left",
+      "videos": 260
+    },
+    {
+      "true": "Swiping Left",
+      "predicted": "Swiping Right",
+      "videos": 259
+    },
+    {
+      "true": "Swiping Right",
+      "predicted": "Swiping Left",
+      "videos": 241
+    },
+    {
+      "true": "Sliding Two Fingers Right",
+      "predicted": "Swiping Right",
+      "videos": 65
+    }
+  ],
+  "per_class": [
+    {
+      "gesture": "Swiping Left",
+      "videos": 832,
+      "correct": 502,
+      "accuracy": 0.6034,
+      "most_confused_with": "Swiping Right",
+      "confused_share": 0.3113
+    },
+    {
+      "gesture": "Swiping Right",
+      "videos": 817,
+      "correct": 513,
+      "accuracy": 0.6279,
+      "most_confused_with": "Swiping Left",
+      "confused_share": 0.295
+    },
+    {
+      "gesture": "Sliding Two Fingers Left",
+      "videos": 858,
+      "correct": 454,
+      "accuracy": 0.5291,
+      "most_confused_with": "Sliding Two Fingers Right",
+      "confused_share": 0.3287
+    },
+    {
+      "gesture": "Sliding Two Fingers Right",
+      "videos": 841,
+      "correct": 459,
+      "accuracy": 0.5458,
+      "most_confused_with": "Sliding Two Fingers Left",
+      "confused_share": 0.3092
+    },
+    {
+      "gesture": "Thumb Up",
+      "videos": 875,
+      "correct": 797,
+      "accuracy": 0.9109,
+      "most_confused_with": "No gesture",
+      "confused_share": 0.0469
+    },
+    {
+      "gesture": "Stop Sign",
+      "videos": 867,
+      "correct": 813,
+      "accuracy": 0.9377,
+      "most_confused_with": "No gesture",
+      "confused_share": 0.0219
+    },
+    {
+      "gesture": "No gesture",
+      "videos": 856,
+      "correct": 832,
+      "accuracy": 0.972,
+      "most_confused_with": "Thumb Up",
+      "confused_share": 0.014
+    }
+  ],
+  "model": "checkpoints/cnn_baseline_EXP-005.keras",
+  "split": "validation"
+}

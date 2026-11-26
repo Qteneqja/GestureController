@@ -1,8 +1,9 @@
-# CNN Baseline
+# CNN Baseline 
 
-**Final model:** EXP-004, a pretrained MobileNetV2 frame encoder with frame averaging.
-**Result:** 74.6% accuracy on the validation set (5,946 videos). Random guessing is 14.3%.
-**Main weakness:** it mixes up left and right and 67% of its mistakes are direction errors, which is the gap the CNN-GRU can help with.
+**Final model:** EXP-006, a pretrained MobileNetV2 frame encoder with frame averaging, trained with brightness, rotation, contrast and saturation augmentation.
+**Result:** 73.3% accuracy on the validation set (5,946 videos). Random guessing is 14.3%.
+**Main weakness:** it mixes up left and right. 67% of its mistakes are direction errors, which is the gap the CNN-GRU is meant to close.
+**Compare with:** CNN-GRU EXP-002, which uses the same encoder, data and augmentation.
 
 ## How the model works
 
@@ -25,9 +26,9 @@ clip (16, 112, 112, 3)
 | Input | 16 frames, 112x112 RGB, values 0 to 1 |
 | Output | 7 probabilities (see `config/gesture_classes.json`) |
 | Parameters | 575,079 total, 560,999 trainable |
-| Saved model | `checkpoints/cnn_baseline_EXP-004.keras` (not in Git, shared directly) |
+| Saved model | `checkpoints/cnn_baseline_EXP-006.keras` (not in Git, shared directly) |
 
-## Final settings (EXP-004)
+## Final settings (EXP-006)
 
 | Setting | Value |
 |---|---|
@@ -38,7 +39,7 @@ clip (16, 112, 112, 3)
 | Epochs | Up to 20, early stopping with patience 6 on validation loss |
 | Training data | First 8,000 videos of `train.csv` (already shuffled) |
 | Validation data | All 5,946 videos of `validation.csv` |
-| Augmentation | Brightness 0.8 to 1.2 and rotation of up to ±5 degrees, same for all frames of a video, training only |
+| Augmentation | Brightness 0.8 to 1.2, rotation up to ±5 degrees, contrast 0.9 to 1.1, saturation 0.9 to 1.1. One random value of each per clip, used for all 16 frames. Training only |
 | Hardware | Laptop CPU, no GPU |
 | Versions | TensorFlow 2.21.0, Keras 3.15.1, Python 3.12 |
 
@@ -53,7 +54,9 @@ All runs used 8,000 training videos and the full validation set unless noted. Ac
 | EXP-002 | Small CNN from scratch, average frame features, then predict | 15.0% | 1.946 | Still stuck at chance. Stopped after 3 epochs |
 | EXP-000-overfit | Same as EXP-001 on only 64 training and 64 validation videos, 30 epochs | 18.8% | 2.002 | Training accuracy reached 78 to 83%, so the model could memorize and the data and code were fine |
 | EXP-003 | Pretrained MobileNetV2, brightness only | 70.6% (epoch 9) | 0.691 | Overfitting after epoch 9. 199 minutes |
-| **EXP-004** | **Same as EXP-003, plus rotation** | **74.6% (epoch 15)** | **0.660** | **Final baseline.** 251 minutes |
+| EXP-004 | Same as EXP-003, plus rotation | 74.6% (epoch 15) | 0.660 | 20 epochs, 251 minutes |
+| EXP-005 | Repeat of EXP-004 (same settings) | 73.5% (epoch 11) | 0.644 | Measures run-to-run variation. 17 epochs, 224 minutes |
+| **EXP-006** | **EXP-004 plus contrast and saturation** | **73.3% (epoch 11)** | **0.656** | **Final baseline.** 17 epochs, 232 minutes |
 
 A loss of 1.946 is what a model gets when it gives every gesture the same 1/7 chance, so EXP-001 and EXP-002 learned nothing.
 
@@ -61,37 +64,40 @@ A loss of 1.946 is what a model gets when it gives every gesture the same 1/7 ch
 
 1. **The small CNN could not learn from scratch.** It memorized 64 videos but could not find general patterns in 8,000. Changing how frames are combined (EXP-001 vs EXP-002) did not fix it.
 2. **A pretrained encoder fixed it right away.** MobileNetV2 already recognizes edges and shapes from millions of photos. Validation accuracy went from 14% to 41% after one epoch.
-3. **Rotation helped.** Adding rotation raised validation accuracy by 4 points and pushed the start of overfitting from epoch 9 to epoch 15.
+3. **Rotation helped.** Adding rotation raised validation accuracy from 70.6% to 74.6% and pushed the start of overfitting from epoch 9 to epoch 15.
+4. **Identical runs differ by about 1 point.** EXP-004 and EXP-005 used the same settings and scored 74.6% and 73.5%. Single gestures moved by up to 6 points between them. Differences smaller than this are normal variation from random augmentation.
+5. **Contrast and saturation made no clear difference.** EXP-006 (73.3%) is within the range of EXP-004 and EXP-005. The dataset was recorded by over 1,300 people on their own webcams, so it may already cover most of this variation.
 
-![EXP-004 training curves](EXP-004/curves.png)
+![EXP-006 training curves](EXP-006/curves.png)
 
 ## Weaknesses
 
 Measured on the validation set with `analyze_cnn.py`. The test set was not used.
 
-![EXP-004 confusion matrix](EXP-004/weaknesses/confusion_matrix.png)
+![EXP-006 confusion matrix](EXP-006/weaknesses/confusion_matrix.png)
 
-| Gesture | Accuracy | Most confused with |
-|---|---|---|
-| Stop Sign | 98.6% | Swiping Left (1%) |
-| No gesture | 93.2% | Thumb Up (3%) |
-| Thumb Up | 92.0% | No gesture (3%) |
-| Swiping Right | 68.9% | Swiping Left (22%) |
-| Sliding Two Fingers Left | 57.7% | Sliding Two Fingers Right (31%) |
-| Sliding Two Fingers Right | 55.2% | Sliding Two Fingers Left (31%) |
-| Swiping Left | 54.9% | Swiping Right (39%) |
+| Gesture | EXP-006 accuracy | Most confused with | EXP-004 accuracy |
+|---|---|---|---|
+| No gesture | 96.3% | Thumb Up (1%) | 93.2% |
+| Stop Sign | 93.4% | No gesture (2%) | 98.6% |
+| Thumb Up | 90.4% | No gesture (5%) | 92.0% |
+| Swiping Right | 70.0% | Swiping Left (20%) | 68.9% |
+| Sliding Two Fingers Right | 62.1% | Sliding Two Fingers Left (26%) | 55.2% |
+| Sliding Two Fingers Left | 50.5% | Sliding Two Fingers Right (38%) | 57.7% |
+| Swiping Left | 49.2% | Swiping Right (42%) | 54.9% |
 
-1. **Left vs right.** Of 1,509 mistakes, 1,018 (67%) are the right hand shape with the wrong direction. Only 139 (9%) are the wrong hand shape (swipe vs two fingers). The proposal expected hand shape to be the main confusion, but direction is the bigger problem. This is expected for a model that ignores frame order, and it is what the CNN-GRU should fix.
-2. **The swipes are still above a coin flip.** The four swipe gestures average 59%, not 50%, so the model picks up some direction from still frames, likely from hand position or motion blur.
-3. **It leans toward Swiping Right.** 39% of Swiping Left videos are called Right, but only 22% of Swiping Right videos are called Left. In the app this would mean more accidental "next slide" commands than "previous slide".
-4. **Some false triggers.** 7% of No gesture videos are predicted as an action, most often Thumb Up (3%), which maps to "start presentation". The confidence threshold in the webcam app should catch some of these.
-5. **Overfitting.** After epoch 15, training accuracy kept rising (80% to 85%) while validation loss went up. Early stopping kept the epoch 15 model.
+1. **Left vs right.** Of 1,585 mistakes, 1,056 (67%) are the right hand shape with the wrong direction. Only 137 (9%) are the wrong hand shape (swipe vs two fingers). This held across EXP-004, EXP-005 and EXP-006. The proposal expected hand shape to be the main confusion, but direction is the bigger problem. This is expected for a model that ignores frame order, and it is what the CNN-GRU should fix.
+2. **The swipes are still above a coin flip.** The four swipe gestures average 58%, not 50%, so the model picks up some direction from still frames, likely from hand position or motion blur.
+3. **It leans toward Swiping Right.** 42% of Swiping Left videos are called Right, but only 20% of Swiping Right videos are called Left. In the app this would mean more accidental "next slide" commands than "previous slide". Troy's live webcam test of EXP-004 showed the same pattern (`experiments/webcam_live/EXP-004/README.md`).
+4. **Some false triggers.** About 4% of No gesture videos are predicted as an action, most often Thumb Up, which maps to "start presentation". The confidence threshold in the webcam app should catch some of these.
+5. **Overfitting.** After epoch 11, training accuracy kept rising (76% to 82%) while validation loss stopped improving. Early stopping ended the run at epoch 17 and the best checkpoint kept the epoch 11 model.
 
 ## Limits of this baseline
 
 - **Trained on 8,000 of the 23,786 training videos** to keep CPU training to about 4 hours. More data may improve results.
 - **Uses a pretrained encoder.** The proposal did not specify one. The from-scratch CNN did not learn (EXP-001, EXP-002).
-- **Augmentation is random each epoch** with no fixed seed, so a rerun will give slightly different numbers.
+- **Augmentation is random each epoch** with no fixed seed, so a rerun gives slightly different numbers (about 1 point overall, see EXP-005).
+- **The contrast and saturation code is always on during training.** EXP-004 and EXP-005 cannot be reproduced exactly on the current loader, but their results are saved.
 - **No GPU.** One epoch takes about 13 minutes on a laptop CPU.
 
 ## Changes from the proposal
@@ -105,7 +111,7 @@ From the project root, with the frames set up as in `docs/dataset.md`:
 
 ```
 python src/gesture_recognition/training/train_cnn.py
-python src/gesture_recognition/training/analyze_cnn.py --model checkpoints/cnn_baseline_EXP-004.keras --output experiments/cnn_baseline/EXP-004/weaknesses
+python src/gesture_recognition/training/analyze_cnn.py --model checkpoints/cnn_baseline_EXP-006.keras --output experiments/cnn_baseline/EXP-006/weaknesses
 python -m pytest tests/test_models.py tests/test_analysis.py
 ```
 
@@ -120,4 +126,4 @@ All settings come from `configs/cnn.yaml`. Each run writes its results to `exper
 | `make_real_datasets()`, `save_curves()` | `training/train_cnn.py` | Same data loading and graphs for both models |
 | `analyze_cnn()` | `training/analyze_cnn.py` | Per-gesture accuracy and confusion matrix for any saved model |
 
-For a fair comparison, the CNN-GRU should use the same encoder, learning rate, batch size, training videos and augmentation.
+For a fair comparison, the CNN-GRU should use the same encoder, learning rate, batch size, training videos and augmentation. CNN-GRU EXP-002 is the run to compare with EXP-006.

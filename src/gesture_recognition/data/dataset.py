@@ -25,9 +25,18 @@ def load_dataset(csv_path, frames_folder, augment=False, seed=None,
             class_id = int(row["class_id"])
 
             if augment:
-                # Keep brightness consistent across the video.
+                import tensorflow as tf
+
+                # Choose one setting per clip for all its frames.
                 brightness = np.float32(rng.uniform(0.8, 1.2))
+                contrast = np.float32(rng.uniform(0.9, 1.1))
+                saturation = np.float32(rng.uniform(0.9, 1.1))
+
                 sequence = np.clip(sequence * brightness, 0.0, 1.0)
+                sequence = tf.image.adjust_contrast(sequence, contrast)
+                sequence = tf.clip_by_value(sequence, 0.0, 1.0)
+                sequence = tf.image.adjust_saturation(sequence, saturation)
+                sequence = tf.clip_by_value(sequence, 0.0, 1.0).numpy()
 
             yield sequence, class_id
 
