@@ -76,6 +76,11 @@ The best EXP-002 checkpoint is `cnn_gru_EXP-002_continuation-01_best.keras`.
 The `EXP-002/provenance.json` file was reconstructed from the
 `original_provenance` field in the exported continuation metadata.
 
+For a continuous view, use [the combined EXP-002 history](EXP-002/history_combined.csv)
+and [combined curves](EXP-002/curves_combined.png). The CSV retains Keras's
+zero-based epoch numbering and identifies the source segment for each row;
+the chart uses one-based epoch numbers and marks the restart after epoch 8.
+
 ## EXP-003 results
 
 EXP-003 used 64 GRU units with the same updated training augmentation as
@@ -110,6 +115,10 @@ The best EXP-003 checkpoint is
 `cnn_gru_EXP-003-retry-01-continuation-01_best.keras`; it remains outside Git.
 The local continuation's `curves.png` shows only epochs 17–20, with its
 horizontal axis restarting at 1. Its history retains zero-based epoch numbers.
+The [combined EXP-003 history](EXP-003/history_combined.csv) and
+[combined curves](EXP-003/curves_combined.png) show all 20 completed epochs.
+The chart marks restarts after epochs 9 and 16; each CSV row records its source.
+The interrupted initial attempt completed no epochs and is not included.
 
 ## EXP-004 results
 
@@ -156,6 +165,8 @@ The held-out test split was not used. Webcam integration would need to supply
   `resume_local.py` preserves the script used for that continuation; its paths
   assume the documented local Docker runtime and pinned code snapshot.
 - `EXP-004/`: 8-frame run settings, provenance, history, curves and run info.
+- `combine_histories.py`: regenerates the combined histories and curves from
+  the original CSVs without modifying the source records; requires Matplotlib.
 - Best checkpoint: `cnn_gru_EXP-001.keras`, saved outside Git and shared
   separately. The original Colab run saved it under Google Drive's
   `GestureController/checkpoints/` folder.
