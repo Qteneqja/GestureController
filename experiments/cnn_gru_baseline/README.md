@@ -149,6 +149,31 @@ The held-out test split was not used. Webcam integration would need to supply
 8-frame sequences if EXP-004 were selected. The best checkpoint is
 `cnn_gru_EXP-004.keras`, kept outside Git.
 
+## Validation error analysis: EXP-002 and EXP-003
+
+Both best-loss checkpoints were analyzed on the full 5,946-video validation
+split using the shared class mapping. These results are separate from the
+training histories above; the held-out test split was not used.
+
+| Result | EXP-002 | EXP-003 |
+|---|---:|---:|
+| Re-evaluated validation accuracy | 92.50% | 92.77% |
+| Total mistakes | 446 | 430 |
+| Direction mistakes | 38 (8.52% of mistakes) | 42 (9.77% of mistakes) |
+| Hand-shape mistakes | 204 (45.74% of mistakes) | 193 (44.88% of mistakes) |
+
+The largest confusion for both checkpoints was Sliding Two Fingers Right
+predicted as Swiping Right: 79 videos for EXP-002 and 68 for EXP-003. Each
+`validation_analysis/` folder contains `per_class.csv`, confusion matrix
+counts and row percentages, and a `summary.json`. In the per-class reports,
+confusion shares use the true class as denominator; the direction and
+hand-shape percentages above use all mistakes as denominator.
+
+The re-evaluated accuracies differ slightly from the validation accuracy logged
+at the best-loss training epoch (92.43% and 92.72%, respectively). The cause
+has not been established; preserve the two sets of measurements separately
+and investigate before interpreting the small difference as an improvement.
+
 ## Files and handoff
 
 - `EXP-001/history.csv`: per-epoch training and validation metrics.
@@ -158,6 +183,8 @@ The held-out test split was not used. Webcam integration would need to supply
 - `EXP-000-real-smoke/run_info.json`: metadata from the one-epoch real-data
   pipeline check; its metrics are not a meaningful performance result.
 - `EXP-002/`: history and provenance for the first eight epochs.
+- `EXP-002/validation_analysis/` and `EXP-003/validation_analysis/`: per-class
+  validation results, confusion matrices and error summaries.
 - `EXP-002-continuation-01/`: resumed history, curves and continuation metadata.
 - `EXP-003-retry-01/`: the first nine epochs and original provenance.
 - `EXP-003-retry-01-continuation-01/`: Colab continuation, epochs 10–16.

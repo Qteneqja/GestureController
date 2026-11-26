@@ -1,0 +1,8 @@
+true \ predicted,Swiping Left,Swiping Right,Sliding Two Fingers Left,Sliding Two Fingers Right,Thumb Up,Stop Sign,No gesture
+Swiping Left,756,16,42,2,4,3,9
+Swiping Right,9,750,0,42,3,6,7
+Sliding Two Fingers Left,41,5,791,5,7,1,8
+Sliding Two Fingers Right,0,79,8,736,12,2,4
+Thumb Up,16,12,4,4,795,16,28
+Stop Sign,2,7,1,1,3,841,12
+No gesture,0,6,1,0,14,4,831

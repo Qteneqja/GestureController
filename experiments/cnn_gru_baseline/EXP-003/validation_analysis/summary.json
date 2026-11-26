@@ -1,0 +1,96 @@
+{
+  "videos": 5946,
+  "accuracy": 0.9277,
+  "total_errors": 430,
+  "direction_errors": 42,
+  "hand_shape_errors": 193,
+  "direction_share_of_errors": 0.0977,
+  "hand_shape_share_of_errors": 0.4488,
+  "top_mixups": [
+    {
+      "true": "Sliding Two Fingers Right",
+      "predicted": "Swiping Right",
+      "videos": 68
+    },
+    {
+      "true": "Swiping Right",
+      "predicted": "Sliding Two Fingers Right",
+      "videos": 50
+    },
+    {
+      "true": "Swiping Left",
+      "predicted": "Sliding Two Fingers Left",
+      "videos": 45
+    },
+    {
+      "true": "Thumb Up",
+      "predicted": "No gesture",
+      "videos": 32
+    },
+    {
+      "true": "Sliding Two Fingers Left",
+      "predicted": "Swiping Left",
+      "videos": 30
+    }
+  ],
+  "per_class": [
+    {
+      "gesture": "Swiping Left",
+      "videos": 832,
+      "correct": 752,
+      "accuracy": 0.9038,
+      "most_confused_with": "Sliding Two Fingers Left",
+      "confused_share": 0.0541
+    },
+    {
+      "gesture": "Swiping Right",
+      "videos": 817,
+      "correct": 743,
+      "accuracy": 0.9094,
+      "most_confused_with": "Sliding Two Fingers Right",
+      "confused_share": 0.0612
+    },
+    {
+      "gesture": "Sliding Two Fingers Left",
+      "videos": 858,
+      "correct": 807,
+      "accuracy": 0.9406,
+      "most_confused_with": "Swiping Left",
+      "confused_share": 0.035
+    },
+    {
+      "gesture": "Sliding Two Fingers Right",
+      "videos": 841,
+      "correct": 749,
+      "accuracy": 0.8906,
+      "most_confused_with": "Swiping Right",
+      "confused_share": 0.0809
+    },
+    {
+      "gesture": "Thumb Up",
+      "videos": 875,
+      "correct": 788,
+      "accuracy": 0.9006,
+      "most_confused_with": "No gesture",
+      "confused_share": 0.0366
+    },
+    {
+      "gesture": "Stop Sign",
+      "videos": 867,
+      "correct": 844,
+      "accuracy": 0.9735,
+      "most_confused_with": "No gesture",
+      "confused_share": 0.0092
+    },
+    {
+      "gesture": "No gesture",
+      "videos": 856,
+      "correct": 833,
+      "accuracy": 0.9731,
+      "most_confused_with": "Thumb Up",
+      "confused_share": 0.0117
+    }
+  ],
+  "model": "/content/GestureController/checkpoints/cnn_gru_EXP-003-retry-01-continuation-01_best.keras",
+  "split": "validation"
+}

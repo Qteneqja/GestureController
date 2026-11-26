@@ -1,0 +1,8 @@
+gesture,videos,correct,accuracy,most_confused_with,confused_share
+Swiping Left,832,756,0.9087,Sliding Two Fingers Left,0.0505
+Swiping Right,817,750,0.918,Sliding Two Fingers Right,0.0514
+Sliding Two Fingers Left,858,791,0.9219,Swiping Left,0.0478
+Sliding Two Fingers Right,841,736,0.8751,Swiping Right,0.0939
+Thumb Up,875,795,0.9086,No gesture,0.032
+Stop Sign,867,841,0.97,No gesture,0.0138
+No gesture,856,831,0.9708,Thumb Up,0.0164
