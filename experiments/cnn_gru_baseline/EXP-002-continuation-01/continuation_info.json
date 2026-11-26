@@ -1,0 +1,40 @@
+{
+  "original_experiment": "EXP-002",
+  "continuation_id": "EXP-002-continuation-01",
+  "resumed_from": "/content/drive/MyDrive/GestureController/checkpoints/cnn_gru_EXP-002_last.keras",
+  "original_best_checkpoint": "/content/drive/MyDrive/GestureController/checkpoints/cnn_gru_EXP-002.keras",
+  "completed_epochs_before_resume": 8,
+  "original_best_epoch": 7,
+  "original_best_validation_loss": 0.2725430428981781,
+  "optimizer_steps_before_resume": 8000,
+  "note": "Random augmentation and shuffle state restart after the Colab runtime reset, so this is not identical to uninterrupted training.",
+  "original_provenance": {
+    "experiment_id": "EXP-002",
+    "model_code_commit": "5b78b53ecdfc99ae0db3c519f85449ccf46a178b",
+    "data_loader_commit": "f0a753fd4f43e3d243be119e4c064a3745dabf02",
+    "gru_units": 128,
+    "cnn_trainable": true,
+    "augmentation": "brightness, rotation, contrast and saturation",
+    "data_settings": {
+      "frames_folder": "/content/jester_frames",
+      "train_csv": "data/splits/train.csv",
+      "validation_csv": "data/splits/validation.csv",
+      "test_csv": "data/splits/test.csv",
+      "class_mapping": "config/gesture_classes.json",
+      "num_frames": 16,
+      "image_size": [
+        112,
+        112
+      ],
+      "batch_size": 8
+    },
+    "training_settings": {
+      "learning_rate": 0.0001,
+      "epochs": 20,
+      "early_stopping_patience": 6,
+      "seed": 42,
+      "train_limit": 8000,
+      "validation_limit": null
+    }
+  }
+}
