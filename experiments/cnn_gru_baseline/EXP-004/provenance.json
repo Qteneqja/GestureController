@@ -1,0 +1,41 @@
+{
+  "experiment_id": "EXP-004",
+  "comparison": "EXP-003-retry-01",
+  "change": "8 frames rather than 16",
+  "cnn_trainable": true,
+  "model_code_commit": "5b78b53ecdfc99ae0db3c519f85449ccf46a178b",
+  "data_loader_commit": "f0a753fd4f43e3d243be119e4c064a3745dabf02",
+  "split_sha256": {
+    "train": "3927a8713884ff0ef52ea65ff69e4bf741e739e50729face982104bb5073e198",
+    "validation": "a20c1d2b27df5417699f9a6ef3017ba535d6199f58d020ee364fe9d3ee0074a7"
+  },
+  "augmentation": "brightness, rotation, contrast and saturation",
+  "model_settings": {
+    "gru_units": 64,
+    "dense_units": 128,
+    "dropout": 0.3,
+    "pretrained": true
+  },
+  "training_settings": {
+    "learning_rate": 0.0001,
+    "epochs": 20,
+    "early_stopping_patience": 6,
+    "seed": 42,
+    "train_limit": 8000,
+    "validation_limit": null
+  },
+  "data_settings": {
+    "frames_folder": "/content/jester_frames",
+    "train_csv": "data/splits/train.csv",
+    "validation_csv": "data/splits/validation.csv",
+    "test_csv": "data/splits/test.csv",
+    "class_mapping": "config/gesture_classes.json",
+    "num_frames": 8,
+    "image_size": [
+      112,
+      112
+    ],
+    "batch_size": 8
+  },
+  "note": "Fresh training run; augmentation and sample order are not fully deterministic."
+}

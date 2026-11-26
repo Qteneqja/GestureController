@@ -1,0 +1,10 @@
+frames_folder: /content/jester_frames
+train_csv: data/splits/train.csv
+validation_csv: data/splits/validation.csv
+test_csv: data/splits/test.csv
+class_mapping: config/gesture_classes.json
+num_frames: 8
+image_size:
+- 112
+- 112
+batch_size: 8
