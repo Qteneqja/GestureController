@@ -1,0 +1,58 @@
+{
+  "continuation_id": "EXP-003-retry-01-continuation-02-local",
+  "resumed_from": "/content/GestureController/checkpoints/cnn_gru_EXP-003-retry-01-continuation-01_last.keras",
+  "original_best_checkpoint": "/content/GestureController/checkpoints/cnn_gru_EXP-003-retry-01-continuation-01_best.keras",
+  "completed_epochs_before_resume": 16,
+  "original_best_epoch": 14,
+  "original_best_validation_loss": 0.24302154779434204,
+  "epochs_without_improvement": 2,
+  "optimizer_steps_before_resume": 16000,
+  "hardware": [
+    "/physical_device:GPU:0"
+  ],
+  "tensorflow_version": "2.21.0",
+  "keras_version": "3.15.1",
+  "numpy_version": "2.5.5",
+  "note": "Random augmentation and shuffle state restart in this local continuation.",
+  "original_provenance": {
+    "experiment_id": "EXP-003",
+    "model_code_commit": "5b78b53ecdfc99ae0db3c519f85449ccf46a178b",
+    "data_loader_commit": "f0a753fd4f43e3d243be119e4c064a3745dabf02",
+    "cnn_trainable": true,
+    "augmentation": "brightness, rotation, contrast and saturation",
+    "split_sha256": {
+      "train": "3927a8713884ff0ef52ea65ff69e4bf741e739e50729face982104bb5073e198",
+      "validation": "a20c1d2b27df5417699f9a6ef3017ba535d6199f58d020ee364fe9d3ee0074a7"
+    },
+    "model_settings": {
+      "gru_units": 64,
+      "dense_units": 128,
+      "dropout": 0.3,
+      "pretrained": true
+    },
+    "training_settings": {
+      "learning_rate": 0.0001,
+      "epochs": 20,
+      "early_stopping_patience": 6,
+      "seed": 42,
+      "train_limit": 8000,
+      "validation_limit": null
+    },
+    "data_settings": {
+      "frames_folder": "/content/jester_frames",
+      "train_csv": "data/splits/train.csv",
+      "validation_csv": "data/splits/validation.csv",
+      "test_csv": "data/splits/test.csv",
+      "class_mapping": "config/gesture_classes.json",
+      "num_frames": 16,
+      "image_size": [
+        112,
+        112
+      ],
+      "batch_size": 8
+    }
+  },
+  "continuation_minutes": 78.32686529049998,
+  "epochs_run_in_continuation": 4,
+  "new_best_checkpoint_created": false
+}

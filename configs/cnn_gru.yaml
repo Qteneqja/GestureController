@@ -1,0 +1,28 @@
+# Initial CNN-GRU experiment
+# use a new experiement_id for each training run
+
+experiment_id: "EXP-001"
+
+# Shared dataset settings and class labels.
+data_config: "configs/data.yaml"
+class_mapping: "config/gesture_classes.json"
+
+model:
+  gru_units: 64
+  dense_units: 128
+  dropout: 0.3
+  pretrained: true
+
+training:
+  learning_rate: 0.0001
+  epochs: 20
+  early_stopping_patience: 6
+  seed: 42
+
+  # Match the CNN baseline's EXP-004 data limits.
+  # null means use the complete split.
+  train_limit: 8000
+  validation_limit: null
+
+output_dir: "experiments/cnn_gru_baseline"
+checkpoint_dir: "checkpoints"
