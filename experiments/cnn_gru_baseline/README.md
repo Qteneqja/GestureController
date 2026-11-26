@@ -76,6 +76,11 @@ The best EXP-002 checkpoint is `cnn_gru_EXP-002_continuation-01_best.keras`.
 The `EXP-002/provenance.json` file was reconstructed from the
 `original_provenance` field in the exported continuation metadata.
 
+For a continuous view, use [the combined EXP-002 history](EXP-002/EXP-002_history.csv)
+and [combined curves](EXP-002/EXP-002_curves.png). The CSV retains Keras's
+zero-based epoch numbering and identifies the source segment for each row;
+the chart uses one-based epoch numbers and marks the restart after epoch 8.
+
 ## EXP-003 results
 
 EXP-003 used 64 GRU units with the same updated training augmentation as
@@ -110,6 +115,39 @@ The best EXP-003 checkpoint is
 `cnn_gru_EXP-003-retry-01-continuation-01_best.keras`; it remains outside Git.
 The local continuation's `curves.png` shows only epochs 17–20, with its
 horizontal axis restarting at 1. Its history retains zero-based epoch numbers.
+The [combined EXP-003 history](EXP-003/EXP-003_history.csv) and
+[combined curves](EXP-003/EXP-003_curves.png) show all 20 completed epochs.
+The chart marks restarts after epochs 9 and 16; each CSV row records its source.
+The interrupted initial attempt completed no epochs and is not included.
+
+## EXP-004 results
+
+EXP-004 reduced the input from 16 frames to 8 while retaining 64 GRU units,
+the updated augmentation, and the recorded training and validation settings
+of EXP-003. The CNN and GRU were both trained. The model was trained on a
+local RTX 4060 Laptop GPU using TensorFlow 2.21.0 and Keras 3.15.1.
+
+| Result | EXP-003 | EXP-004 |
+|---|---:|---:|
+| Frames per clip | 16 | 8 |
+| GRU units | 64 | 64 |
+| Best-loss epoch | 14 | 11 |
+| Validation accuracy at best-loss epoch | 92.72% | 90.65% |
+| Best validation loss | 0.2430 | 0.2937 |
+| Epochs completed | 20 | 17 |
+
+EXP-004 stopped after six epochs without a new low validation loss. Its
+training accuracy kept increasing while validation loss rose after epoch 11,
+indicating overfitting in the later epochs. The 8-frame model was about
+2.07 percentage points lower in validation accuracy at the selected
+checkpoint. Training took 163.2 minutes for 17 epochs on the local GPU.
+EXP-003 included Colab and local continuations, so its total training time is
+not directly comparable. Input augmentation is random and not fully seeded;
+the training sample order and random augmentations may also differ.
+
+The held-out test split was not used. Webcam integration would need to supply
+8-frame sequences if EXP-004 were selected. The best checkpoint is
+`cnn_gru_EXP-004.keras`, kept outside Git.
 
 ## Files and handoff
 
@@ -126,6 +164,9 @@ horizontal axis restarting at 1. Its history retains zero-based epoch numbers.
 - `EXP-003-retry-01-continuation-02-local/`: local continuation, epochs 17–20.
   `resume_local.py` preserves the script used for that continuation; its paths
   assume the documented local Docker runtime and pinned code snapshot.
+- `EXP-004/`: 8-frame run settings, provenance, history, curves and run info.
+- `combine_histories.py`: regenerates the combined histories and curves from
+  the original CSVs without modifying the source records; requires Matplotlib.
 - Best checkpoint: `cnn_gru_EXP-001.keras`, saved outside Git and shared
   separately. The original Colab run saved it under Google Drive's
   `GestureController/checkpoints/` folder.
