@@ -48,7 +48,7 @@ def combine(experiment, segments):
 
     output = ROOT / experiment
     output.mkdir(exist_ok=True)
-    with (output / "history_combined.csv").open("w", newline="", encoding="utf-8") as target:
+    with (output / f"{experiment}_history.csv").open("w", newline="", encoding="utf-8") as target:
         writer = csv.DictWriter(target, fieldnames=(*FIELDS, "source_segment"))
         writer.writeheader()
         writer.writerows(rows)
@@ -69,7 +69,7 @@ def combine(experiment, segments):
     acc_ax.set_ylim(0, 1)
     fig.suptitle(f"{experiment}: combined training history")
     fig.tight_layout()
-    fig.savefig(output / "curves_combined.png", dpi=120)
+    fig.savefig(output / f"{experiment}_curves.png", dpi=120)
     plt.close(fig)
 
     best = min(rows, key=lambda row: float(row["val_loss"]))

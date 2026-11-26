@@ -76,8 +76,8 @@ The best EXP-002 checkpoint is `cnn_gru_EXP-002_continuation-01_best.keras`.
 The `EXP-002/provenance.json` file was reconstructed from the
 `original_provenance` field in the exported continuation metadata.
 
-For a continuous view, use [the combined EXP-002 history](EXP-002/history_combined.csv)
-and [combined curves](EXP-002/curves_combined.png). The CSV retains Keras's
+For a continuous view, use [the combined EXP-002 history](EXP-002/EXP-002_history.csv)
+and [combined curves](EXP-002/EXP-002_curves.png). The CSV retains Keras's
 zero-based epoch numbering and identifies the source segment for each row;
 the chart uses one-based epoch numbers and marks the restart after epoch 8.
 
@@ -115,8 +115,8 @@ The best EXP-003 checkpoint is
 `cnn_gru_EXP-003-retry-01-continuation-01_best.keras`; it remains outside Git.
 The local continuation's `curves.png` shows only epochs 17–20, with its
 horizontal axis restarting at 1. Its history retains zero-based epoch numbers.
-The [combined EXP-003 history](EXP-003/history_combined.csv) and
-[combined curves](EXP-003/curves_combined.png) show all 20 completed epochs.
+The [combined EXP-003 history](EXP-003/EXP-003_history.csv) and
+[combined curves](EXP-003/EXP-003_curves.png) show all 20 completed epochs.
 The chart marks restarts after epochs 9 and 16; each CSV row records its source.
 The interrupted initial attempt completed no epochs and is not included.
 
